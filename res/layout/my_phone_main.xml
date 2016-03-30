@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/side_menu"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentEnd="false"
+        android:layout_alignWithParentIfMissing="false"
+        android:layout_below="@+id/status"
+        android:layout_gravity="center_horizontal">
+        <!-- Side Menu -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="false"
+                android:layout_below="@+id/footer"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+                <LinearLayout
+                    android:id="@+id/fragmentContainer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_gravity="center_horizontal"
+                    android:orientation="horizontal"></LinearLayout>
+
+                <android.support.v4.view.ViewPager
+                    android:id="@+id/view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/fragmentContainer"
+                    android:layout_gravity="bottom"
+                    android:layout_marginTop="0dp">
+                    <!-- <LinearLayout
+                         android:orientation="horizontal"
+                         android:layout_width="match_parent"
+                         android:layout_height="125dp"
+                         android:layout_gravity="center_horizontal"
+                         android:id="@+id/fragmentContainer"></LinearLayout>-->
+                </android.support.v4.view.ViewPager>
+
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/footer"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:id="@+id/contacts"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:text="contact"
+                        android:textSize="30dp"
+                        android:visibility="visible" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <android.support.v4.view.ViewPager
+                        android:id="@+id/contacts_select"
+                        android:layout_width="wrap_content"
+                        android:layout_height="5dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:background="#90ee81" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/chat"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:text="chat"
+                        android:textSize="30dp"
+                        android:visibility="visible" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <android.support.v4.view.ViewPager
+                        android:id="@+id/chat_select"
+                        android:layout_width="wrap_content"
+                        android:layout_height="5dp"
+                        android:layout_alignParentBottom="true"
+                        android:background="#b5fcb0" />
+
+                    <TextView
+                        android:id="@+id/missed_chats"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_above="@+id/chat_select"
+                        android:layout_centerHorizontal="true"
+                        android:text="New Text" />
+
+                    <TextView
+                        android:id="@+id/missed_calls"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/chat_select"
+                        android:layout_centerHorizontal="true"
+                        android:text="New Text" />
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:id="@+id/myInfo"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:text="set"
+                        android:textSize="30dp"
+                        android:visibility="visible" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <android.support.v4.view.ViewPager
+                        android:id="@+id/myInfo_select"
+                        android:layout_width="wrap_content"
+                        android:layout_height="5dp"
+                        android:layout_alignParentBottom="true"
+                        android:background="#b5fcb0" />
+
+
+
+
+
+                </RelativeLayout>
+            </LinearLayout>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/side_menu_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="left">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <include layout="@layout/side_menu_main_account"/>
+
+                <ListView
+                    android:id="@+id/accounts_list"
+                    android:background="@color/colorB"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:choiceMode="singleChoice"
+                    android:cacheColorHint="@color/transparent"
+                    android:divider="@android:color/transparent"
+                    android:dividerHeight="0dp"/>
+
+                <ListView
+                    android:id="@+id/item_list"
+                    android:background="@color/colorH"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:choiceMode="singleChoice"
+                    android:divider="@color/colorE"
+                    android:listSelector="@color/colorH"
+                    android:dividerHeight="1dp"/>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/side_menu_quit"
+                android:background="@color/colorA"
+                android:gravity="bottom"
+                android:layout_alignParentBottom="true"
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+                <ImageView
+                    android:id="@+id/quit_button"
+                    android:src="@drawable/quit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true" />
+
+                <TextView
+                    android:id="@+id/quit"
+                    android:text="@string/quit"
+                    style="@style/font14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/quit_button"
+                    android:gravity="center_vertical"
+                    android:layout_centerInParent="true"/>
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+    </android.support.v4.widget.DrawerLayout>
+
+
+
+
+    <include
+        android:id="@+id/status"
+        layout="@layout/status"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true" />
+
+</RelativeLayout>
+

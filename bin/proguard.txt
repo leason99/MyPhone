@@ -1,0 +1,134 @@
+# view land/res/layout-land/call.xml #generated:16
+# view land/res/layout-land/main.xml #generated:15
+# view res/layout/call.xml #generated:16
+# view res/layout/main.xml #generated:15
+-keep class android.support.v4.widget.DrawerLayout { <init>(...); }
+
+# view AndroidManifest.xml #generated:188
+-keep class org.linphone.BluetoothManager { <init>(...); }
+
+# view AndroidManifest.xml #generated:191
+-keep class org.linphone.BootReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:113
+-keep class org.linphone.CallActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:93
+-keep class org.linphone.CallIncomingActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:103
+-keep class org.linphone.CallOutgoingActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:199
+-keep class org.linphone.KeepAliveHandler { <init>(...); }
+
+# view AndroidManifest.xml #generated:84
+-keep class org.linphone.LinphoneActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:49
+-keep class org.linphone.LinphoneLauncherActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:160
+-keep class org.linphone.LinphoneService { <init>(...); }
+
+# view AndroidManifest.xml #generated:184
+-keep class org.linphone.NetworkManager { <init>(...); }
+
+# view AndroidManifest.xml #generated:195
+-keep class org.linphone.PhoneStateChangedReceiver { <init>(...); }
+
+# view land/res/layout-land/call.xml #generated:8
+# view land/res/layout-land/call_incoming.xml #generated:9
+# view land/res/layout-land/call_outgoing.xml #generated:9
+# view land/res/layout-land/main.xml #generated:8
+# view res/layout/assistant.xml #generated:9
+# view res/layout/call.xml #generated:8
+# view res/layout/call_incoming.xml #generated:9
+# view res/layout/call_outgoing.xml #generated:9
+# view res/layout/main.xml #generated:8
+-keep class org.linphone.StatusFragment { <init>(...); }
+
+# view AndroidManifest.xml #generated:129
+-keep class org.linphone.assistant.AssistantActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:145
+-keep class org.linphone.assistant.RemoteProvisioningActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:137
+-keep class org.linphone.assistant.RemoteProvisioningLoginActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:203
+-keep class org.linphone.gcm.GCMReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:211
+-keep class org.linphone.gcm.GCMService { <init>(...); }
+
+# view land/res/layout-land/call_outgoing.xml #generated:102
+# view land/res/layout-land/video.xml #generated:7
+# view res/layout/call_outgoing.xml #generated:87
+# view res/layout/video.xml #generated:7
+# view sw533dp-land-v13/res/layout-sw533dp-land-v13/video.xml #generated:7
+# view sw720dp-land-v13/res/layout-sw720dp-land-v13/video.xml #generated:7
+-keep class org.linphone.mediastream.video.display.GL2JNIView { <init>(...); }
+
+# view AndroidManifest.xml #generated:174
+-keep class org.linphone.sync.AuthenticationService { <init>(...); }
+
+# view AndroidManifest.xml #generated:164
+-keep class org.linphone.sync.SyncService { <init>(...); }
+
+# view AndroidManifest.xml #generated:220
+-keep class org.linphone.tutorials.TutorialBuddyStatusActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:227
+-keep class org.linphone.tutorials.TutorialChatRoomActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:234
+-keep class org.linphone.tutorials.TutorialHelloWorldActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:213
+-keep class org.linphone.tutorials.TutorialLauncherActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:241
+-keep class org.linphone.tutorials.TutorialRegistrationActivity { <init>(...); }
+
+# view res/layout/dialer.xml #generated:25
+-keep class org.linphone.ui.AddressText { <init>(...); }
+
+# view res/layout/dialer.xml #generated:75
+-keep class org.linphone.ui.CallButton { <init>(...); }
+
+# view res/layout/numpad.xml #generated:13
+# view res/layout/numpad.xml #generated:14
+# view res/layout/numpad.xml #generated:15
+# view res/layout/numpad.xml #generated:19
+# view res/layout/numpad.xml #generated:20
+# view res/layout/numpad.xml #generated:21
+# view res/layout/numpad.xml #generated:25
+# view res/layout/numpad.xml #generated:26
+# view res/layout/numpad.xml #generated:27
+# view res/layout/numpad.xml #generated:7
+# view res/layout/numpad.xml #generated:8
+# view res/layout/numpad.xml #generated:9
+-keep class org.linphone.ui.Digit { <init>(...); }
+
+# view res/layout/dialer.xml #generated:15
+-keep class org.linphone.ui.EraseButton { <init>(...); }
+
+# view land/res/layout-land/call.xml #generated:197
+# view res/layout/call.xml #generated:196
+# view res/layout/dialer.xml #generated:42
+-keep class org.linphone.ui.Numpad { <init>(...); }
+
+# onClick res/layout/tutorials.xml #generated:27
+-keepclassmembers class * { *** startBuddyStatusTutorial(...); }
+
+# onClick res/layout/tutorials.xml #generated:21
+-keepclassmembers class * { *** startChatRoomTutorial(...); }
+
+# onClick res/layout/tutorials.xml #generated:9
+-keepclassmembers class * { *** startHelloWorldTutorial(...); }
+
+# onClick res/layout/tutorials.xml #generated:15
+-keepclassmembers class * { *** startRegistrationTutorial(...); }
+

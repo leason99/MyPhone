@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "/home/leason/linphone/build/intermediates/res/merged/debug/anim/slide_out_left_to_right.xml",
+        "source": "/home/leason/linphone/res/anim/slide_out_left_to_right.xml"
+    },
+    {
+        "merged": "/home/leason/linphone/build/intermediates/res/merged/debug/anim/bounce.xml",
+        "source": "/home/leason/linphone/res/anim/bounce.xml"
+    },
+    {
+        "merged": "/home/leason/linphone/build/intermediates/res/merged/debug/anim/slide_out_right_to_left.xml",
+        "source": "/home/leason/linphone/res/anim/slide_out_right_to_left.xml"
+    },
+    {
+        "merged": "/home/leason/linphone/build/intermediates/res/merged/debug/anim/slide_in_top_to_bottom.xml",
+        "source": "/home/leason/linphone/res/anim/slide_in_top_to_bottom.xml"
+    },
+    {
+        "merged": "/home/leason/linphone/build/intermediates/res/merged/debug/anim/slide_in_left_to_right.xml",
+        "source": "/home/leason/linphone/res/anim/slide_in_left_to_right.xml"
+    },
+    {
+        "merged": "/home/leason/linphone/build/intermediates/res/merged/debug/anim/slide_in_bottom_to_top.xml",
+        "source": "/home/leason/linphone/res/anim/slide_in_bottom_to_top.xml"
+    },
+    {
+        "merged": "/home/leason/linphone/build/intermediates/res/merged/debug/anim/slide_out_bottom_to_top.xml",
+        "source": "/home/leason/linphone/res/anim/slide_out_bottom_to_top.xml"
+    },
+    {
+        "merged": "/home/leason/linphone/build/intermediates/res/merged/debug/anim/slide_out_top_to_bottom.xml",
+        "source": "/home/leason/linphone/res/anim/slide_out_top_to_bottom.xml"
+    },
+    {
+        "merged": "/home/leason/linphone/build/intermediates/res/merged/debug/anim/slide_in_right_to_left.xml",
+        "source": "/home/leason/linphone/res/anim/slide_in_right_to_left.xml"
+    }
+]

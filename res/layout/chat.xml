@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+  	android:background="@color/colorH" >
+
+	<RelativeLayout
+		android:id="@+id/top_bar"
+		android:background="@color/colorF"
+		android:layout_width="match_parent"
+		android:layout_height="60dp">
+
+		<ImageView
+			android:id="@+id/back"
+			android:src="@drawable/back"
+			android:background="@drawable/toolbar_button"
+			android:layout_width="60dp"
+			android:layout_height="match_parent"
+			android:layout_alignParentLeft="true"
+			android:padding="20dp"/>
+
+		<ImageView
+			android:id="@+id/edit"
+			android:src="@drawable/edit_list_button"
+			android:background="@drawable/toolbar_button"
+			android:contentDescription="@string/content_description_edit"
+			android:layout_width="60dp"
+			android:layout_height="match_parent"
+			android:layout_alignParentRight="true"
+			android:padding="15dp"/>
+
+		<ImageView
+			android:id="@+id/start_call"
+			android:src="@drawable/call_alt_start"
+			android:background="@drawable/toolbar_button"
+			android:contentDescription="@string/content_description_call"
+			android:layout_toLeftOf="@id/edit"
+			android:layout_width="60dp"
+			android:layout_height="match_parent"
+			android:padding="15dp"/>
+
+		<ImageView
+			android:id="@+id/back_to_call"
+			android:src="@drawable/call_back"
+			android:background="@drawable/toolbar_button"
+			android:layout_toLeftOf="@id/edit"
+			android:layout_width="60dp"
+			android:layout_height="match_parent"
+			android:visibility="gone"
+			android:padding="15dp"/>
+
+		<TextView
+			android:id="@+id/contact_name"
+			style="@style/font6"
+			android:ellipsize="end"
+			android:singleLine="true"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:layout_toRightOf="@id/back"
+			android:layout_toLeftOf="@id/start_call"
+			android:gravity="center_vertical"
+			android:paddingLeft="5dp"/>
+	</RelativeLayout>
+
+	<include layout="@layout/edit_list"/>
+
+	<LinearLayout
+		android:id="@+id/footer"
+		android:background="@color/colorF"
+		android:layout_width="match_parent"
+		android:layout_height="60dp"
+		android:orientation="vertical"
+		android:layout_alignParentBottom="true">
+
+		<LinearLayout
+			android:id="@+id/message_layout"
+			android:orientation="horizontal"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content">
+
+			<ImageView
+				android:id="@+id/send_picture"
+				android:src="@drawable/chat_send_file"
+				android:padding="5dp"
+				android:layout_weight="0.1"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content" />
+
+			<EditText
+				android:id="@+id/message"
+				android:textColor="@color/colorB"
+				android:imeOptions="flagNoExtractUi"
+				android:textCursorDrawable="@null"
+				android:inputType="textMultiLine"
+				android:maxLines="3"
+				android:padding="5dp"
+				android:layout_weight="1"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:background="@drawable/resizable_textfield"
+				android:layout_gravity="center_vertical"/>
+
+			<ImageView
+				android:id="@+id/send_message"
+				android:src="@drawable/chat_send_message"
+				android:padding="5dp"
+				android:layout_weight="0.1"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"/>
+
+		</LinearLayout>
+	</LinearLayout>
+
+	<TextView
+		android:id="@+id/remote_composing"
+		android:text="@string/remote_composing"
+		style="@style/font11"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_above="@id/footer"/>
+
+	<ListView
+		android:id="@+id/chat_message_list"
+		android:divider="@android:color/transparent"
+		android:stackFromBottom="true"
+		android:transcriptMode="alwaysScroll"
+		android:dividerHeight="10dp"
+		android:cacheColorHint="@color/transparent"
+		android:layout_above="@id/remote_composing"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_margin="10dp"
+		android:layout_below="@+id/top_bar"/>
+
+	<AutoCompleteTextView
+		android:id="@+id/search_contact_field"
+		android:background="@drawable/resizable_textfield"
+		android:hint="@string/search"
+		android:inputType="textPersonName"
+		android:completionThreshold="1"
+		android:textCursorDrawable="@null"
+		android:visibility="gone"
+		android:layout_margin="10dp"
+		android:layout_below="@id/top_bar"
+		android:layout_width="match_parent"
+		android:layout_height="40dp"
+		android:paddingRight="5dp"/>
+
+</RelativeLayout>

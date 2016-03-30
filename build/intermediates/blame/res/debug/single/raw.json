@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "/home/leason/linphone/build/intermediates/res/merged/debug/raw/lpconfig.xsd",
+        "source": "/home/leason/linphone/res/raw/lpconfig.xsd"
+    },
+    {
+        "merged": "/home/leason/linphone/build/intermediates/res/merged/debug/raw/toy_mono.wav",
+        "source": "/home/leason/linphone/res/raw/toy_mono.wav"
+    },
+    {
+        "merged": "/home/leason/linphone/build/intermediates/res/merged/debug/raw/linphonerc_default",
+        "source": "/home/leason/linphone/res/raw/linphonerc_default"
+    },
+    {
+        "merged": "/home/leason/linphone/build/intermediates/res/merged/debug/raw/linphonerc_factory",
+        "source": "/home/leason/linphone/res/raw/linphonerc_factory"
+    },
+    {
+        "merged": "/home/leason/linphone/build/intermediates/res/merged/debug/raw/incoming_chat.wav",
+        "source": "/home/leason/linphone/res/raw/incoming_chat.wav"
+    },
+    {
+        "merged": "/home/leason/linphone/build/intermediates/res/merged/debug/raw/rootca.pem",
+        "source": "/home/leason/linphone/res/raw/rootca.pem"
+    },
+    {
+        "merged": "/home/leason/linphone/build/intermediates/res/merged/debug/raw/ringback.wav",
+        "source": "/home/leason/linphone/res/raw/ringback.wav"
+    },
+    {
+        "merged": "/home/leason/linphone/build/intermediates/res/merged/debug/raw/oldphone_mono.wav",
+        "source": "/home/leason/linphone/res/raw/oldphone_mono.wav"
+    }
+]

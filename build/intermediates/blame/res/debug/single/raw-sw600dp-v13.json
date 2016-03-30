@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/leason/linphone/build/intermediates/res/merged/debug/raw-sw600dp-v13/linphonerc_default",
+        "source": "/home/leason/linphone/res/raw-sw600dp/linphonerc_default"
+    },
+    {
+        "merged": "/home/leason/linphone/build/intermediates/res/merged/debug/raw-sw600dp-v13/linphonerc_factory",
+        "source": "/home/leason/linphone/res/raw-sw600dp/linphonerc_factory"
+    }
+]

@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "/home/leason/linphone/build/intermediates/res/merged/debug/layout-land/main.xml",
+        "source": "/home/leason/linphone/res/layout-land/main.xml"
+    },
+    {
+        "merged": "/home/leason/linphone/build/intermediates/res/merged/debug/layout-land/chatlist_cell.xml",
+        "source": "/home/leason/linphone/res/layout-land/chatlist_cell.xml"
+    },
+    {
+        "merged": "/home/leason/linphone/build/intermediates/res/merged/debug/layout-land/assistant_linphone_login.xml",
+        "source": "/home/leason/linphone/res/layout-land/assistant_linphone_login.xml"
+    },
+    {
+        "merged": "/home/leason/linphone/build/intermediates/res/merged/debug/layout-land/call_outgoing.xml",
+        "source": "/home/leason/linphone/res/layout-land/call_outgoing.xml"
+    },
+    {
+        "merged": "/home/leason/linphone/build/intermediates/res/merged/debug/layout-land/video.xml",
+        "source": "/home/leason/linphone/res/layout-land/video.xml"
+    },
+    {
+        "merged": "/home/leason/linphone/build/intermediates/res/merged/debug/layout-land/call.xml",
+        "source": "/home/leason/linphone/res/layout-land/call.xml"
+    },
+    {
+        "merged": "/home/leason/linphone/build/intermediates/res/merged/debug/layout-land/call_incoming.xml",
+        "source": "/home/leason/linphone/res/layout-land/call_incoming.xml"
+    }
+]
