@@ -23,14 +23,10 @@ import android.accounts.AccountManager;
 import android.content.ContentProviderOperation;
 import android.content.ContentResolver;
 import android.content.Context;
-import android.content.pm.PackageManager;
 import android.database.Cursor;
 import android.database.MatrixCursor;
 import android.net.Uri;
-import android.os.Build;
 import android.provider.ContactsContract;
-import android.support.v4.app.ActivityCompat;
-import android.support.v4.content.ContextCompat;
 
 import org.linphone.compatibility.Compatibility;
 import org.linphone.core.LinphoneAddress;
@@ -48,12 +44,10 @@ import java.util.Set;
 
 public class ContactsManager {
 	private static ContactsManager instance;
-	private List<Contact> sipContactList;
-	private List<Contact> contactList;
-	private Cursor sipContactCursor;
-	private Cursor contactCursor;
+	private List<Contact> contactList, sipContactList;
+	private Cursor contactCursor, sipContactCursor;
 	private Account mAccount;
-	private boolean preferLinphoneContacts = false, isContactPresenceDisabled = true;
+	private boolean preferLinphoneContacts = true, isContactPresenceDisabled = true;
 	private ContentResolver contentResolver;
 	private Context context;
 
@@ -133,20 +127,20 @@ public class ContactsManager {
 		int contactID = 0;
 
 		ops.add(ContentProviderOperation.newInsert(ContactsContract.RawContacts.CONTENT_URI)
-			.withValue(ContactsContract.RawContacts.AGGREGATION_MODE, ContactsContract.RawContacts.AGGREGATION_MODE_DEFAULT)
-			.withValue(ContactsContract.RawContacts.ACCOUNT_TYPE, null)
-			.withValue(ContactsContract.RawContacts.ACCOUNT_NAME, null)
-			.build()
+						.withValue(ContactsContract.RawContacts.AGGREGATION_MODE, ContactsContract.RawContacts.AGGREGATION_MODE_DEFAULT)
+						.withValue(ContactsContract.RawContacts.ACCOUNT_TYPE, null)
+						.withValue(ContactsContract.RawContacts.ACCOUNT_NAME, null)
+						.build()
 		);
 
 		if (getDisplayName(firstName, lastName) != null) {
 			ops.add(ContentProviderOperation.newInsert(ContactsContract.Data.CONTENT_URI)
-				.withValueBackReference(ContactsContract.Data.RAW_CONTACT_ID, contactID)
-				.withValue(ContactsContract.Data.MIMETYPE, ContactsContract.CommonDataKinds.StructuredName.CONTENT_ITEM_TYPE)
-				.withValue(ContactsContract.CommonDataKinds.StructuredName.GIVEN_NAME, firstName)
-				.withValue(ContactsContract.CommonDataKinds.StructuredName.FAMILY_NAME, lastName)
-				.withValue(ContactsContract.CommonDataKinds.StructuredName.DISPLAY_NAME, getDisplayName(firstName, lastName))
-				.build()
+							.withValueBackReference(ContactsContract.Data.RAW_CONTACT_ID, contactID)
+							.withValue(ContactsContract.Data.MIMETYPE, ContactsContract.CommonDataKinds.StructuredName.CONTENT_ITEM_TYPE)
+							.withValue(ContactsContract.CommonDataKinds.StructuredName.GIVEN_NAME, firstName)
+							.withValue(ContactsContract.CommonDataKinds.StructuredName.FAMILY_NAME, lastName)
+							.withValue(ContactsContract.CommonDataKinds.StructuredName.DISPLAY_NAME, getDisplayName(firstName, lastName))
+							.build()
 			);
 		}
 	}
@@ -157,11 +151,11 @@ public class ContactsManager {
 			String[] args = new String[]{String.valueOf(contact.getID())};
 
 			ops.add(ContentProviderOperation.newUpdate(ContactsContract.Data.CONTENT_URI)
-				.withSelection(select, args)
-				.withValue(ContactsContract.Data.MIMETYPE, ContactsContract.CommonDataKinds.StructuredName.CONTENT_ITEM_TYPE)
-				.withValue(ContactsContract.CommonDataKinds.StructuredName.GIVEN_NAME, firstName)
-				.withValue(ContactsContract.CommonDataKinds.StructuredName.FAMILY_NAME, lastName)
-				.build()
+							.withSelection(select, args)
+							.withValue(ContactsContract.Data.MIMETYPE, ContactsContract.CommonDataKinds.StructuredName.CONTENT_ITEM_TYPE)
+							.withValue(ContactsContract.CommonDataKinds.StructuredName.GIVEN_NAME, firstName)
+							.withValue(ContactsContract.CommonDataKinds.StructuredName.FAMILY_NAME, lastName)
+							.build()
 			);
 		}
 	}
@@ -179,7 +173,7 @@ public class ContactsManager {
 		);
 	}
 
-//Manage Linphone Friend if we cannot use Sip address
+	//Manage Linphone Friend if we cannot use Sip address
 	public boolean createNewFriend(Contact contact, String sipUri) {
 		if (!sipUri.startsWith("sip:")) {
 			sipUri = "sip:" + sipUri;
@@ -566,10 +560,10 @@ public class ContactsManager {
 		}
 
 		if(LinphoneActivity.instance().getResources().getBoolean(R.bool.use_linphone_friend)){
-			//contactList = new ArrayList<Contact>();
+			contactList = new ArrayList<Contact>();
 			for(LinphoneFriend friend : LinphoneManager.getLc().getFriendList()){
 				Contact contact = new Contact(friend.getRefKey(),friend.getAddress());
-				//contactList.add(contact);
+				contactList.add(contact);
 			}
 
 			contactCursor = getFriendListCursor(contactList,true);
@@ -579,11 +573,8 @@ public class ContactsManager {
 
 		if(mAccount == null) return;
 
-	//	contactCursor = Compatibility.getContactsCursor(contentResolver, getContactsId());
-
+		contactCursor = Compatibility.getContactsCursor(contentResolver, getContactsId());
 		sipContactCursor = Compatibility.getSIPContactsCursor(contentResolver, getContactsId());
-
-
 
 		Thread sipContactsHandler = new Thread(new Runnable() {
 			@Override
@@ -708,6 +699,5 @@ public class ContactsManager {
 		}
 		return result;
 	}
-
 
 }

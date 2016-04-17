@@ -729,7 +729,7 @@ static void file_transfer_message_rcs_to_external_body_client(void) {
 		fseek(file_to_send, 0, SEEK_SET);
 
 		/* Globally configure an http file transfer server. */
-		linphone_core_set_file_transfer_server(pauline->lc,"https://www.linphone.org:444/lft.php");
+		linphone_core_set_file_transfer_server(pauline->lc,"http://162.243.22.222/lft.php");
 
 		/* create a chatroom on pauline's side */
 

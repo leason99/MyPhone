@@ -62,12 +62,12 @@ public class LinphoneLauncherActivity extends Activity {
         
 		mHandler = new Handler();
 		if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
-			if (checkSelfPermission(android.Manifest.permission.READ_CONTACTS)!= PackageManager.PERMISSION_GRANTED) {
-				requestPermissions(new String[]{android.Manifest.permission.READ_CONTACTS, android.Manifest.permission.CAMERA, android.Manifest.permission.RECORD_AUDIO}, 0);
+			if (checkSelfPermission(android.Manifest.permission.READ_CONTACTS)!= PackageManager.PERMISSION_GRANTED&&(checkSelfPermission(android.Manifest.permission.WRITE_EXTERNAL_STORAGE)!= PackageManager.PERMISSION_GRANTED)) {
+				requestPermissions(new String[]{android.Manifest.permission.READ_CONTACTS, android.Manifest.permission.CAMERA,android.Manifest.permission.WRITE_EXTERNAL_STORAGE, android.Manifest.permission.RECORD_AUDIO,android.Manifest.permission.READ_EXTERNAL_STORAGE}, 0);
 			}
-
+			while(checkSelfPermission(android.Manifest.permission.READ_EXTERNAL_STORAGE)!= PackageManager.PERMISSION_GRANTED);
 		}
-		while(checkSelfPermission(android.Manifest.permission.READ_CONTACTS)!= PackageManager.PERMISSION_GRANTED);
+
 		if (LinphoneService.isReady()) {
 			onServiceReady();
 		} else {
@@ -84,7 +84,8 @@ public class LinphoneLauncherActivity extends Activity {
 			classToStart = TutorialLauncherActivity.class;
 		} else if (getResources().getBoolean(R.bool.display_sms_remote_provisioning_activity) && LinphonePreferences.instance().isFirstRemoteProvisioning()) {
 			classToStart = RemoteProvisioningActivity.class;
-		} else {
+		}
+		else{
 			classToStart = LinphoneActivity.class;
 		}
 

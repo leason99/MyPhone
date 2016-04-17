@@ -2,6 +2,7 @@ package org.linphone;
 
 import android.app.Fragment;
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.widget.DrawerLayout;
@@ -12,9 +13,12 @@ import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.BaseAdapter;
+import android.widget.Button;
+import android.widget.CompoundButton;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.RelativeLayout;
+import android.widget.Switch;
 import android.widget.TextView;
 
 import org.linphone.core.LinphoneProxyConfig;
@@ -31,6 +35,8 @@ public class MyInfo extends Fragment{
    RelativeLayout  sideMenuContent ;
     ListView   sideMenuItemList;
      View view;
+    Button logout;
+    Switch aSwitch;
     ListView accountsList;
     RelativeLayout  defaultAccount ,quitLayout;
     LayoutInflater mInflate;
@@ -53,13 +59,33 @@ public class MyInfo extends Fragment{
     public void onResume(){
         super.onResume();
         LinphoneActivity.instance().selectMenu(FragmentsAvailable.myInfo);
+        refreshAccounts();
     }
     public void initSideMenu() {
-
+        logout = (Button)view.findViewById(R.id.logout);
+        logout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                LinphonePreferences.instance().deleteAccount(0);
+                refreshAccounts();
+                Intent intent = new Intent();
+                intent.setClass(getActivity(), MyLogin.class);     //B为你按退出按钮所在的activity
+             //   intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);  //最关键是这句
+                startActivity(intent);
+            }
+        });
         sideMenuItems = getResources().getStringArray(R.array.side_menu_item);
         sideMenuContent = (RelativeLayout) view.findViewById(R.id.side_menu_content);
         sideMenuItemList = (ListView) view.findViewById(R.id.item_list);
+        aSwitch =(Switch) view.findViewById(R.id.switch1);
+        aSwitch.setOnCheckedChangeListener(new Switch.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
 
+                LinphonePreferences.instance().setAccountEnabled(0,isChecked);
+                refreshAccounts();
+            }
+        });
         sideMenuItemList.setAdapter(new ArrayAdapter<String>(LinphoneActivity.instance(), R.layout.side_menu_item_cell, sideMenuItems));
         sideMenuItemList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
@@ -67,12 +93,12 @@ public class MyInfo extends Fragment{
                 if (sideMenuItemList.getAdapter().getItem(i).toString().equals("Settings")) {
                     LinphoneActivity.instance().displaySettings();
                 }
-                if (sideMenuItemList.getAdapter().getItem(i).toString().equals("About")) {
+             /*   if (sideMenuItemList.getAdapter().getItem(i).toString().equals("About")) {
                     LinphoneActivity.instance().displayAbout();
-                }
-                if (sideMenuItemList.getAdapter().getItem(i).toString().equals("Assistant")) {
+                }*/
+              /*  if (sideMenuItemList.getAdapter().getItem(i).toString().equals("Assistant")) {
                     LinphoneActivity.instance().displayAssistant();
-                }
+                }*/
             }
         });
         initAccounts();

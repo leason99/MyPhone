@@ -14,6 +14,31 @@
             android:orientation="vertical">
 
             <include layout="@layout/side_menu_main_account"/>
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+        <Switch
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/switch1"
+
+            android:checked="true"
+            android:textOn="上線"
+            android:textOff="下線"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="logout"
+            android:id="@+id/logout"
+            />
+
+
+    ></RelativeLayout>
+
 
             <ListView
                 android:id="@+id/accounts_list"

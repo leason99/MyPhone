@@ -52,6 +52,17 @@
                          android:id="@+id/fragmentContainer"></LinearLayout>-->
                 </android.support.v4.view.ViewPager>
 
+                <ImageButton
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:id="@+id/add"
+                    android:background="@drawable/add_field_over"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="false"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginBottom="25dp" />
+
 
             </RelativeLayout>
 
@@ -67,19 +78,12 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1">
 
-                    <TextView
-                        android:id="@+id/textView2"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_centerHorizontal="true"
-                        android:layout_centerVertical="true"
-                        android:text="contact"
-                        android:textSize="30dp"
-                        android:visibility="visible" />
-
                     <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content" />
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/icon_37348"
+                        android:layout_alignBottom="@+id/contacts_select"
+                        android:layout_centerHorizontal="true" />
 
                     <android.support.v4.view.ViewPager
                         android:id="@+id/contacts_select"
@@ -98,19 +102,12 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1">
 
-                    <TextView
-                        android:id="@+id/textView3"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_centerHorizontal="true"
-                        android:layout_centerVertical="true"
-                        android:text="chat"
-                        android:textSize="30dp"
-                        android:visibility="visible" />
-
                     <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content" />
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/icon_61592"
+                        android:layout_alignBottom="@+id/chat_select"
+                        android:layout_centerHorizontal="true" />
 
                     <android.support.v4.view.ViewPager
                         android:id="@+id/chat_select"
@@ -142,19 +139,12 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1">
 
-                    <TextView
-                        android:id="@+id/textView4"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_centerHorizontal="true"
-                        android:layout_centerVertical="true"
-                        android:text="set"
-                        android:textSize="30dp"
-                        android:visibility="visible" />
-
                     <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content" />
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/profile"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true" />
 
                     <android.support.v4.view.ViewPager
                         android:id="@+id/myInfo_select"
@@ -239,7 +229,7 @@
 
 
 
-
+<!--
     <include
         android:id="@+id/status"
         layout="@layout/status"
@@ -247,7 +237,7 @@
         android:layout_height="35dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true" />
+        android:layout_alignParentTop="true" />-->
 
 </RelativeLayout>
 

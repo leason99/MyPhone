@@ -298,7 +298,7 @@ static void upload_collected_traces(void)  {
 		linphone_core_add_listener(marie->lc, v_table);
 
 		linphone_core_set_log_collection_max_file_size(5000);
-		linphone_core_set_log_collection_upload_server_url(marie->lc,"https://www.linphone.org:444/lft.php");
+		linphone_core_set_log_collection_upload_server_url(marie->lc,"http://162.243.22.222/lft.php");
 		// Generate some logs
 		while (--waiting) ms_error("(test error)Waiting %d...", waiting);
 		linphone_core_compress_log_collection();

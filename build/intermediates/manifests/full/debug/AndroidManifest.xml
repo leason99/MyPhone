@@ -292,6 +292,7 @@
             </intent-filter>
         </activity>
         <activity android:name="org.linphone.MyLogin" />
+        <activity android:name="org.linphone.ContactEditorFragment" />
         <activity android:name="org.linphone.MySetting" />
         <activity android:name="org.linphone.MyAccountPreferenceActivity" />
     </application>

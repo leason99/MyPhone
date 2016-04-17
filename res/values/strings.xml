@@ -71,9 +71,9 @@
 
     <!-- Side Menu -->
     <string-array name="side_menu_item">
-        <item>Assistant</item>
+     <!--   <item>Assistant</item>-->
         <item>Settings</item>
-        <item>About</item>
+        <!--<item>About</item>-->
     </string-array>
     <string name="quit">Quit</string>
 

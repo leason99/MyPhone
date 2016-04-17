@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/home/leason/linphone/build/intermediates/res/merged/debug/values-es/values-es.xml",
+        "outputFile": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\debug\\values-es\\values-es.xml",
         "map": [
             {
                 "to": {
@@ -12,14 +12,14 @@
                     "endOffset": 217
                 },
                 "from": {
-                    "file": "/home/leason/linphone/res/values-es/strings.xml",
+                    "file": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\values-es\\strings.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 2,
-                        "startOffset": 359,
+                        "startOffset": 366,
                         "endLine": 12,
                         "endColumn": 17,
-                        "endOffset": 521
+                        "endOffset": 533
                     }
                 }
             },
@@ -32,13 +32,13 @@
                     "endOffset": 278
                 },
                 "from": {
-                    "file": "/home/leason/linphone/res/values-es/strings.xml",
+                    "file": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\values-es\\strings.xml",
                     "position": {
                         "startLine": 39,
                         "startColumn": 2,
-                        "startOffset": 2228,
+                        "startOffset": 2267,
                         "endColumn": 58,
-                        "endOffset": 2284
+                        "endOffset": 2323
                     }
                 }
             },
@@ -51,13 +51,13 @@
                     "endOffset": 332
                 },
                 "from": {
-                    "file": "/home/leason/linphone/res/values-es/strings.xml",
+                    "file": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\values-es\\strings.xml",
                     "position": {
                         "startLine": 38,
                         "startColumn": 2,
-                        "startOffset": 2176,
+                        "startOffset": 2214,
                         "endColumn": 51,
-                        "endOffset": 2225
+                        "endOffset": 2263
                     }
                 }
             },
@@ -70,13 +70,13 @@
                     "endOffset": 402
                 },
                 "from": {
-                    "file": "/home/leason/linphone/res/values-es/strings.xml",
+                    "file": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\values-es\\strings.xml",
                     "position": {
                         "startLine": 40,
                         "startColumn": 2,
-                        "startOffset": 2287,
+                        "startOffset": 2327,
                         "endColumn": 67,
-                        "endOffset": 2352
+                        "endOffset": 2392
                     }
                 }
             },
@@ -89,13 +89,13 @@
                     "endOffset": 445
                 },
                 "from": {
-                    "file": "/home/leason/linphone/res/values-es/strings.xml",
+                    "file": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\values-es\\strings.xml",
                     "position": {
                         "startLine": 58,
                         "startColumn": 2,
-                        "startOffset": 3428,
+                        "startOffset": 3486,
                         "endColumn": 40,
-                        "endOffset": 3466
+                        "endOffset": 3524
                     }
                 }
             },
@@ -108,13 +108,13 @@
                     "endOffset": 526
                 },
                 "from": {
-                    "file": "/home/leason/linphone/res/values-es/strings.xml",
+                    "file": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\values-es\\strings.xml",
                     "position": {
                         "startLine": 68,
                         "startColumn": 2,
-                        "startOffset": 3971,
+                        "startOffset": 4039,
                         "endColumn": 78,
-                        "endOffset": 4047
+                        "endOffset": 4115
                     }
                 }
             },
@@ -127,13 +127,13 @@
                     "endOffset": 590
                 },
                 "from": {
-                    "file": "/home/leason/linphone/res/values-es/strings.xml",
+                    "file": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\values-es\\strings.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 2,
-                        "startOffset": 613,
+                        "startOffset": 627,
                         "endColumn": 61,
-                        "endOffset": 672
+                        "endOffset": 686
                     }
                 }
             },
@@ -146,13 +146,13 @@
                     "endOffset": 649
                 },
                 "from": {
-                    "file": "/home/leason/linphone/res/values-es/strings.xml",
+                    "file": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\values-es\\strings.xml",
                     "position": {
                         "startLine": 37,
                         "startColumn": 2,
-                        "startOffset": 2119,
+                        "startOffset": 2156,
                         "endColumn": 56,
-                        "endOffset": 2173
+                        "endOffset": 2210
                     }
                 }
             },
@@ -165,13 +165,13 @@
                     "endOffset": 708
                 },
                 "from": {
-                    "file": "/home/leason/linphone/res/values-es/strings.xml",
+                    "file": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\values-es\\strings.xml",
                     "position": {
                         "startLine": 116,
                         "startColumn": 2,
-                        "startOffset": 7454,
+                        "startOffset": 7570,
                         "endColumn": 56,
-                        "endOffset": 7508
+                        "endOffset": 7624
                     }
                 }
             },
@@ -184,13 +184,13 @@
                     "endOffset": 763
                 },
                 "from": {
-                    "file": "/home/leason/linphone/res/values-es/strings.xml",
+                    "file": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\values-es\\strings.xml",
                     "position": {
                         "startLine": 119,
                         "startColumn": 2,
-                        "startOffset": 7605,
+                        "startOffset": 7724,
                         "endColumn": 52,
-                        "endOffset": 7655
+                        "endOffset": 7774
                     }
                 }
             },
@@ -203,13 +203,13 @@
                     "endOffset": 814
                 },
                 "from": {
-                    "file": "/home/leason/linphone/res/values-es/strings.xml",
+                    "file": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\values-es\\strings.xml",
                     "position": {
                         "startLine": 114,
                         "startColumn": 2,
-                        "startOffset": 7352,
+                        "startOffset": 7466,
                         "endColumn": 48,
-                        "endOffset": 7398
+                        "endOffset": 7512
                     }
                 }
             },
@@ -222,13 +222,13 @@
                     "endOffset": 871
                 },
                 "from": {
-                    "file": "/home/leason/linphone/res/values-es/strings.xml",
+                    "file": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\values-es\\strings.xml",
                     "position": {
                         "startLine": 113,
                         "startColumn": 2,
-                        "startOffset": 7297,
+                        "startOffset": 7410,
                         "endColumn": 54,
-                        "endOffset": 7349
+                        "endOffset": 7462
                     }
                 }
             },
@@ -241,13 +241,13 @@
                     "endOffset": 922
                 },
                 "from": {
-                    "file": "/home/leason/linphone/res/values-es/strings.xml",
+                    "file": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\values-es\\strings.xml",
                     "position": {
                         "startLine": 118,
                         "startColumn": 2,
-                        "startOffset": 7556,
+                        "startOffset": 7674,
                         "endColumn": 48,
-                        "endOffset": 7602
+                        "endOffset": 7720
                     }
                 }
             },
@@ -260,13 +260,13 @@
                     "endOffset": 977
                 },
                 "from": {
-                    "file": "/home/leason/linphone/res/values-es/strings.xml",
+                    "file": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\values-es\\strings.xml",
                     "position": {
                         "startLine": 115,
                         "startColumn": 2,
-                        "startOffset": 7401,
+                        "startOffset": 7516,
                         "endColumn": 52,
-                        "endOffset": 7451
+                        "endOffset": 7566
                     }
                 }
             },
@@ -279,13 +279,13 @@
                     "endOffset": 1024
                 },
                 "from": {
-                    "file": "/home/leason/linphone/res/values-es/strings.xml",
+                    "file": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\values-es\\strings.xml",
                     "position": {
                         "startLine": 117,
                         "startColumn": 2,
-                        "startOffset": 7511,
+                        "startOffset": 7628,
                         "endColumn": 44,
-                        "endOffset": 7553
+                        "endOffset": 7670
                     }
                 }
             },
@@ -298,13 +298,13 @@
                     "endOffset": 1075
                 },
                 "from": {
-                    "file": "/home/leason/linphone/res/values-es/strings.xml",
+                    "file": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\values-es\\strings.xml",
                     "position": {
                         "startLine": 105,
                         "startColumn": 2,
-                        "startOffset": 6811,
+                        "startOffset": 6916,
                         "endColumn": 48,
-                        "endOffset": 6857
+                        "endOffset": 6962
                     }
                 }
             },
@@ -317,13 +317,13 @@
                     "endOffset": 1127
                 },
                 "from": {
-                    "file": "/home/leason/linphone/res/values-es/strings.xml",
+                    "file": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\values-es\\strings.xml",
                     "position": {
                         "startLine": 121,
                         "startColumn": 2,
-                        "startOffset": 7708,
+                        "startOffset": 7829,
                         "endColumn": 49,
-                        "endOffset": 7755
+                        "endOffset": 7876
                     }
                 }
             },
@@ -336,13 +336,13 @@
                     "endOffset": 1179
                 },
                 "from": {
-                    "file": "/home/leason/linphone/res/values-es/strings.xml",
+                    "file": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\values-es\\strings.xml",
                     "position": {
                         "startLine": 120,
                         "startColumn": 2,
-                        "startOffset": 7658,
+                        "startOffset": 7778,
                         "endColumn": 49,
-                        "endOffset": 7705
+                        "endOffset": 7825
                     }
                 }
             },
@@ -355,13 +355,13 @@
                     "endOffset": 1302
                 },
                 "from": {
-                    "file": "/home/leason/linphone/res/values-es/strings.xml",
+                    "file": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\values-es\\strings.xml",
                     "position": {
                         "startLine": 24,
                         "startColumn": 2,
-                        "startOffset": 1269,
+                        "startOffset": 1293,
                         "endColumn": 120,
-                        "endOffset": 1387
+                        "endOffset": 1411
                     }
                 }
             },
@@ -374,13 +374,13 @@
                     "endOffset": 1369
                 },
                 "from": {
-                    "file": "/home/leason/linphone/res/values-es/strings.xml",
+                    "file": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\values-es\\strings.xml",
                     "position": {
                         "startLine": 70,
                         "startColumn": 2,
-                        "startOffset": 4088,
+                        "startOffset": 4158,
                         "endColumn": 64,
-                        "endOffset": 4150
+                        "endOffset": 4220
                     }
                 }
             },
@@ -393,13 +393,13 @@
                     "endOffset": 1422
                 },
                 "from": {
-                    "file": "/home/leason/linphone/res/values-es/strings.xml",
+                    "file": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\values-es\\strings.xml",
                     "position": {
                         "startLine": 27,
                         "startColumn": 2,
-                        "startOffset": 1552,
+                        "startOffset": 1579,
                         "endColumn": 50,
-                        "endOffset": 1600
+                        "endOffset": 1627
                     }
                 }
             },
@@ -412,13 +412,13 @@
                     "endOffset": 1482
                 },
                 "from": {
-                    "file": "/home/leason/linphone/res/values-es/strings.xml",
+                    "file": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\values-es\\strings.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 2,
-                        "startOffset": 728,
+                        "startOffset": 744,
                         "endColumn": 57,
-                        "endOffset": 783
+                        "endOffset": 799
                     }
                 }
             },
@@ -431,13 +431,13 @@
                     "endOffset": 1556
                 },
                 "from": {
-                    "file": "/home/leason/linphone/res/values-es/strings.xml",
+                    "file": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\values-es\\strings.xml",
                     "position": {
                         "startLine": 41,
                         "startColumn": 2,
-                        "startOffset": 2355,
+                        "startOffset": 2396,
                         "endColumn": 71,
-                        "endOffset": 2424
+                        "endOffset": 2465
                     }
                 }
             },
@@ -450,13 +450,13 @@
                     "endOffset": 1645
                 },
                 "from": {
-                    "file": "/home/leason/linphone/res/values-es/strings.xml",
+                    "file": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\values-es\\strings.xml",
                     "position": {
                         "startLine": 42,
                         "startColumn": 2,
-                        "startOffset": 2427,
+                        "startOffset": 2469,
                         "endColumn": 86,
-                        "endOffset": 2511
+                        "endOffset": 2553
                     }
                 }
             },
@@ -469,13 +469,13 @@
                     "endOffset": 1725
                 },
                 "from": {
-                    "file": "/home/leason/linphone/res/values-es/strings.xml",
+                    "file": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\values-es\\strings.xml",
                     "position": {
                         "startLine": 43,
                         "startColumn": 2,
-                        "startOffset": 2514,
+                        "startOffset": 2557,
                         "endColumn": 77,
-                        "endOffset": 2589
+                        "endOffset": 2632
                     }
                 }
             },
@@ -488,13 +488,13 @@
                     "endOffset": 1781
                 },
                 "from": {
-                    "file": "/home/leason/linphone/res/values-es/strings.xml",
+                    "file": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\values-es\\strings.xml",
                     "position": {
                         "startLine": 50,
                         "startColumn": 2,
-                        "startOffset": 2952,
+                        "startOffset": 3002,
                         "endColumn": 53,
-                        "endOffset": 3003
+                        "endOffset": 3053
                     }
                 }
             },
@@ -507,13 +507,13 @@
                     "endOffset": 1849
                 },
                 "from": {
-                    "file": "/home/leason/linphone/res/values-es/strings.xml",
+                    "file": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\values-es\\strings.xml",
                     "position": {
                         "startLine": 25,
                         "startColumn": 2,
-                        "startOffset": 1390,
+                        "startOffset": 1415,
                         "endColumn": 65,
-                        "endOffset": 1453
+                        "endOffset": 1478
                     }
                 }
             },
@@ -526,13 +526,13 @@
                     "endOffset": 1907
                 },
                 "from": {
-                    "file": "/home/leason/linphone/res/values-es/strings.xml",
+                    "file": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\values-es\\strings.xml",
                     "position": {
                         "startLine": 45,
                         "startColumn": 2,
-                        "startOffset": 2632,
+                        "startOffset": 2677,
                         "endColumn": 55,
-                        "endOffset": 2685
+                        "endOffset": 2730
                     }
                 }
             },
@@ -545,13 +545,13 @@
                     "endOffset": 1974
                 },
                 "from": {
-                    "file": "/home/leason/linphone/res/values-es/strings.xml",
+                    "file": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\values-es\\strings.xml",
                     "position": {
                         "startLine": 46,
                         "startColumn": 2,
-                        "startOffset": 2688,
+                        "startOffset": 2734,
                         "endColumn": 64,
-                        "endOffset": 2750
+                        "endOffset": 2796
                     }
                 }
             },
@@ -564,13 +564,13 @@
                     "endOffset": 2033
                 },
                 "from": {
-                    "file": "/home/leason/linphone/res/values-es/strings.xml",
+                    "file": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\values-es\\strings.xml",
                     "position": {
                         "startLine": 47,
                         "startColumn": 2,
-                        "startOffset": 2753,
+                        "startOffset": 2800,
                         "endColumn": 56,
-                        "endOffset": 2807
+                        "endOffset": 2854
                     }
                 }
             },
@@ -583,13 +583,13 @@
                     "endOffset": 2084
                 },
                 "from": {
-                    "file": "/home/leason/linphone/res/values-es/strings.xml",
+                    "file": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\values-es\\strings.xml",
                     "position": {
                         "startLine": 104,
                         "startColumn": 2,
-                        "startOffset": 6762,
+                        "startOffset": 6866,
                         "endColumn": 48,
-                        "endOffset": 6808
+                        "endOffset": 6912
                     }
                 }
             },
@@ -602,13 +602,13 @@
                     "endOffset": 2156
                 },
                 "from": {
-                    "file": "/home/leason/linphone/res/values-es/strings.xml",
+                    "file": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\values-es\\strings.xml",
                     "position": {
                         "startLine": 107,
                         "startColumn": 2,
-                        "startOffset": 6932,
+                        "startOffset": 7039,
                         "endColumn": 69,
-                        "endOffset": 6999
+                        "endOffset": 7106
                     }
                 }
             },
@@ -621,13 +621,13 @@
                     "endOffset": 2220
                 },
                 "from": {
-                    "file": "/home/leason/linphone/res/values-es/strings.xml",
+                    "file": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\values-es\\strings.xml",
                     "position": {
                         "startLine": 110,
                         "startColumn": 2,
-                        "startOffset": 7114,
+                        "startOffset": 7224,
                         "endColumn": 61,
-                        "endOffset": 7173
+                        "endOffset": 7283
                     }
                 }
             },
@@ -640,13 +640,13 @@
                     "endOffset": 2291
                 },
                 "from": {
-                    "file": "/home/leason/linphone/res/values-es/strings.xml",
+                    "file": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\values-es\\strings.xml",
                     "position": {
                         "startLine": 111,
                         "startColumn": 2,
-                        "startOffset": 7176,
+                        "startOffset": 7287,
                         "endColumn": 68,
-                        "endOffset": 7242
+                        "endOffset": 7353
                     }
                 }
             },
@@ -659,13 +659,13 @@
                     "endOffset": 2354
                 },
                 "from": {
-                    "file": "/home/leason/linphone/res/values-es/strings.xml",
+                    "file": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\values-es\\strings.xml",
                     "position": {
                         "startLine": 108,
                         "startColumn": 2,
-                        "startOffset": 7002,
+                        "startOffset": 7110,
                         "endColumn": 60,
-                        "endOffset": 7060
+                        "endOffset": 7168
                     }
                 }
             },
@@ -678,13 +678,13 @@
                     "endOffset": 2399
                 },
                 "from": {
-                    "file": "/home/leason/linphone/res/values-es/strings.xml",
+                    "file": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\values-es\\strings.xml",
                     "position": {
                         "startLine": 109,
                         "startColumn": 2,
-                        "startOffset": 7063,
+                        "startOffset": 7172,
                         "endColumn": 50,
-                        "endOffset": 7111
+                        "endOffset": 7220
                     }
                 }
             },
@@ -697,13 +697,13 @@
                     "endOffset": 2445
                 },
                 "from": {
-                    "file": "/home/leason/linphone/res/values-es/strings.xml",
+                    "file": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\values-es\\strings.xml",
                     "position": {
                         "startLine": 112,
                         "startColumn": 2,
-                        "startOffset": 7245,
+                        "startOffset": 7357,
                         "endColumn": 51,
-                        "endOffset": 7294
+                        "endOffset": 7406
                     }
                 }
             },
@@ -716,13 +716,13 @@
                     "endOffset": 2532
                 },
                 "from": {
-                    "file": "/home/leason/linphone/res/values-es/strings.xml",
+                    "file": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\values-es\\strings.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 2,
-                        "startOffset": 846,
+                        "startOffset": 864,
                         "endColumn": 84,
-                        "endOffset": 928
+                        "endOffset": 946
                     }
                 }
             },
@@ -735,13 +735,13 @@
                     "endOffset": 2577
                 },
                 "from": {
-                    "file": "/home/leason/linphone/res/values-es/strings.xml",
+                    "file": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\values-es\\strings.xml",
                     "position": {
                         "startLine": 59,
                         "startColumn": 2,
-                        "startOffset": 3469,
+                        "startOffset": 3528,
                         "endColumn": 42,
-                        "endOffset": 3509
+                        "endOffset": 3568
                     }
                 }
             },
@@ -754,13 +754,13 @@
                     "endOffset": 2655
                 },
                 "from": {
-                    "file": "/home/leason/linphone/res/values-es/strings.xml",
+                    "file": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\values-es\\strings.xml",
                     "position": {
                         "startLine": 71,
                         "startColumn": 2,
-                        "startOffset": 4153,
+                        "startOffset": 4224,
                         "endColumn": 75,
-                        "endOffset": 4226
+                        "endOffset": 4297
                     }
                 }
             },
@@ -773,13 +773,13 @@
                     "endOffset": 2695
                 },
                 "from": {
-                    "file": "/home/leason/linphone/res/values-es/strings.xml",
+                    "file": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\values-es\\strings.xml",
                     "position": {
                         "startLine": 69,
                         "startColumn": 2,
-                        "startOffset": 4050,
+                        "startOffset": 4119,
                         "endColumn": 37,
-                        "endOffset": 4085
+                        "endOffset": 4154
                     }
                 }
             },
@@ -792,13 +792,13 @@
                     "endOffset": 2775
                 },
                 "from": {
-                    "file": "/home/leason/linphone/res/values-es/strings.xml",
+                    "file": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\values-es\\strings.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 2,
-                        "startOffset": 931,
+                        "startOffset": 950,
                         "endColumn": 77,
-                        "endOffset": 1006
+                        "endOffset": 1025
                     }
                 }
             },
@@ -811,13 +811,13 @@
                     "endOffset": 2837
                 },
                 "from": {
-                    "file": "/home/leason/linphone/res/values-es/strings.xml",
+                    "file": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\values-es\\strings.xml",
                     "position": {
                         "startLine": 74,
                         "startColumn": 2,
-                        "startOffset": 4375,
+                        "startOffset": 4449,
                         "endColumn": 59,
-                        "endOffset": 4432
+                        "endOffset": 4506
                     }
                 }
             },
@@ -830,13 +830,13 @@
                     "endOffset": 2879
                 },
                 "from": {
-                    "file": "/home/leason/linphone/res/values-es/strings.xml",
+                    "file": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\values-es\\strings.xml",
                     "position": {
                         "startLine": 44,
                         "startColumn": 2,
-                        "startOffset": 2592,
+                        "startOffset": 2636,
                         "endColumn": 39,
-                        "endOffset": 2629
+                        "endOffset": 2673
                     }
                 }
             },
@@ -849,13 +849,13 @@
                     "endOffset": 2934
                 },
                 "from": {
-                    "file": "/home/leason/linphone/res/values-es/strings.xml",
+                    "file": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\values-es\\strings.xml",
                     "position": {
                         "startLine": 51,
                         "startColumn": 2,
-                        "startOffset": 3006,
+                        "startOffset": 3057,
                         "endColumn": 52,
-                        "endOffset": 3056
+                        "endOffset": 3107
                     }
                 }
             },
@@ -868,13 +868,13 @@
                     "endOffset": 2982
                 },
                 "from": {
-                    "file": "/home/leason/linphone/res/values-es/strings.xml",
+                    "file": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\values-es\\strings.xml",
                     "position": {
                         "startLine": 52,
                         "startColumn": 2,
-                        "startOffset": 3059,
+                        "startOffset": 3111,
                         "endColumn": 45,
-                        "endOffset": 3102
+                        "endOffset": 3154
                     }
                 }
             },
@@ -887,13 +887,13 @@
                     "endOffset": 3057
                 },
                 "from": {
-                    "file": "/home/leason/linphone/res/values-es/strings.xml",
+                    "file": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\values-es\\strings.xml",
                     "position": {
                         "startLine": 57,
                         "startColumn": 2,
-                        "startOffset": 3355,
+                        "startOffset": 3412,
                         "endColumn": 72,
-                        "endOffset": 3425
+                        "endOffset": 3482
                     }
                 }
             },
@@ -906,13 +906,13 @@
                     "endOffset": 3143
                 },
                 "from": {
-                    "file": "/home/leason/linphone/res/values-es/strings.xml",
+                    "file": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\values-es\\strings.xml",
                     "position": {
                         "startLine": 87,
                         "startColumn": 2,
-                        "startOffset": 5331,
+                        "startOffset": 5418,
                         "endColumn": 83,
-                        "endOffset": 5412
+                        "endOffset": 5499
                     }
                 }
             },
@@ -925,13 +925,13 @@
                     "endOffset": 3241
                 },
                 "from": {
-                    "file": "/home/leason/linphone/res/values-es/strings.xml",
+                    "file": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\values-es\\strings.xml",
                     "position": {
                         "startLine": 86,
                         "startColumn": 2,
-                        "startOffset": 5235,
+                        "startOffset": 5321,
                         "endColumn": 95,
-                        "endOffset": 5328
+                        "endOffset": 5414
                     }
                 }
             },
@@ -944,13 +944,13 @@
                     "endOffset": 3345
                 },
                 "from": {
-                    "file": "/home/leason/linphone/res/values-es/strings.xml",
+                    "file": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\values-es\\strings.xml",
                     "position": {
                         "startLine": 85,
                         "startColumn": 2,
-                        "startOffset": 5133,
+                        "startOffset": 5218,
                         "endColumn": 101,
-                        "endOffset": 5232
+                        "endOffset": 5317
                     }
                 }
             },
@@ -963,13 +963,13 @@
                     "endOffset": 3431
                 },
                 "from": {
-                    "file": "/home/leason/linphone/res/values-es/strings.xml",
+                    "file": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\values-es\\strings.xml",
                     "position": {
                         "startLine": 84,
                         "startColumn": 2,
-                        "startOffset": 5049,
+                        "startOffset": 5133,
                         "endColumn": 83,
-                        "endOffset": 5130
+                        "endOffset": 5214
                     }
                 }
             },
@@ -982,13 +982,13 @@
                     "endOffset": 3512
                 },
                 "from": {
-                    "file": "/home/leason/linphone/res/values-es/strings.xml",
+                    "file": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\values-es\\strings.xml",
                     "position": {
                         "startLine": 90,
                         "startColumn": 2,
-                        "startOffset": 5577,
+                        "startOffset": 5667,
                         "endColumn": 78,
-                        "endOffset": 5653
+                        "endOffset": 5743
                     }
                 }
             },
@@ -1001,13 +1001,13 @@
                     "endOffset": 3597
                 },
                 "from": {
-                    "file": "/home/leason/linphone/res/values-es/strings.xml",
+                    "file": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\values-es\\strings.xml",
                     "position": {
                         "startLine": 88,
                         "startColumn": 2,
-                        "startOffset": 5415,
+                        "startOffset": 5503,
                         "endColumn": 82,
-                        "endOffset": 5495
+                        "endOffset": 5583
                     }
                 }
             },
@@ -1020,13 +1020,13 @@
                     "endOffset": 3678
                 },
                 "from": {
-                    "file": "/home/leason/linphone/res/values-es/strings.xml",
+                    "file": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\values-es\\strings.xml",
                     "position": {
                         "startLine": 89,
                         "startColumn": 2,
-                        "startOffset": 5498,
+                        "startOffset": 5587,
                         "endColumn": 78,
-                        "endOffset": 5574
+                        "endOffset": 5663
                     }
                 }
             },
@@ -1039,13 +1039,13 @@
                     "endOffset": 3735
                 },
                 "from": {
-                    "file": "/home/leason/linphone/res/values-es/strings.xml",
+                    "file": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\values-es\\strings.xml",
                     "position": {
                         "startLine": 35,
                         "startColumn": 2,
-                        "startOffset": 2011,
+                        "startOffset": 2046,
                         "endColumn": 54,
-                        "endOffset": 2063
+                        "endOffset": 2098
                     }
                 }
             },
@@ -1058,13 +1058,13 @@
                     "endOffset": 3826
                 },
                 "from": {
-                    "file": "/home/leason/linphone/res/values-es/strings.xml",
+                    "file": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\values-es\\strings.xml",
                     "position": {
                         "startLine": 73,
                         "startColumn": 2,
-                        "startOffset": 4286,
+                        "startOffset": 4359,
                         "endColumn": 88,
-                        "endOffset": 4372
+                        "endOffset": 4445
                     }
                 }
             },
@@ -1077,13 +1077,13 @@
                     "endOffset": 3917
                 },
                 "from": {
-                    "file": "/home/leason/linphone/res/values-es/strings.xml",
+                    "file": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\values-es\\strings.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 2,
-                        "startOffset": 524,
+                        "startOffset": 537,
                         "endColumn": 88,
-                        "endOffset": 610
+                        "endOffset": 623
                     }
                 }
             },
@@ -1096,13 +1096,13 @@
                     "endOffset": 3973
                 },
                 "from": {
-                    "file": "/home/leason/linphone/res/values-es/strings.xml",
+                    "file": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\values-es\\strings.xml",
                     "position": {
                         "startLine": 53,
                         "startColumn": 2,
-                        "startOffset": 3105,
+                        "startOffset": 3158,
                         "endColumn": 53,
-                        "endOffset": 3156
+                        "endOffset": 3209
                     }
                 }
             },
@@ -1115,13 +1115,13 @@
                     "endOffset": 4023
                 },
                 "from": {
-                    "file": "/home/leason/linphone/res/values-es/strings.xml",
+                    "file": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\values-es\\strings.xml",
                     "position": {
                         "startLine": 54,
                         "startColumn": 2,
-                        "startOffset": 3159,
+                        "startOffset": 3213,
                         "endColumn": 47,
-                        "endOffset": 3204
+                        "endOffset": 3258
                     }
                 }
             },
@@ -1134,13 +1134,13 @@
                     "endOffset": 4082
                 },
                 "from": {
-                    "file": "/home/leason/linphone/res/values-es/strings.xml",
+                    "file": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\values-es\\strings.xml",
                     "position": {
                         "startLine": 72,
                         "startColumn": 2,
-                        "startOffset": 4229,
+                        "startOffset": 4301,
                         "endColumn": 56,
-                        "endOffset": 4283
+                        "endOffset": 4355
                     }
                 }
             },
@@ -1153,13 +1153,13 @@
                     "endOffset": 4160
                 },
                 "from": {
-                    "file": "/home/leason/linphone/res/values-es/strings.xml",
+                    "file": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\values-es\\strings.xml",
                     "position": {
                         "startLine": 98,
                         "startColumn": 2,
-                        "startOffset": 6308,
+                        "startOffset": 6406,
                         "endColumn": 75,
-                        "endOffset": 6381
+                        "endOffset": 6479
                     }
                 }
             },
@@ -1172,13 +1172,13 @@
                     "endOffset": 4243
                 },
                 "from": {
-                    "file": "/home/leason/linphone/res/values-es/strings.xml",
+                    "file": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\values-es\\strings.xml",
                     "position": {
                         "startLine": 55,
                         "startColumn": 2,
-                        "startOffset": 3207,
+                        "startOffset": 3262,
                         "endColumn": 80,
-                        "endOffset": 3285
+                        "endOffset": 3340
                     }
                 }
             },
@@ -1191,13 +1191,13 @@
                     "endOffset": 4290
                 },
                 "from": {
-                    "file": "/home/leason/linphone/res/values-es/strings.xml",
+                    "file": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\values-es\\strings.xml",
                     "position": {
                         "startLine": 103,
                         "startColumn": 2,
-                        "startOffset": 6717,
+                        "startOffset": 6820,
                         "endColumn": 44,
-                        "endOffset": 6759
+                        "endOffset": 6862
                     }
                 }
             },
@@ -1210,13 +1210,13 @@
                     "endOffset": 4364
                 },
                 "from": {
-                    "file": "/home/leason/linphone/res/values-es/strings.xml",
+                    "file": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\values-es\\strings.xml",
                     "position": {
                         "startLine": 77,
                         "startColumn": 2,
-                        "startOffset": 4573,
+                        "startOffset": 4650,
                         "endColumn": 71,
-                        "endOffset": 4642
+                        "endOffset": 4719
                     }
                 }
             },
@@ -1229,13 +1229,13 @@
                     "endOffset": 4431
                 },
                 "from": {
-                    "file": "/home/leason/linphone/res/values-es/strings.xml",
+                    "file": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\values-es\\strings.xml",
                     "position": {
                         "startLine": 76,
                         "startColumn": 2,
-                        "startOffset": 4508,
+                        "startOffset": 4584,
                         "endColumn": 64,
-                        "endOffset": 4570
+                        "endOffset": 4646
                     }
                 }
             },
@@ -1248,13 +1248,13 @@
                     "endOffset": 4493
                 },
                 "from": {
-                    "file": "/home/leason/linphone/res/values-es/strings.xml",
+                    "file": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\values-es\\strings.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 2,
-                        "startOffset": 53,
+                        "startOffset": 55,
                         "endColumn": 59,
-                        "endOffset": 110
+                        "endOffset": 112
                     }
                 }
             },
@@ -1267,13 +1267,13 @@
                     "endOffset": 4563
                 },
                 "from": {
-                    "file": "/home/leason/linphone/res/values-es/strings.xml",
+                    "file": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\values-es\\strings.xml",
                     "position": {
                         "startLine": 101,
                         "startColumn": 2,
-                        "startOffset": 6581,
+                        "startOffset": 6682,
                         "endColumn": 67,
-                        "endOffset": 6646
+                        "endOffset": 6747
                     }
                 }
             },
@@ -1286,13 +1286,13 @@
                     "endOffset": 4655
                 },
                 "from": {
-                    "file": "/home/leason/linphone/res/values-es/strings.xml",
+                    "file": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\values-es\\strings.xml",
                     "position": {
                         "startLine": 78,
                         "startColumn": 2,
-                        "startOffset": 4645,
+                        "startOffset": 4723,
                         "endColumn": 89,
-                        "endOffset": 4732
+                        "endOffset": 4810
                     }
                 }
             },
@@ -1305,13 +1305,13 @@
                     "endOffset": 4725
                 },
                 "from": {
-                    "file": "/home/leason/linphone/res/values-es/strings.xml",
+                    "file": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\values-es\\strings.xml",
                     "position": {
                         "startLine": 102,
                         "startColumn": 2,
-                        "startOffset": 6649,
+                        "startOffset": 6751,
                         "endColumn": 67,
-                        "endOffset": 6714
+                        "endOffset": 6816
                     }
                 }
             },
@@ -1324,13 +1324,13 @@
                     "endOffset": 4789
                 },
                 "from": {
-                    "file": "/home/leason/linphone/res/values-es/strings.xml",
+                    "file": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\values-es\\strings.xml",
                     "position": {
                         "startLine": 99,
                         "startColumn": 2,
-                        "startOffset": 6384,
+                        "startOffset": 6483,
                         "endColumn": 61,
-                        "endOffset": 6443
+                        "endOffset": 6542
                     }
                 }
             },
@@ -1343,13 +1343,13 @@
                     "endOffset": 4926
                 },
                 "from": {
-                    "file": "/home/leason/linphone/res/values-es/strings.xml",
+                    "file": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\values-es\\strings.xml",
                     "position": {
                         "startLine": 100,
                         "startColumn": 2,
-                        "startOffset": 6446,
+                        "startOffset": 6546,
                         "endColumn": 134,
-                        "endOffset": 6578
+                        "endOffset": 6678
                     }
                 }
             },
@@ -1362,13 +1362,13 @@
                     "endOffset": 4995
                 },
                 "from": {
-                    "file": "/home/leason/linphone/res/values-es/strings.xml",
+                    "file": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\values-es\\strings.xml",
                     "position": {
                         "startLine": 56,
                         "startColumn": 2,
-                        "startOffset": 3288,
+                        "startOffset": 3344,
                         "endColumn": 66,
-                        "endOffset": 3352
+                        "endOffset": 3408
                     }
                 }
             },
@@ -1381,13 +1381,13 @@
                     "endOffset": 5046
                 },
                 "from": {
-                    "file": "/home/leason/linphone/res/values-es/strings.xml",
+                    "file": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\values-es\\strings.xml",
                     "position": {
                         "startLine": 61,
                         "startColumn": 2,
-                        "startOffset": 3577,
+                        "startOffset": 3638,
                         "endColumn": 48,
-                        "endOffset": 3623
+                        "endOffset": 3684
                     }
                 }
             },
@@ -1400,13 +1400,13 @@
                     "endOffset": 5104
                 },
                 "from": {
-                    "file": "/home/leason/linphone/res/values-es/strings.xml",
+                    "file": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\values-es\\strings.xml",
                     "position": {
                         "startLine": 81,
                         "startColumn": 2,
-                        "startOffset": 4858,
+                        "startOffset": 4939,
                         "endColumn": 55,
-                        "endOffset": 4911
+                        "endOffset": 4992
                     }
                 }
             },
@@ -1419,13 +1419,13 @@
                     "endOffset": 5184
                 },
                 "from": {
-                    "file": "/home/leason/linphone/res/values-es/strings.xml",
+                    "file": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\values-es\\strings.xml",
                     "position": {
                         "startLine": 83,
                         "startColumn": 2,
-                        "startOffset": 4971,
+                        "startOffset": 5054,
                         "endColumn": 77,
-                        "endOffset": 5046
+                        "endOffset": 5129
                     }
                 }
             },
@@ -1438,13 +1438,13 @@
                     "endOffset": 5250
                 },
                 "from": {
-                    "file": "/home/leason/linphone/res/values-es/strings.xml",
+                    "file": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\values-es\\strings.xml",
                     "position": {
                         "startLine": 67,
                         "startColumn": 2,
-                        "startOffset": 3907,
+                        "startOffset": 3974,
                         "endColumn": 63,
-                        "endOffset": 3968
+                        "endOffset": 4035
                     }
                 }
             },
@@ -1457,13 +1457,13 @@
                     "endOffset": 5304
                 },
                 "from": {
-                    "file": "/home/leason/linphone/res/values-es/strings.xml",
+                    "file": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\values-es\\strings.xml",
                     "position": {
                         "startLine": 62,
                         "startColumn": 2,
-                        "startOffset": 3626,
+                        "startOffset": 3688,
                         "endColumn": 51,
-                        "endOffset": 3675
+                        "endOffset": 3737
                     }
                 }
             },
@@ -1476,13 +1476,13 @@
                     "endOffset": 5355
                 },
                 "from": {
-                    "file": "/home/leason/linphone/res/values-es/strings.xml",
+                    "file": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\values-es\\strings.xml",
                     "position": {
                         "startLine": 64,
                         "startColumn": 2,
-                        "startOffset": 3727,
+                        "startOffset": 3791,
                         "endColumn": 48,
-                        "endOffset": 3773
+                        "endOffset": 3837
                     }
                 }
             },
@@ -1495,13 +1495,13 @@
                     "endOffset": 5406
                 },
                 "from": {
-                    "file": "/home/leason/linphone/res/values-es/strings.xml",
+                    "file": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\values-es\\strings.xml",
                     "position": {
                         "startLine": 65,
                         "startColumn": 2,
-                        "startOffset": 3776,
+                        "startOffset": 3841,
                         "endColumn": 48,
-                        "endOffset": 3822
+                        "endOffset": 3887
                     }
                 }
             },
@@ -1514,13 +1514,13 @@
                     "endOffset": 5457
                 },
                 "from": {
-                    "file": "/home/leason/linphone/res/values-es/strings.xml",
+                    "file": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\values-es\\strings.xml",
                     "position": {
                         "startLine": 63,
                         "startColumn": 2,
-                        "startOffset": 3678,
+                        "startOffset": 3741,
                         "endColumn": 48,
-                        "endOffset": 3724
+                        "endOffset": 3787
                     }
                 }
             },
@@ -1533,13 +1533,13 @@
                     "endOffset": 5541
                 },
                 "from": {
-                    "file": "/home/leason/linphone/res/values-es/strings.xml",
+                    "file": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\values-es\\strings.xml",
                     "position": {
                         "startLine": 66,
                         "startColumn": 2,
-                        "startOffset": 3825,
+                        "startOffset": 3891,
                         "endColumn": 81,
-                        "endOffset": 3904
+                        "endOffset": 3970
                     }
                 }
             },
@@ -1552,13 +1552,13 @@
                     "endOffset": 5587
                 },
                 "from": {
-                    "file": "/home/leason/linphone/res/values-es/strings.xml",
+                    "file": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\values-es\\strings.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 2,
-                        "startOffset": 113,
+                        "startOffset": 116,
                         "endColumn": 43,
-                        "endOffset": 154
+                        "endOffset": 157
                     }
                 }
             },
@@ -1571,13 +1571,13 @@
                     "endOffset": 5637
                 },
                 "from": {
-                    "file": "/home/leason/linphone/res/values-es/strings.xml",
+                    "file": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\values-es\\strings.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 2,
-                        "startOffset": 207,
+                        "startOffset": 212,
                         "endColumn": 47,
-                        "endOffset": 252
+                        "endOffset": 257
                     }
                 }
             },
@@ -1590,13 +1590,13 @@
                     "endOffset": 5689
                 },
                 "from": {
-                    "file": "/home/leason/linphone/res/values-es/strings.xml",
+                    "file": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\values-es\\strings.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 2,
-                        "startOffset": 157,
+                        "startOffset": 161,
                         "endColumn": 49,
-                        "endOffset": 204
+                        "endOffset": 208
                     }
                 }
             },
@@ -1609,13 +1609,13 @@
                     "endOffset": 5734
                 },
                 "from": {
-                    "file": "/home/leason/linphone/res/values-es/strings.xml",
+                    "file": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\values-es\\strings.xml",
                     "position": {
                         "startLine": 80,
                         "startColumn": 2,
-                        "startOffset": 4815,
+                        "startOffset": 4895,
                         "endColumn": 42,
-                        "endOffset": 4855
+                        "endOffset": 4935
                     }
                 }
             },
@@ -1628,13 +1628,13 @@
                     "endOffset": 5836
                 },
                 "from": {
-                    "file": "/home/leason/linphone/res/values-es/strings.xml",
+                    "file": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\values-es\\strings.xml",
                     "position": {
                         "startLine": 94,
                         "startColumn": 2,
-                        "startOffset": 5955,
+                        "startOffset": 6049,
                         "endColumn": 99,
-                        "endOffset": 6052
+                        "endOffset": 6146
                     }
                 }
             },
@@ -1647,13 +1647,13 @@
                     "endOffset": 5946
                 },
                 "from": {
-                    "file": "/home/leason/linphone/res/values-es/strings.xml",
+                    "file": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\values-es\\strings.xml",
                     "position": {
                         "startLine": 92,
                         "startColumn": 2,
-                        "startOffset": 5748,
+                        "startOffset": 5840,
                         "endColumn": 107,
-                        "endOffset": 5853
+                        "endOffset": 5945
                     }
                 }
             },
@@ -1666,13 +1666,13 @@
                     "endOffset": 6047
                 },
                 "from": {
-                    "file": "/home/leason/linphone/res/values-es/strings.xml",
+                    "file": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\values-es\\strings.xml",
                     "position": {
                         "startLine": 93,
                         "startColumn": 2,
-                        "startOffset": 5856,
+                        "startOffset": 5949,
                         "endColumn": 98,
-                        "endOffset": 5952
+                        "endOffset": 6045
                     }
                 }
             },
@@ -1685,13 +1685,13 @@
                     "endOffset": 6141
                 },
                 "from": {
-                    "file": "/home/leason/linphone/res/values-es/strings.xml",
+                    "file": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\values-es\\strings.xml",
                     "position": {
                         "startLine": 91,
                         "startColumn": 2,
-                        "startOffset": 5656,
+                        "startOffset": 5747,
                         "endColumn": 91,
-                        "endOffset": 5745
+                        "endOffset": 5836
                     }
                 }
             },
@@ -1704,13 +1704,13 @@
                     "endOffset": 6200
                 },
                 "from": {
-                    "file": "/home/leason/linphone/res/values-es/strings.xml",
+                    "file": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\values-es\\strings.xml",
                     "position": {
                         "startLine": 82,
                         "startColumn": 2,
-                        "startOffset": 4914,
+                        "startOffset": 4996,
                         "endColumn": 56,
-                        "endOffset": 4968
+                        "endOffset": 5050
                     }
                 }
             },
@@ -1723,13 +1723,13 @@
                     "endOffset": 6268
                 },
                 "from": {
-                    "file": "/home/leason/linphone/res/values-es/strings.xml",
+                    "file": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\values-es\\strings.xml",
                     "position": {
                         "startLine": 97,
                         "startColumn": 2,
-                        "startOffset": 6242,
+                        "startOffset": 6339,
                         "endColumn": 65,
-                        "endOffset": 6305
+                        "endOffset": 6402
                     }
                 }
             },
@@ -1742,13 +1742,13 @@
                     "endOffset": 6367
                 },
                 "from": {
-                    "file": "/home/leason/linphone/res/values-es/strings.xml",
+                    "file": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\values-es\\strings.xml",
                     "position": {
                         "startLine": 96,
                         "startColumn": 2,
-                        "startOffset": 6145,
+                        "startOffset": 6241,
                         "endColumn": 96,
-                        "endOffset": 6239
+                        "endOffset": 6335
                     }
                 }
             },
@@ -1761,13 +1761,13 @@
                     "endOffset": 6459
                 },
                 "from": {
-                    "file": "/home/leason/linphone/res/values-es/strings.xml",
+                    "file": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\values-es\\strings.xml",
                     "position": {
                         "startLine": 95,
                         "startColumn": 2,
-                        "startOffset": 6055,
+                        "startOffset": 6150,
                         "endColumn": 89,
-                        "endOffset": 6142
+                        "endOffset": 6237
                     }
                 }
             },
@@ -1780,13 +1780,13 @@
                     "endOffset": 6541
                 },
                 "from": {
-                    "file": "/home/leason/linphone/res/values-es/strings.xml",
+                    "file": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\values-es\\strings.xml",
                     "position": {
                         "startLine": 79,
                         "startColumn": 2,
-                        "startOffset": 4735,
+                        "startOffset": 4814,
                         "endColumn": 79,
-                        "endOffset": 4812
+                        "endOffset": 4891
                     }
                 }
             },
@@ -1799,13 +1799,13 @@
                     "endOffset": 6607
                 },
                 "from": {
-                    "file": "/home/leason/linphone/res/values-es/strings.xml",
+                    "file": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\values-es\\strings.xml",
                     "position": {
                         "startLine": 23,
                         "startColumn": 2,
-                        "startOffset": 1205,
+                        "startOffset": 1228,
                         "endColumn": 63,
-                        "endOffset": 1266
+                        "endOffset": 1289
                     }
                 }
             },
@@ -1818,13 +1818,13 @@
                     "endOffset": 6675
                 },
                 "from": {
-                    "file": "/home/leason/linphone/res/values-es/strings.xml",
+                    "file": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\values-es\\strings.xml",
                     "position": {
                         "startLine": 49,
                         "startColumn": 2,
-                        "startOffset": 2886,
+                        "startOffset": 2935,
                         "endColumn": 65,
-                        "endOffset": 2949
+                        "endOffset": 2998
                     }
                 }
             },
@@ -1837,13 +1837,13 @@
                     "endOffset": 6773
                 },
                 "from": {
-                    "file": "/home/leason/linphone/res/values-es/strings.xml",
+                    "file": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\values-es\\strings.xml",
                     "position": {
                         "startLine": 26,
                         "startColumn": 2,
-                        "startOffset": 1456,
+                        "startOffset": 1482,
                         "endColumn": 95,
-                        "endOffset": 1549
+                        "endOffset": 1575
                     }
                 }
             },
@@ -1856,13 +1856,13 @@
                     "endOffset": 6828
                 },
                 "from": {
-                    "file": "/home/leason/linphone/res/values-es/strings.xml",
+                    "file": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\values-es\\strings.xml",
                     "position": {
                         "startLine": 36,
                         "startColumn": 2,
-                        "startOffset": 2066,
+                        "startOffset": 2102,
                         "endColumn": 52,
-                        "endOffset": 2116
+                        "endOffset": 2152
                     }
                 }
             },
@@ -1875,13 +1875,13 @@
                     "endOffset": 6889
                 },
                 "from": {
-                    "file": "/home/leason/linphone/res/values-es/strings.xml",
+                    "file": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\values-es\\strings.xml",
                     "position": {
                         "startLine": 32,
                         "startColumn": 2,
-                        "startOffset": 1836,
+                        "startOffset": 1868,
                         "endColumn": 58,
-                        "endOffset": 1892
+                        "endOffset": 1924
                     }
                 }
             },
@@ -1894,13 +1894,13 @@
                     "endOffset": 6950
                 },
                 "from": {
-                    "file": "/home/leason/linphone/res/values-es/strings.xml",
+                    "file": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\values-es\\strings.xml",
                     "position": {
                         "startLine": 34,
                         "startColumn": 2,
-                        "startOffset": 1952,
+                        "startOffset": 1986,
                         "endColumn": 58,
-                        "endOffset": 2008
+                        "endOffset": 2042
                     }
                 }
             },
@@ -1913,13 +1913,13 @@
                     "endOffset": 7009
                 },
                 "from": {
-                    "file": "/home/leason/linphone/res/values-es/strings.xml",
+                    "file": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\values-es\\strings.xml",
                     "position": {
                         "startLine": 33,
                         "startColumn": 2,
-                        "startOffset": 1895,
+                        "startOffset": 1928,
                         "endColumn": 56,
-                        "endOffset": 1949
+                        "endOffset": 1982
                     }
                 }
             },
@@ -1932,13 +1932,13 @@
                     "endOffset": 7066
                 },
                 "from": {
-                    "file": "/home/leason/linphone/res/values-es/strings.xml",
+                    "file": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\values-es\\strings.xml",
                     "position": {
                         "startLine": 29,
                         "startColumn": 2,
-                        "startOffset": 1655,
+                        "startOffset": 1684,
                         "endColumn": 54,
-                        "endOffset": 1707
+                        "endOffset": 1736
                     }
                 }
             },
@@ -1951,13 +1951,13 @@
                     "endOffset": 7145
                 },
                 "from": {
-                    "file": "/home/leason/linphone/res/values-es/strings.xml",
+                    "file": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\values-es\\strings.xml",
                     "position": {
                         "startLine": 30,
                         "startColumn": 2,
-                        "startOffset": 1710,
+                        "startOffset": 1740,
                         "endColumn": 76,
-                        "endOffset": 1784
+                        "endOffset": 1814
                     }
                 }
             },
@@ -1970,13 +1970,13 @@
                     "endOffset": 7188
                 },
                 "from": {
-                    "file": "/home/leason/linphone/res/values-es/strings.xml",
+                    "file": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\values-es\\strings.xml",
                     "position": {
                         "startLine": 31,
                         "startColumn": 2,
-                        "startOffset": 1787,
+                        "startOffset": 1818,
                         "endColumn": 48,
-                        "endOffset": 1833
+                        "endOffset": 1864
                     }
                 }
             },
@@ -1989,13 +1989,13 @@
                     "endOffset": 7242
                 },
                 "from": {
-                    "file": "/home/leason/linphone/res/values-es/strings.xml",
+                    "file": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\values-es\\strings.xml",
                     "position": {
                         "startLine": 28,
                         "startColumn": 2,
-                        "startOffset": 1603,
+                        "startOffset": 1631,
                         "endColumn": 51,
-                        "endOffset": 1652
+                        "endOffset": 1680
                     }
                 }
             },
@@ -2008,13 +2008,13 @@
                     "endOffset": 7317
                 },
                 "from": {
-                    "file": "/home/leason/linphone/res/values-es/strings.xml",
+                    "file": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\values-es\\strings.xml",
                     "position": {
                         "startLine": 75,
                         "startColumn": 2,
-                        "startOffset": 4435,
+                        "startOffset": 4510,
                         "endColumn": 72,
-                        "endOffset": 4505
+                        "endOffset": 4580
                     }
                 }
             },
@@ -2027,13 +2027,13 @@
                     "endOffset": 7388
                 },
                 "from": {
-                    "file": "/home/leason/linphone/res/values-es/strings.xml",
+                    "file": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\values-es\\strings.xml",
                     "position": {
                         "startLine": 21,
                         "startColumn": 2,
-                        "startOffset": 1075,
+                        "startOffset": 1096,
                         "endColumn": 68,
-                        "endOffset": 1141
+                        "endOffset": 1162
                     }
                 }
             },
@@ -2046,13 +2046,13 @@
                     "endOffset": 7456
                 },
                 "from": {
-                    "file": "/home/leason/linphone/res/values-es/strings.xml",
+                    "file": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\values-es\\strings.xml",
                     "position": {
                         "startLine": 20,
                         "startColumn": 2,
-                        "startOffset": 1009,
+                        "startOffset": 1029,
                         "endColumn": 65,
-                        "endOffset": 1072
+                        "endOffset": 1092
                     }
                 }
             },
@@ -2065,13 +2065,13 @@
                     "endOffset": 7519
                 },
                 "from": {
-                    "file": "/home/leason/linphone/res/values-es/strings.xml",
+                    "file": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\values-es\\strings.xml",
                     "position": {
                         "startLine": 22,
                         "startColumn": 2,
-                        "startOffset": 1144,
+                        "startOffset": 1166,
                         "endColumn": 60,
-                        "endOffset": 1202
+                        "endOffset": 1224
                     }
                 }
             },
@@ -2084,13 +2084,13 @@
                     "endOffset": 7586
                 },
                 "from": {
-                    "file": "/home/leason/linphone/res/values-es/strings.xml",
+                    "file": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\values-es\\strings.xml",
                     "position": {
                         "startLine": 60,
                         "startColumn": 2,
-                        "startOffset": 3512,
+                        "startOffset": 3572,
                         "endColumn": 64,
-                        "endOffset": 3574
+                        "endOffset": 3634
                     }
                 }
             },
@@ -2103,13 +2103,13 @@
                     "endOffset": 7641
                 },
                 "from": {
-                    "file": "/home/leason/linphone/res/values-es/strings.xml",
+                    "file": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\values-es\\strings.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 2,
-                        "startOffset": 675,
+                        "startOffset": 690,
                         "endColumn": 52,
-                        "endOffset": 725
+                        "endOffset": 740
                     }
                 }
             },
@@ -2122,13 +2122,13 @@
                     "endOffset": 7703
                 },
                 "from": {
-                    "file": "/home/leason/linphone/res/values-es/strings.xml",
+                    "file": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\values-es\\strings.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 2,
-                        "startOffset": 786,
+                        "startOffset": 803,
                         "endColumn": 59,
-                        "endOffset": 843
+                        "endOffset": 860
                     }
                 }
             },
@@ -2141,13 +2141,13 @@
                     "endOffset": 7751
                 },
                 "from": {
-                    "file": "/home/leason/linphone/res/values-es/strings.xml",
+                    "file": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\values-es\\strings.xml",
                     "position": {
                         "startLine": 122,
                         "startColumn": 2,
-                        "startOffset": 7758,
+                        "startOffset": 7880,
                         "endColumn": 45,
-                        "endOffset": 7801
+                        "endOffset": 7923
                     }
                 }
             }

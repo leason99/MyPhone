@@ -70,6 +70,7 @@ import android.os.Build;
 import android.os.Bundle;
 //import android.support.v4.view.PagerAdapter;
 import android.support.v4.content.ContextCompat;
+import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
 //import android.support.v4.app.FragmentManager;
 import android.support.v4.widget.DrawerLayout;
@@ -175,7 +176,9 @@ public ViewPager getViewPager(){
             wizard.putExtra("Domain", LinphoneManager.getInstance().wizardLoginViewDomain);
             startActivityForResult(wizard, REMOTE_PROVISIONING_LOGIN_ACTIVITY);
         }
-        else if (useFirstLoginActivity && LinphonePreferences.instance().isFirstLaunch()) {
+
+     //   else if (useFirstLoginActivity && LinphonePreferences.instance().isFirstLaunch()) {
+            else {
             if (LinphonePreferences.instance().getAccountCount() > 0) {
                 LinphonePreferences.instance().firstLaunchSuccessful();
                 mPrefs =LinphonePreferences.instance();
@@ -220,12 +223,12 @@ public ViewPager getViewPager(){
                 if (newFragment != null) {
                     getFragmentManager().beginTransaction().remove(newFragment).commit();
                 }
-                add.setVisibility(View.VISIBLE);
-                if (i ==0) {
-                    add.setImageResource(R.drawable.contact_add);
-                }else if(i==1){ add.setImageResource(R.drawable.chat_add);}
-                else {
+
+                if (i ==2) {
                     add.setVisibility(View.GONE);
+                }
+                else {
+                    add.setVisibility(View.VISIBLE);
                 }
             }
         });
@@ -439,7 +442,10 @@ public ViewPager getViewPager(){
                 buf.show(ft, "dialog");
                 break;
             case CONTACT_EDITOR:
-                newFragment = new ContactEditorFragment();
+                intent.putExtras(extras);
+                intent.setClass(this, ContactEditorFragment.class);
+                startActivity(intent);
+              //  newFragment = new ContactEditorFragment();
                 break;
             case DIALER:
                 newFragment = new DialerFragment();
@@ -1220,8 +1226,6 @@ public ViewPager getViewPager(){
             startService(new Intent(ACTION_MAIN).setClass(this, LinphoneService.class));
         }
 
-
-
         ContactsManager.getInstance().prepareContactsInBackground();
 
         updateMissedChatCount();
@@ -1247,19 +1251,7 @@ public ViewPager getViewPager(){
                 }
             }
         }
-    }/*
-    @Override
-    public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] grantResults) {
-        switch (requestCode) {
-            case 0:
-                if (grantResults[0] == PackageManager.PERMISSION_GRANTED) {
-                   Toast.makeText(this,"ok",Toast.LENGTH_LONG).show();
-                } else {
-                    // 未取得權限
-                }
-                break;
-        }
-    }*/
+    }
     @Override
     protected void onDestroy() {
         if (mOrientationHelper != null) {

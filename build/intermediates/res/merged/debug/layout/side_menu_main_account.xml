@@ -3,38 +3,39 @@
 	android:id="@+id/default_account"
 	android:background="@color/colorF"
 	android:layout_width="match_parent"
-	android:layout_height="80dp">
+	android:layout_height="210dp">
 
 	<ImageView
 		android:id="@+id/main_account_avatar"
 		android:src="@drawable/avatar"
-		android:layout_width="30dp"
-		android:layout_height="30dp"
-		android:layout_marginLeft="12dp"
-		android:layout_marginRight="12dp"
-		android:layout_centerVertical="true" />
+		android:layout_width="125dp"
+		android:layout_height="125dp"
+		android:layout_centerHorizontal="true"
+		android:layout_marginTop="20dp" />
 
-	<LinearLayout
+	<RelativeLayout
 		android:id="@+id/layout"
 		android:layout_width="wrap_content"
 		android:layout_height="match_parent"
-		android:orientation="vertical"
-		android:layout_toRightOf="@+id/main_account_avatar"
-		android:gravity="center_vertical">
+		android:layout_below="@+id/main_account_avatar"
+		android:layout_centerHorizontal="true">
 
 		<TextView
 			android:id="@+id/main_account_display_name"
 			style="@style/font7"
 			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"/>
+			android:layout_height="wrap_content"
+			android:layout_centerHorizontal="true" />
 
 		<TextView
 			android:id="@+id/main_account_address"
 			style="@style/font3"
 			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"/>
+			android:layout_height="wrap_content"
+			android:layout_centerHorizontal="true"
+			android:layout_below="@+id/main_account_display_name" />
 
-	</LinearLayout>
+	</RelativeLayout>
 
 	<ImageView
 		android:id="@+id/main_account_status"

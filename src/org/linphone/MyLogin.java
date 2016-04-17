@@ -1,6 +1,9 @@
 package org.linphone;
 
 /*import android.support.v7.app.AppCompatActivity;*/
+
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.os.Bundle;
 
 
@@ -40,6 +43,7 @@ import android.graphics.drawable.ColorDrawable;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.text.TextUtils;
+import android.view.KeyEvent;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.Window;
@@ -50,12 +54,13 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
+
 /**
  * @author Sylvain Berfini
  */
 public class MyLogin extends Activity implements OnClickListener {
     private static MyLogin instance;
-  //  private ImageView back, cancel;
+    //  private ImageView back, cancel;
     private AssistantFragmentsEnum currentFragment;
     private AssistantFragmentsEnum firstFragment;
     private Fragment fragment;
@@ -77,21 +82,21 @@ public class MyLogin extends Activity implements OnClickListener {
         setContentView(R.layout.my_login);
         initUI();
         displayLoginGeneric();
-      /**  firstFragment =  AssistantFragmentsEnum.LOGIN ;
+        /**  firstFragment =  AssistantFragmentsEnum.LOGIN ;
 
-        if (findViewById(R.id.fragmentContainer) != null) {
-            if (savedInstanceState == null) {
-                display(firstFragment);
-            } else {
-                currentFragment = (AssistantFragmentsEnum) savedInstanceState.getSerializable("CurrentFragment");
-            }
-        }*/
+         if (findViewById(R.id.fragmentContainer) != null) {
+         if (savedInstanceState == null) {
+         display(firstFragment);
+         } else {
+         currentFragment = (AssistantFragmentsEnum) savedInstanceState.getSerializable("CurrentFragment");
+         }
+         }*/
         mPrefs = LinphonePreferences.instance();
-        mListener = new LinphoneCoreListenerBase(){
+        mListener = new LinphoneCoreListenerBase() {
             @Override
             public void registrationState(LinphoneCore lc, LinphoneProxyConfig cfg, LinphoneCore.RegistrationState state, String smessage) {
-                if(accountCreated){
-                    if(address != null && address.asString().equals(cfg.getIdentity()) ) {
+                if (accountCreated) {
+                    if (address != null && address.asString().equals(cfg.getIdentity())) {
                         if (state == RegistrationState.RegistrationOk) {
                             if (LinphoneManager.getLc().getDefaultProxyConfig() != null) {
                                 launchEchoCancellerCalibration(true);
@@ -105,6 +110,31 @@ public class MyLogin extends Activity implements OnClickListener {
             }
         };
         instance = this;
+    }
+
+    public boolean onKeyDown(int keyCode, KeyEvent event) {//捕捉返回鍵
+        if ((keyCode == KeyEvent.KEYCODE_BACK)) {
+
+            AlertDialog.Builder exit = new AlertDialog.Builder(this);
+            exit.setTitle("exit");
+            exit.setMessage("Are you sure you want to exit ");
+            exit.setPositiveButton("yes", new DialogInterface.OnClickListener() {
+                @Override
+                public void onClick(DialogInterface dialog, int which) {
+                    System.exit(0);
+                }
+            });
+            exit.setNegativeButton("NO", new DialogInterface.OnClickListener() {
+                @Override
+                public void onClick(DialogInterface dialog, int which) {
+
+                }
+            });
+            exit.show();
+
+            return true;
+        }
+        return super.onKeyDown(keyCode, event);
     }
 
     @Override
@@ -286,9 +316,9 @@ public class MyLogin extends Activity implements OnClickListener {
 
     }
 
-    public void retryLogin(LinphoneProxyConfig proxy, String password){
-        LinphoneAuthInfo info = LinphoneManager.getLc().findAuthInfo(LinphoneUtils.getUsernameFromAddress(proxy.getIdentity()),proxy.getRealm(),proxy.getDomain());
-        if(info != null) {
+    public void retryLogin(LinphoneProxyConfig proxy, String password) {
+        LinphoneAuthInfo info = LinphoneManager.getLc().findAuthInfo(LinphoneUtils.getUsernameFromAddress(proxy.getIdentity()), proxy.getRealm(), proxy.getDomain());
+        if (info != null) {
             info.setPassword(password);
             LinphoneManager.getLc().addAuthInfo(info);
         }
@@ -299,14 +329,14 @@ public class MyLogin extends Activity implements OnClickListener {
         if (accountCreated)
             return;
 
-        if(username.startsWith("sip:")) {
+        if (username.startsWith("sip:")) {
             username = username.substring(4);
         }
 
         if (username.contains("@"))
             username = username.split("@")[0];
 
-        if(domain.startsWith("sip:")) {
+        if (domain.startsWith("sip:")) {
             domain = domain.substring(4);
         }
 
@@ -317,7 +347,7 @@ public class MyLogin extends Activity implements OnClickListener {
             e.printStackTrace();
         }
 
-        if(displayName != null && !displayName.equals("")){
+        if (displayName != null && !displayName.equals("")) {
             address.setDisplayName(displayName);
         }
 
@@ -333,8 +363,7 @@ public class MyLogin extends Activity implements OnClickListener {
             if (getResources().getBoolean(R.bool.disable_all_security_features_for_markets)) {
                 builder.setProxy(domain + ":5228")
                         .setTransport(TransportType.LinphoneTransportTcp);
-            }
-            else {
+            } else {
                 builder.setProxy(domain + ":5223")
                         .setTransport(TransportType.LinphoneTransportTls);
             }
@@ -399,13 +428,13 @@ public class MyLogin extends Activity implements OnClickListener {
         success();
     }
 
-    public Dialog displayWrongPasswordDialog(){
+    public Dialog displayWrongPasswordDialog() {
         Dialog dialog = new Dialog(this);
         dialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
         Drawable d = new ColorDrawable(getResources().getColor(R.color.colorC));
         d.setAlpha(200);
         dialog.setContentView(R.layout.input_dialog);
-        dialog.getWindow().setLayout(WindowManager.LayoutParams.MATCH_PARENT,WindowManager.LayoutParams.MATCH_PARENT);
+        dialog.getWindow().setLayout(WindowManager.LayoutParams.MATCH_PARENT, WindowManager.LayoutParams.MATCH_PARENT);
         dialog.getWindow().setBackgroundDrawable(d);
 
         TextView customText = (TextView) dialog.findViewById(R.id.customText);
@@ -413,7 +442,7 @@ public class MyLogin extends Activity implements OnClickListener {
         return dialog;
     }
 
-    public void showDialog(final LinphoneProxyConfig proxy){
+    public void showDialog(final LinphoneProxyConfig proxy) {
         final Dialog dialog = displayWrongPasswordDialog();
 
         Button retry = (Button) dialog.findViewById(R.id.retry);

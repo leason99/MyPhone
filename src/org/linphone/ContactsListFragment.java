@@ -69,7 +69,8 @@ public class ContactsListFragment extends Fragment implements OnClickListener, O
 	private TextView noSipContact, noContact;
 	private ImageView  selectAll, deselectAll, delete, cancel;
 	//private ImageView edit, linphoneContacts, newContact, allContacts;
-	private boolean onlyDisplayLinphoneContacts=true, isEditMode;
+	private boolean onlyDisplayLinphoneContacts=true;
+	private boolean isEditMode;
 	private RelativeLayout   editList, topbar;
 //	private RelativeLayout linphoneContactsSelected,allContactsSelected;
 	private int lastKnownPosition;
@@ -333,7 +334,6 @@ public class ContactsListFragment extends Fragment implements OnClickListener, O
 	public void quitEditMode(){
 		isEditMode = false;
 		editList.setVisibility(View.GONE);
-		topbar.setVisibility(View.VISIBLE);
 		invalidate();
 	}
 
@@ -347,7 +347,7 @@ public class ContactsListFragment extends Fragment implements OnClickListener, O
 			return;
 		}
 		changeContactsToggle();
-		
+
 		if (searchCursor != null) {
 			searchCursor.close();
 		}
@@ -357,67 +357,60 @@ public class ContactsListFragment extends Fragment implements OnClickListener, O
 			//indexer = new AlphabetIndexer(searchCursor, Compatibility.getCursorDisplayNameColumnIndex(searchCursor), " ABCDEFGHIJKLMNOPQRSTUVWXYZ");
 			//contactsList.setChoiceMode(AbsListView.CHOICE_MODE_MULTIPLE);
 			//contactsList.setAdapter(new ContactsListAdapter(null, searchCursor));
-		}
-		else{
+		} else{
 			if (onlyDisplayLinphoneContacts) {
 				searchCursor = Compatibility.getSIPContactsCursor(getActivity().getContentResolver(), search, ContactsManager.getInstance().getContactsId());
 				indexer = new AlphabetIndexer(searchCursor, Compatibility.getCursorDisplayNameColumnIndex(searchCursor), " ABCDEFGHIJKLMNOPQRSTUVWXYZ");
 				contactsList.setChoiceMode(AbsListView.CHOICE_MODE_MULTIPLE);
 				contactsList.setAdapter(new ContactsListAdapter(null, searchCursor));
-			}
-			else {
-			/*	searchCursor = Compatibility.getContactsCursor(getActivity().getContentResolver(), search, ContactsManager.getInstance().getContactsId());
+			} else {
+				searchCursor = Compatibility.getContactsCursor(getActivity().getContentResolver(), search, ContactsManager.getInstance().getContactsId());
 				contactsList.setChoiceMode(AbsListView.CHOICE_MODE_MULTIPLE);
 				indexer = new AlphabetIndexer(searchCursor, Compatibility.getCursorDisplayNameColumnIndex(searchCursor), " ABCDEFGHIJKLMNOPQRSTUVWXYZ");
-				contactsList.setAdapter(new ContactsListAdapter(null, searchCursor));*/
+				contactsList.setAdapter(new ContactsListAdapter(null, searchCursor));
 			}
 		}
 	}
-	
+
 	private void changeContactsAdapter() {
 		changeContactsToggle();
-		
+
 		if (searchCursor != null) {
 			searchCursor.close();
 		}
-		
-		//Cursor allContactsCursor = ContactsManager.getInstance().getAllContactsCursor();
+
+		Cursor allContactsCursor = ContactsManager.getInstance().getAllContactsCursor();
 		Cursor sipContactsCursor = ContactsManager.getInstance().getSIPContactsCursor();
 
 		noSipContact.setVisibility(View.GONE);
 		noContact.setVisibility(View.GONE);
 		contactsList.setVisibility(View.VISIBLE);
 
-		/*if(LinphoneActivity.instance().getResources().getBoolean(R.bool.use_linphone_friend)) {
+		if(LinphoneActivity.instance().getResources().getBoolean(R.bool.use_linphone_friend)) {
 			indexer = new AlphabetIndexer(allContactsCursor, Compatibility.getCursorDisplayNameColumnIndex(allContactsCursor), " ABCDEFGHIJKLMNOPQRSTUVWXYZ");
 			contactsList.setChoiceMode(AbsListView.CHOICE_MODE_MULTIPLE);
 			contactsList.setAdapter(new ContactsListAdapter(ContactsManager.getInstance().getAllContacts(), allContactsCursor));
 		} else {
-			if (allContactsCursor != null && allContactsCursor.getCount() == 0) {
-                noContact.setVisibility(View.VISIBLE);
-                contactsList.setVisibility(View.GONE);
-            } else {*/
-               // indexer = new AlphabetIndexer(allContactsCursor, Compatibility.getCursorDisplayNameColumnIndex(allContactsCursor), " ABCDEFGHIJKLMNOPQRSTUVWXYZ");
-				indexer = new AlphabetIndexer(sipContactsCursor, Compatibility.getCursorDisplayNameColumnIndex(sipContactsCursor), " ABCDEFGHIJKLMNOPQRSTUVWXYZ");
-                contactsList.setChoiceMode(AbsListView.CHOICE_MODE_MULTIPLE);
-               // contactsList.setAdapter(new ContactsListAdapter(ContactsManager.getInstance().getAllContacts(), allContactsCursor));
-				contactsList.setAdapter(new ContactsListAdapter(ContactsManager.getInstance().getSIPContacts(), sipContactsCursor));
-			//}
-
-			/*
 			if (onlyDisplayLinphoneContacts) {
 				if (sipContactsCursor != null && sipContactsCursor.getCount() == 0) {
 					noSipContact.setVisibility(View.VISIBLE);
 					contactsList.setVisibility(View.GONE);
-				}
-				else {
+				} else {
 					indexer = new AlphabetIndexer(sipContactsCursor, Compatibility.getCursorDisplayNameColumnIndex(sipContactsCursor), " ABCDEFGHIJKLMNOPQRSTUVWXYZ");
 					contactsList.setChoiceMode(AbsListView.CHOICE_MODE_MULTIPLE);
 					contactsList.setAdapter(new ContactsListAdapter(ContactsManager.getInstance().getSIPContacts(), sipContactsCursor));
 				}
-			}*/
-
-		//}
+			} else {
+				if (allContactsCursor != null && allContactsCursor.getCount() == 0) {
+					noContact.setVisibility(View.VISIBLE);
+					contactsList.setVisibility(View.GONE);
+				} else {
+					indexer = new AlphabetIndexer(allContactsCursor, Compatibility.getCursorDisplayNameColumnIndex(allContactsCursor), " ABCDEFGHIJKLMNOPQRSTUVWXYZ");
+					contactsList.setChoiceMode(AbsListView.CHOICE_MODE_MULTIPLE);
+					contactsList.setAdapter(new ContactsListAdapter(ContactsManager.getInstance().getAllContacts(), allContactsCursor));
+				}
+			}
+		}
 		ContactsManager.getInstance().setLinphoneContactsPrefered(onlyDisplayLinphoneContacts);
 	}
 	
@@ -478,7 +471,6 @@ public class ContactsListFragment extends Fragment implements OnClickListener, O
 	public void onResume() {
 		instance = this;
 		super.onResume();
-
 		if (editConsumed) {
 			editOnClick = false;
 			sipAddressToAdd = null;
@@ -490,7 +482,6 @@ public class ContactsListFragment extends Fragment implements OnClickListener, O
 			onlyDisplayLinphoneContacts = ContactsManager.getInstance().isLinphoneContactsPrefered();
 		}
 		changeContactsToggle();
-
 		invalidate();
 	}
 	

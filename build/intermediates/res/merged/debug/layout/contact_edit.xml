@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
   	android:background="@color/colorH"
   	android:orientation="vertical">
-
+<!--
 	<RelativeLayout
 		android:layout_width="match_parent"
 		android:layout_height="50dp"
@@ -45,7 +45,7 @@
 			android:layout_toLeftOf="@+id/ok"/>
 
 	</RelativeLayout>
-
+-->
     <ScrollView
         android:id="@+id/controlsScrollView"
         android:layout_width="match_parent"
@@ -171,7 +171,7 @@
 				</LinearLayout>
 
 			</LinearLayout>
-
+<!--
 
 			<LinearLayout
 				android:layout_width="match_parent"
@@ -209,10 +209,19 @@
 
 				</LinearLayout>
 
-			</LinearLayout>
+			</LinearLayout>-->
+			<ImageView
+				android:layout_width="100dp"
+				android:layout_height="100dp"
+				android:id="@+id/ok"
+				android:background="@drawable/add"
+				android:adjustViewBounds="true"
+				android:layout_gravity="center_horizontal"
+				android:layout_marginTop="30dp" />
 
 		</LinearLayout>
     
     </ScrollView>
+
 
 </LinearLayout>

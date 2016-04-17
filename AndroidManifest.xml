@@ -292,6 +292,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".MyLogin" />
+        <activity android:name=".ContactEditorFragment" />
         <activity android:name=".MySetting" />
         <activity android:name=".MyAccountPreferenceActivity"></activity>
     </application>

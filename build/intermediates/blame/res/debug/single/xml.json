@@ -1,22 +1,22 @@
 [
     {
-        "merged": "/home/leason/linphone/build/intermediates/res/merged/debug/xml/syncadapter.xml",
-        "source": "/home/leason/linphone/res/xml/syncadapter.xml"
+        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\debug\\xml\\account_preferences.xml",
+        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\xml\\account_preferences.xml"
     },
     {
-        "merged": "/home/leason/linphone/build/intermediates/res/merged/debug/xml/account_preferences.xml",
-        "source": "/home/leason/linphone/res/xml/account_preferences.xml"
+        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\debug\\xml\\authenticator.xml",
+        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\xml\\authenticator.xml"
     },
     {
-        "merged": "/home/leason/linphone/build/intermediates/res/merged/debug/xml/contacts.xml",
-        "source": "/home/leason/linphone/res/xml/contacts.xml"
+        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\debug\\xml\\contacts.xml",
+        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\xml\\contacts.xml"
     },
     {
-        "merged": "/home/leason/linphone/build/intermediates/res/merged/debug/xml/authenticator.xml",
-        "source": "/home/leason/linphone/res/xml/authenticator.xml"
+        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\debug\\xml\\preferences.xml",
+        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\xml\\preferences.xml"
     },
     {
-        "merged": "/home/leason/linphone/build/intermediates/res/merged/debug/xml/preferences.xml",
-        "source": "/home/leason/linphone/res/xml/preferences.xml"
+        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\debug\\xml\\syncadapter.xml",
+        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\xml\\syncadapter.xml"
     }
 ]
