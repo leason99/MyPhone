@@ -53,7 +53,7 @@
     <uses-permission android:name="android.permission.READ_SYNC_SETTINGS" />
     <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS" />
     <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
-
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
     <supports-screens
         android:anyDensity="true"
         android:largeScreens="true"
@@ -204,6 +204,7 @@
                 android:name="android.provider.CONTACTS_STRUCTURE"
                 android:resource="@xml/contacts" />
         </service>
+
         <service android:name=".sync.AuthenticationService">
             <intent-filter>
                 <action android:name="android.accounts.AccountAuthenticator" />
@@ -213,7 +214,9 @@
                 android:name="android.accounts.AccountAuthenticator"
                 android:resource="@xml/authenticator" />
         </service>
-
+        <service
+            android:name="message_float_view.FloatViewService"
+            android:exported="false"/>
         <receiver android:name=".NetworkManager">
             <intent-filter>
                 <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
@@ -294,7 +297,11 @@
         <activity android:name=".MyLogin" />
         <activity android:name=".ContactEditorFragment" />
         <activity android:name=".MySetting" />
-        <activity android:name=".MyAccountPreferenceActivity"></activity>
+        <activity android:name=".MyAccountPreferenceActivity"></activity><!-- ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information. -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
     </application>
 
 </manifest>

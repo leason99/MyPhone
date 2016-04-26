@@ -129,7 +129,7 @@ public class ChatFragment extends Fragment implements OnClickListener, LinphoneC
 	private LinphoneCoreListenerBase mListener;
 	private ByteArrayInputStream mUploadingImageStream;
 	private boolean newChatConversation = false;
-
+	public View chatroomview=null;
 	public static boolean isInstanciated() {
 		return instance != null;
 	}
@@ -259,7 +259,7 @@ public class ChatFragment extends Fragment implements OnClickListener, LinphoneC
 				}
 			}
 		};
-
+		chatroomview=view;
 		return view;
 	}
 
@@ -1093,4 +1093,5 @@ public class ChatFragment extends Fragment implements OnClickListener, LinphoneC
 
 	@Override
 	public void onLinphoneChatMessageFileTransferProgressChanged(LinphoneChatMessage msg, LinphoneContent content, int offset, int total) {}
+
 }

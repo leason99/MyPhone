@@ -105,6 +105,20 @@
 			android:paddingRight="10dp"
 			android:singleLine="true"/>
 
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceSmall"
+			android:text="register"
+			android:id="@+id/register"
+			android:textSize="30dp"
+			android:layout_gravity="right"
+			android:textColor="#7eacf7"
+			android:contextClickable="false"
+			android:textIsSelectable="false"
+			android:singleLine="false"
+			android:textStyle="italic" />
+
 		<Button
 			android:id="@+id/assistant_apply"
 			android:text="@string/assistant_login"
@@ -117,7 +131,8 @@
 			android:paddingRight="10dp"
 			android:layout_marginTop="20dp"
 			android:layout_centerInParent="true"
-			android:layout_centerVertical="true"/>
+			android:layout_centerVertical="true"
+			android:layout_gravity="center_horizontal" />
 
 	</LinearLayout>
 </LinearLayout>

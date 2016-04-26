@@ -409,7 +409,7 @@ void transfer_message_base2(LinphoneCoreManager* marie, LinphoneCoreManager* pau
 	LinphoneChatMessageCbs *cbs;
 
 	/* Globally configure an http file transfer server. */
-	linphone_core_set_file_transfer_server(pauline->lc,"http://162.243.22.222/lft.php");
+	linphone_core_set_file_transfer_server(pauline->lc,"http://162.243.4.139/lft.php");
 
 	/* create a chatroom on pauline's side */
 	chat_room = linphone_core_get_chat_room(pauline->lc, marie->identity);
@@ -488,7 +488,7 @@ static void transfer_message_upload_cancelled(void) {
 		LinphoneCoreManager* pauline = linphone_core_manager_new( "pauline_tcp_rc");
 
 		/* Globally configure an http file transfer server. */
-		linphone_core_set_file_transfer_server(pauline->lc,"http://162.243.22.222/lft.php");
+		linphone_core_set_file_transfer_server(pauline->lc,"http://162.243.4.139/lft.php");
 
 		/* create a chatroom on pauline's side */
 		chat_room = linphone_core_get_chat_room(pauline->lc, marie->identity);
@@ -517,7 +517,7 @@ static void transfer_message_download_cancelled(void) {
 	LinphoneCoreManager* pauline = linphone_core_manager_new( "pauline_tcp_rc");
 
 	/* Globally configure an http file transfer server. */
-	linphone_core_set_file_transfer_server(pauline->lc,"http://162.243.22.222/lft.php");
+	linphone_core_set_file_transfer_server(pauline->lc,"http://162.243.4.139/lft.php");
 
 	/* create a chatroom on pauline's side */
 	chat_room = linphone_core_get_chat_room(pauline->lc,marie->identity);
@@ -593,7 +593,7 @@ static void file_transfer_2_messages_simultaneously(void) {
 		LinphoneCoreManager* pauline = linphone_core_manager_new( "pauline_tcp_rc");
 
 		/* Globally configure an http file transfer server. */
-		linphone_core_set_file_transfer_server(pauline->lc,"http://162.243.22.222/lft.php");
+		linphone_core_set_file_transfer_server(pauline->lc,"http://162.243.4.139/lft.php");
 
 		/* create a chatroom on pauline's side */
 		pauline_room = linphone_core_get_chat_room(pauline->lc, marie->identity);
@@ -842,7 +842,7 @@ void lime_transfer_message_base(bool_t encrypt_file) {
 	ms_free(filepath);
 
 	/* Globally configure an http file transfer server. */
-	linphone_core_set_file_transfer_server(pauline->lc,"http://162.243.22.222/lft.php");
+	linphone_core_set_file_transfer_server(pauline->lc,"http://162.243.4.139/lft.php");
 
 	/* create a file transfer msg */
 	msg = create_message_from_nowebcam(linphone_core_get_chat_room(pauline->lc, marie->identity));
@@ -1286,7 +1286,7 @@ static void file_transfer_not_sent_if_url_moved_permanently(void) {
 }
 
 static void file_transfer_io_error_after_destroying_chatroom(void) {
-	file_transfer_io_error_base("http://162.243.22.222/lft.php", TRUE);
+	file_transfer_io_error_base("http://162.243.4.139/lft.php", TRUE);
 }
 
 static void real_time_text(bool_t audio_stream_enabled, bool_t srtp_enabled, bool_t mess_with_marie_payload_number, bool_t mess_with_pauline_payload_number, bool_t ice_enabled) {

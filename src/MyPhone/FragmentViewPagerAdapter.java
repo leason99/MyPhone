@@ -1,4 +1,4 @@
-package MyPhone;
+package myphone;
 
 
 import android.app.Fragment;

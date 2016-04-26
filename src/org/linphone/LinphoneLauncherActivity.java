@@ -20,110 +20,150 @@ package org.linphone;
 
 import static android.content.Intent.ACTION_MAIN;
 
-import org.linphone.mediastream.Log;
 import org.linphone.assistant.RemoteProvisioningActivity;
 import org.linphone.tutorials.TutorialLauncherActivity;
 
-import android.*;
 import android.app.Activity;
+import android.content.Context;
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
 import android.content.pm.PackageManager;
+import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
+import android.provider.Settings;
+
+import message_float_view.FloatViewService;
 
 /**
- * 
  * Launch Linphone main activity when Service is ready.
- * 
- * @author Guillaume Beraudo
  *
+ * @author Guillaume Beraudo
  */
 public class LinphoneLauncherActivity extends Activity {
 
-	private Handler mHandler;
-	private ServiceWaitThread mThread;
+    private Handler mHandler;
+    private ServiceWaitThread mThread;
 
-	@Override
-	protected void onCreate(Bundle savedInstanceState) {
-		super.onCreate(savedInstanceState);
-		
-		// Used to change for the lifetime of the app the name used to tag the logs
-		new Log(getResources().getString(R.string.app_name), !getResources().getBoolean(R.bool.disable_every_log));
-		
-		// Hack to avoid to draw twice LinphoneActivity on tablets
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+
+        // Used to change for the lifetime of the app the name used to tag the logs
+        //	new Log(getResources().getString(R.string.app_name), !getResources().getBoolean(R.bool.disable_every_log));
+
+        // Hack to avoid to draw twice LinphoneActivity on tablets
         if (getResources().getBoolean(R.bool.isTablet)) {
-        	setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
-        } else  if (getResources().getBoolean(R.bool.orientation_portrait_only)) {
-			setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
+            setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
+        } else if (getResources().getBoolean(R.bool.orientation_portrait_only)) {
+            setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
+        }
+        setContentView(R.layout.my_phone_launcher);
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+            char permissions [][]= new char[][]{android.Manifest.permission.READ_CONTACTS.toCharArray()
+                    , android.Manifest.permission.CAMERA.toCharArray()
+                    , android.Manifest.permission.WRITE_EXTERNAL_STORAGE.toCharArray()
+                    , android.Manifest.permission.RECORD_AUDIO.toCharArray()
+                    , android.Manifest.permission.READ_EXTERNAL_STORAGE.toCharArray()
+                    , android.Manifest.permission.SYSTEM_ALERT_WINDOW.toCharArray()};
+            for (char permission[] : permissions) {
+
+                if (checkSelfPermission(String.valueOf(permission)) != PackageManager.PERMISSION_GRANTED) {
+                    requestPermissions(new String[]{String.valueOf(permission)}, 0);
+                }
+
+               // while (checkSelfPermission(String.valueOf(permission)) != PackageManager.PERMISSION_GRANTED);
+            }
+        }
+
+
+     /*new Thread(new Runnable() {
+         @Override
+         public void run() {*/
+
+       //if (Settings.canDrawOverlays(getApplicationContext())) {
+      //  final Intent intent = new Intent(Settings.ACTION_MANAGE_OVERLAY_PERMISSION, Uri.parse("package:" + this.getPackageName()));
+      //  startActivityForResult(intent, 100);
+        //startService(new Intent(ACTION_MAIN).setClass(this, FloatViewService.class));
+      // getApplicationContext().startService(new Intent(getApplicationContext(), FloatViewService.class));
+
+       //}
+       /*  }
+     }).start();*/
+
+
+        mHandler = new Handler();
+
+
+        if (LinphoneService.isReady()) {
+            onServiceReady();
+        } else {
+            // start linphone as background
+            startService(new Intent(ACTION_MAIN).setClass(this, LinphoneService.class));
+            mThread = new ServiceWaitThread();
+            mThread.start();
+        }
+    }
+
+    protected void onServiceReady() {
+        final Class<? extends Activity> classToStart;
+        if (getResources().getBoolean(R.bool.show_tutorials_instead_of_app)) {
+            classToStart = TutorialLauncherActivity.class;
+        } else if (getResources().getBoolean(R.bool.display_sms_remote_provisioning_activity) && LinphonePreferences.instance().isFirstRemoteProvisioning()) {
+            classToStart = RemoteProvisioningActivity.class;
+        } else {
+            classToStart = LinphoneActivity.class;
+        }
+
+        LinphoneService.instance().setActivityToLaunchOnIncomingReceived(classToStart);
+        mHandler.postDelayed(new Runnable() {
+            @Override
+            public void run() {
+
+                startActivity(new Intent().setClass(LinphoneLauncherActivity.this, classToStart).setData(getIntent().getData()));
+                finish();
+            }
+        }, 1000);
+    }
+
+
+    private class ServiceWaitThread extends Thread {
+        public void run() {
+            while (!LinphoneService.isReady()) {
+                try {
+                    sleep(30);
+                } catch (InterruptedException e) {
+                    throw new RuntimeException("waiting thread sleep() has been interrupted");
+                }
+            }
+            mHandler.post(new Runnable() {
+                @Override
+                public void run() {
+                    onServiceReady();
+                }
+            });
+            mThread = null;
+        }
+
+    }
+    private boolean showChatHead(Context context) {
+        // API22以下かチェック
+	/*	if (Build.VERSION.SDK_INT <= Build.VERSION_CODES.LOLLIPOP_MR1) {
+			context.startService(new Intent(context, FloatViewService.class));
+			return true;
 		}
-		setContentView(R.layout.my_phone_launcher);
-        
-		mHandler = new Handler();
+
+		// 他のアプリの上に表示できるかチェック
 		if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
-			if (checkSelfPermission(android.Manifest.permission.READ_CONTACTS)!= PackageManager.PERMISSION_GRANTED&&(checkSelfPermission(android.Manifest.permission.WRITE_EXTERNAL_STORAGE)!= PackageManager.PERMISSION_GRANTED)) {
-				requestPermissions(new String[]{android.Manifest.permission.READ_CONTACTS, android.Manifest.permission.CAMERA,android.Manifest.permission.WRITE_EXTERNAL_STORAGE, android.Manifest.permission.RECORD_AUDIO,android.Manifest.permission.READ_EXTERNAL_STORAGE}, 0);
-			}
-			while(checkSelfPermission(android.Manifest.permission.READ_EXTERNAL_STORAGE)!= PackageManager.PERMISSION_GRANTED);
+			if (Settings.canDrawOverlays(context)) {
+                   context.startService(new Intent(context, FloatViewService.class));
+                   return true;
+               }
 		}
-
-		if (LinphoneService.isReady()) {
-			onServiceReady();
-		} else {
-			// start linphone as background  
-			startService(new Intent(ACTION_MAIN).setClass(this, LinphoneService.class));
-			mThread = new ServiceWaitThread();
-			mThread.start();
-		}
-	}
-
-	protected void onServiceReady() {
-		final Class<? extends Activity> classToStart;
-		if (getResources().getBoolean(R.bool.show_tutorials_instead_of_app)) {
-			classToStart = TutorialLauncherActivity.class;
-		} else if (getResources().getBoolean(R.bool.display_sms_remote_provisioning_activity) && LinphonePreferences.instance().isFirstRemoteProvisioning()) {
-			classToStart = RemoteProvisioningActivity.class;
-		}
-		else{
-			classToStart = LinphoneActivity.class;
-		}
-
-		LinphoneService.instance().setActivityToLaunchOnIncomingReceived(classToStart);
-		mHandler.postDelayed(new Runnable() {
-			@Override
-			public void run() {
-				if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
-					if (checkSelfPermission(android.Manifest.permission.READ_CONTACTS)!= PackageManager.PERMISSION_GRANTED) {
-						requestPermissions(new String[]{android.Manifest.permission.READ_CONTACTS, android.Manifest.permission.CAMERA, android.Manifest.permission.RECORD_AUDIO}, 0);
-					}
-
-				}
-				startActivity(new Intent().setClass(LinphoneLauncherActivity.this, classToStart).setData(getIntent().getData()));
-				finish();
-			}
-		}, 1000);
-	}
-
-
-	private class ServiceWaitThread extends Thread {
-		public void run() {
-			while (!LinphoneService.isReady()) {
-				try {
-					sleep(30);
-				} catch (InterruptedException e) {
-					throw new RuntimeException("waiting thread sleep() has been interrupted");
-				}
-			}
-			mHandler.post(new Runnable() {
-				@Override
-				public void run() {
-					onServiceReady();
-				}
-			});
-			mThread = null;
-		}
-	}
+*/context.startService(new Intent(context, FloatViewService.class));
+        return false;
+    }
 }
 
 

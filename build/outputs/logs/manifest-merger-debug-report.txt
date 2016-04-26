@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:2:1-300:12
+ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:2:1-307:12
 	package
 		ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:3:5-27
 	android:versionCode
@@ -13,6 +13,12 @@ ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:2:1-300:
 		ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:4:5-35
 uses-sdk
 ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.recruit-lifestyle:FloatingView:1.7] C:\Users\leason\Documents\GitHub\MyPhone\build\intermediates\exploded-aar\com.github.recruit-lifestyle\FloatingView\1.7\AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:appcompat-v7:22.2.0] C:\Users\leason\Documents\GitHub\MyPhone\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:22.2.0] C:\Users\leason\Documents\GitHub\MyPhone\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-appindexing:8.1.0] C:\Users\leason\Documents\GitHub\MyPhone\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.1.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] C:\Users\leason\Documents\GitHub\MyPhone\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.2.0] C:\Users\leason\Documents\GitHub\MyPhone\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:20:5-43
 	android:targetSdkVersion
 		ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:9:9-38
 		INJECTED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml
@@ -137,6 +143,10 @@ uses-permission#android.permission.AUTHENTICATE_ACCOUNTS
 ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:55:5-80
 	android:name
 		ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:55:22-77
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:56:5-77
+	android:name
+		ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:56:22-75
 supports-screens
 ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:57:5-62:40
 	android:largeScreens
@@ -154,7 +164,12 @@ ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:64:5-80
 	android:name
 		ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:64:22-77
 application
-ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:66:5-298:19
+ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:66:5-305:19
+MERGED from [com.android.support:appcompat-v7:22.2.0] C:\Users\leason\Documents\GitHub\MyPhone\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:22.2.0] C:\Users\leason\Documents\GitHub\MyPhone\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-appindexing:8.1.0] C:\Users\leason\Documents\GitHub\MyPhone\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.1.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] C:\Users\leason\Documents\GitHub\MyPhone\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.2.0] C:\Users\leason\Documents\GitHub\MyPhone\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:22:5-20
 	android:label
 		ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:69:9-41
 	android:allowBackup
@@ -322,134 +337,147 @@ ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:203:13-2
 	android:name
 		ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:204:17-67
 service#org.linphone.sync.AuthenticationService
-ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:207:9-215:19
+ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:208:9-216:19
 	android:name
-		ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:207:18-60
+		ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:208:18-60
 intent-filter#android.accounts.AccountAuthenticator
-ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:208:13-210:29
+ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:209:13-211:29
 action#android.accounts.AccountAuthenticator
-ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:209:17-80
+ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:210:17-80
 	android:name
-		ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:209:25-77
+		ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:210:25-77
 meta-data#android.accounts.AccountAuthenticator
-ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:212:13-214:57
+ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:213:13-215:57
 	android:resource
-		ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:214:17-54
+		ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:215:17-54
 	android:name
-		ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:213:17-69
+		ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:214:17-69
+service#message_float_view.FloatViewService
+ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:217:9-219:39
+	android:exported
+		ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:219:13-37
+	android:name
+		ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:218:13-63
 receiver#org.linphone.NetworkManager
-ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:217:9-221:20
+ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:220:9-224:20
 	android:name
-		ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:217:19-49
+		ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:220:19-49
 intent-filter#android.net.conn.CONNECTIVITY_CHANGE
-ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:218:13-220:29
+ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:221:13-223:29
 action#android.net.conn.CONNECTIVITY_CHANGE
-ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:219:17-79
+ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:222:17-79
 	android:name
-		ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:219:25-76
+		ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:222:25-76
 receiver#org.linphone.BluetoothManager
-ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:222:9-224:39
+ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:225:9-227:39
 	android:enabled
-		ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:224:13-36
+		ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:227:13-36
 	android:name
-		ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:223:13-45
+		ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:226:13-45
 receiver#org.linphone.BootReceiver
-ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:225:9-229:20
+ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:228:9-232:20
 	android:name
-		ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:225:19-47
+		ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:228:19-47
 intent-filter#android.intent.action.BOOT_COMPLETED
-ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:226:13-228:29
+ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:229:13-231:29
 action#android.intent.action.BOOT_COMPLETED
-ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:227:17-79
+ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:230:17-79
 	android:name
-		ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:227:25-76
+		ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:230:25-76
 receiver#org.linphone.PhoneStateChangedReceiver
-ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:230:9-234:20
+ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:233:9-237:20
 	android:name
-		ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:230:19-60
+		ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:233:19-60
 intent-filter#android.intent.action.PHONE_STATE
-ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:231:13-233:29
+ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:234:13-236:29
 action#android.intent.action.PHONE_STATE
-ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:232:17-76
+ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:235:17-76
 	android:name
-		ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:232:25-73
+		ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:235:25-73
 receiver#org.linphone.KeepAliveHandler
-ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:235:9-54
+ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:238:9-54
 	android:name
-		ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:235:19-51
+		ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:238:19-51
 receiver#org.linphone.gcm.GCMReceiver
-ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:238:9-248:20
+ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:241:9-251:20
 	android:permission
-		ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:240:13-73
+		ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:243:13-73
 	android:name
-		ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:239:13-44
+		ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:242:13-44
 intent-filter#com.google.android.c2dm.intent.RECEIVE+com.google.android.c2dm.intent.REGISTRATION+org.linphone
-ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:241:13-247:29
+ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:244:13-250:29
 action#com.google.android.c2dm.intent.RECEIVE
-ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:242:17-81
+ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:245:17-81
 	android:name
-		ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:242:25-78
+		ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:245:25-78
 action#com.google.android.c2dm.intent.REGISTRATION
-ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:243:17-86
+ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:246:17-86
 	android:name
-		ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:243:25-83
+		ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:246:25-83
 category#org.linphone
-ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:245:17-57
+ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:248:17-57
 	android:name
-		ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:245:27-54
+		ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:248:27-54
 service#org.linphone.gcm.GCMService
-ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:250:9-51
+ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:253:9-51
 	android:name
-		ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:250:18-48
+		ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:253:18-48
 activity#org.linphone.tutorials.TutorialLauncherActivity
-ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:252:9-258:20
+ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:255:9-261:20
 	android:theme
-		ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:254:13-43
+		ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:257:13-43
 	android:name
-		ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:253:13-63
+		ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:256:13-63
 activity#org.linphone.tutorials.TutorialBuddyStatusActivity
-ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:259:9-265:20
+ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:262:9-268:20
 	android:theme
-		ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:261:13-43
+		ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:264:13-43
 	android:name
-		ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:260:13-66
+		ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:263:13-66
 activity#org.linphone.tutorials.TutorialChatRoomActivity
-ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:266:9-272:20
+ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:269:9-275:20
 	android:theme
-		ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:268:13-43
+		ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:271:13-43
 	android:name
-		ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:267:13-63
+		ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:270:13-63
 activity#org.linphone.tutorials.TutorialHelloWorldActivity
-ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:273:9-279:20
+ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:276:9-282:20
 	android:theme
-		ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:275:13-43
+		ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:278:13-43
 	android:name
-		ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:274:13-65
+		ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:277:13-65
 activity#org.linphone.tutorials.TutorialRegistrationActivity
-ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:280:9-286:20
+ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:283:9-289:20
 	android:theme
-		ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:282:13-43
+		ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:285:13-43
 	android:name
-		ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:281:13-67
+		ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:284:13-67
 activity#org.linphone.ChatActivity
-ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:287:9-293:20
+ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:290:9-296:20
 	android:theme
-		ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:289:13-43
+		ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:292:13-43
 	android:name
-		ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:288:13-41
+		ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:291:13-41
 activity#org.linphone.MyLogin
-ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:294:9-45
+ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:297:9-45
 	android:name
-		ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:294:19-42
+		ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:297:19-42
 activity#org.linphone.ContactEditorFragment
-ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:295:9-59
+ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:298:9-59
 	android:name
-		ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:295:19-56
+		ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:298:19-56
 activity#org.linphone.MySetting
-ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:296:9-47
+ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:299:9-47
 	android:name
-		ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:296:19-44
+		ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:299:19-44
 activity#org.linphone.MyAccountPreferenceActivity
-ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:297:9-74
+ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:300:9-74
 	android:name
-		ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:297:19-62
+		ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:300:19-62
+meta-data#com.google.android.gms.version
+ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:302:9-304:69
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] C:\Users\leason\Documents\GitHub\MyPhone\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:304:13-66
+	android:name
+		ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:303:13-58

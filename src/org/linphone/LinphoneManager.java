@@ -108,6 +108,8 @@ import android.view.Window;
 import android.view.WindowManager;
 import android.widget.Toast;
 
+import message_float_view.FloatViewService;
+
 /**
  *
  * Manager of the low level LibLinphone stuff.<br />
@@ -850,6 +852,7 @@ public class LinphoneManager implements LinphoneCoreListener, LinphoneChatMessag
 
 		String textMessage = message.getText();
 		String url = message.getExternalBodyUrl();
+
 		if (textMessage != null && textMessage.length() > 0) {
 			ChatStorage.getInstance().saveTextMessage(from.asStringUriOnly(), "", textMessage, message.getTime());
 		} else if (url != null && url.length() > 0) {
@@ -860,14 +863,18 @@ public class LinphoneManager implements LinphoneCoreListener, LinphoneChatMessag
 			Contact contact = ContactsManager.getInstance().findContactWithAddress(mServiceContext.getContentResolver(), from);
 			if (!mServiceContext.getResources().getBoolean(R.bool.disable_chat_message_notification)) {
 				if (LinphoneActivity.isInstanciated() && !LinphoneActivity.instance().displayChatMessageNotification(from.asStringUriOnly())) {
-					return;
+					{
+						return;
+					}
 				} else {
 					if (contact != null) {
 						LinphoneService.instance().displayMessageNotification(from.asStringUriOnly(), contact.getName(), textMessage);
 					} else {
 						LinphoneService.instance().displayMessageNotification(from.asStringUriOnly(), from.getUserName(), textMessage);
 					}
+
 				}
+				showChatHead(getContext(),from.asStringUriOnly());
 			}
 		} catch (Exception e) {
 			Log.e(e);
@@ -1455,5 +1462,25 @@ public class LinphoneManager implements LinphoneCoreListener, LinphoneChatMessag
 			int delay_ms, Object data) {
 		// TODO Auto-generated method stub
 
+	}
+	private boolean showChatHead(Context context,String sipUri ) {
+		// API22以下かチェック
+	/*	if (Build.VERSION.SDK_INT <= Build.VERSION_CODES.LOLLIPOP_MR1) {
+			context.startService(new Intent(context, FloatViewService.class));
+			return true;
+		}
+
+		// 他のアプリの上に表示できるかチェック
+		if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+			if (Settings.canDrawOverlays(context)) {
+                   context.startService(new Intent(context, FloatViewService.class));
+                   return true;
+               }
+		}*/
+
+		Intent intent= new  Intent(context, FloatViewService.class);
+		intent.putExtra("sipUri",sipUri);
+		context.startService(intent);
+		return false;
 	}
 }

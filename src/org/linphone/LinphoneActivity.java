@@ -3,17 +3,14 @@ package org.linphone;
 /*
  LinphoneActivity.java
  Copyright (C) 2012  Belledonne Communications, Grenoble, France
-
  This program is free software; you can redistribute it and/or
  modify it under the terms of the GNU General Public License
  as published by the Free Software Foundation; either version 2
  of the License, or (at your option) any later version.
-
  This program is distributed in the hope that it will be useful,
  but WITHOUT ANY WARRANTY; without even the implied warranty of
  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  GNU General Public License for more details.
-
  You should have received a copy of the GNU General Public License
  along with this program; if not, write to the Free Software
  Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
@@ -29,7 +26,6 @@ import java.util.Collection;
 import java.util.List;
 
 import org.linphone.LinphoneManager.AddressType;
-import org.linphone.assistant.AssistantActivity;
 import org.linphone.core.CallDirection;
 import org.linphone.core.LinphoneAddress;
 import org.linphone.core.LinphoneAuthInfo;
@@ -55,26 +51,22 @@ import android.app.Activity;
 import android.app.Dialog;
 import android.app.DialogFragment;
 import android.app.Fragment;
-import android.app.FragmentManager;
 import android.app.FragmentTransaction;
+import android.content.ActivityNotFoundException;
 import android.content.Context;
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
-import android.content.pm.PackageManager;
 import android.graphics.Bitmap;
 import android.graphics.drawable.ColorDrawable;
 import android.graphics.drawable.Drawable;
 import android.net.Uri;
-import android.opengl.Visibility;
 import android.os.Build;
 import android.os.Bundle;
 //import android.support.v4.view.PagerAdapter;
-import android.support.v4.content.ContextCompat;
-import android.support.v4.view.PagerAdapter;
+import android.provider.Settings;
 import android.support.v4.view.ViewPager;
 //import android.support.v4.app.FragmentManager;
 import android.support.v4.widget.DrawerLayout;
-import android.text.Layout;
 import android.view.Gravity;
 import android.view.KeyEvent;
 import android.view.LayoutInflater;
@@ -95,8 +87,13 @@ import android.widget.ListView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
-import  android.Manifest;
-import MyPhone.FragmentViewPagerAdapter;
+
+import com.google.android.gms.appindexing.Action;
+import com.google.android.gms.appindexing.AppIndex;
+import com.google.android.gms.common.api.GoogleApiClient;
+
+import message_float_view.FloatViewService;
+import myphone.FragmentViewPagerAdapter;
 
 /**
  * @author Sylvain Berfini
@@ -112,9 +109,9 @@ public class LinphoneActivity extends Activity implements OnClickListener, Conta
 
     private StatusFragment statusFragment;
     private TextView missedCalls, missedChats;
-    private RelativeLayout contacts, history, dialer, chat,myInfo;
-    private View contacts_selected,myInfo_selectes,history_selected, dialer_selected, chat_selected;
-   // private RelativeLayout mTopBar;
+    private RelativeLayout contacts, history, dialer, chat, myInfo;
+    private View contacts_selected, myInfo_selectes, history_selected, dialer_selected, chat_selected;
+    // private RelativeLayout mTopBar;
     private ImageView cancel;
     private FragmentsAvailable currentFragment, nextFragment;
     private List<FragmentsAvailable> fragmentsHistory;
@@ -133,12 +130,18 @@ public class LinphoneActivity extends Activity implements OnClickListener, Conta
     private ListView accountsList, sideMenuItemList;
     private ImageView menu;
 
-    private  ViewPager viewPager;
+    private ViewPager viewPager;
     public List<Fragment> fragments;
     private FragmentViewPagerAdapter adapter;
     private ImageView add;
     private Fragment newFragment;
-    public static  LinphonePreferences mPrefs;
+    public static LinphonePreferences mPrefs;
+    /**
+     * ATTENTION: This was auto-generated to implement the App Indexing API.
+     * See https://g.co/AppIndexing/AndroidStudio for more information.
+     */
+    private GoogleApiClient client;
+
     static final boolean isInstanciated() {
         return instance != null;
     }
@@ -148,10 +151,12 @@ public class LinphoneActivity extends Activity implements OnClickListener, Conta
             return instance;
         throw new RuntimeException("LinphoneActivity not instantiated yet");
     }
-public ViewPager getViewPager(){
 
-    return viewPager;
-}
+    public ViewPager getViewPager() {
+
+        return viewPager;
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -161,6 +166,9 @@ public ViewPager getViewPager(){
         } else if (getResources().getBoolean(R.bool.orientation_portrait_only)) {
             setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
         }
+
+
+        // startService(new Intent(this, FloatViewService.class));
 
         if (!LinphoneManager.isInstanciated()) {
             Log.e("No service running: avoid crash by starting the launch", this.getClass().getName());
@@ -177,11 +185,11 @@ public ViewPager getViewPager(){
             startActivityForResult(wizard, REMOTE_PROVISIONING_LOGIN_ACTIVITY);
         }
 
-     //   else if (useFirstLoginActivity && LinphonePreferences.instance().isFirstLaunch()) {
-            else {
+        //   else if (useFirstLoginActivity && LinphonePreferences.instance().isFirstLaunch()) {
+        else {
             if (LinphonePreferences.instance().getAccountCount() > 0) {
                 LinphonePreferences.instance().firstLaunchSuccessful();
-                mPrefs =LinphonePreferences.instance();
+                mPrefs = LinphonePreferences.instance();
             } else {
                 startActivityForResult(new Intent().setClass(this, MyLogin.class), FIRST_LOGIN_ACTIVITY);
             }
@@ -198,7 +206,7 @@ public ViewPager getViewPager(){
         instance = this;
         fragmentsHistory = new ArrayList<FragmentsAvailable>();
         initButtons();
-      //   initSideMenu();
+        //   initSideMenu();
         //currentFragment = nextFragment = FragmentsAvailable.DIALER;
         currentFragment = nextFragment = FragmentsAvailable.CONTACTS_LIST;
         fragmentsHistory.add(currentFragment);
@@ -224,10 +232,9 @@ public ViewPager getViewPager(){
                     getFragmentManager().beginTransaction().remove(newFragment).commit();
                 }
 
-                if (i ==2) {
+                if (i == 2) {
                     add.setVisibility(View.GONE);
-                }
-                else {
+                } else {
                     add.setVisibility(View.VISIBLE);
                 }
             }
@@ -235,13 +242,11 @@ public ViewPager getViewPager(){
 
         //viewPager.setAdapter(adapter);
 /*
-		if (savedInstanceState == null) {
+        if (savedInstanceState == null) {
 			if (findViewById(R.id.fragmentContainer) != null) {
 				dialerFragment = new ContactsListFragment();//  改成  contactslist
 				dialerFragment.setArguments(getIntent().getExtras());
-
 				getFragmentManager().beginTransaction().add(R.id.fragmentContainer, dialerFragment, currentFragment.toString()).commit();
-
 				selectMenu(FragmentsAvailable.CONTACTS_LIST);
 			}
 		}
@@ -254,6 +259,7 @@ public ViewPager getViewPager(){
                 if (!displayChatMessageNotification(message.getFrom().asStringUriOnly())) {
                     cr.markAsRead();
                 }
+
                 displayMissedChats(getUnreadMessageCount());
                 if (messageListFragment != null && messageListFragment.isVisible()) {
                     ((ChatListFragment) messageListFragment).refresh();
@@ -261,7 +267,7 @@ public ViewPager getViewPager(){
             }
 
             @Override
-            public void registrationState(LinphoneCore lc, LinphoneProxyConfig proxy, LinphoneCore.RegistrationState state, String smessage) {
+            public void registrationState(LinphoneCore lc, LinphoneProxyConfig proxy, RegistrationState state, String smessage) {
                 if (state.equals(RegistrationState.RegistrationCleared)) {
                     if (lc != null) {
                         LinphoneAuthInfo authInfo = lc.findAuthInfo(proxy.getIdentity(), proxy.getRealm(), proxy.getDomain());
@@ -287,7 +293,7 @@ public ViewPager getViewPager(){
             }
 
             @Override
-            public void callState(LinphoneCore lc, LinphoneCall call, LinphoneCall.State state, String message) {
+            public void callState(LinphoneCore lc, LinphoneCall call, State state, String message) {
                 if (state == State.IncomingReceived) {
                     startActivity(new Intent(LinphoneActivity.instance(), CallIncomingActivity.class));
                 } else if (state == State.OutgoingInit || state == State.OutgoingProgress) {
@@ -338,6 +344,9 @@ public ViewPager getViewPager(){
         LinphoneManager.getLc().setDeviceRotation(rotation);
         mAlwaysChangingPhoneAngle = rotation;
         updateAnimationsState();
+        // ATTENTION: This was auto-generated to implement the App Indexing API.
+        // See https://g.co/AppIndexing/AndroidStudio for more information.
+        client = new GoogleApiClient.Builder(this).addApi(AppIndex.API).build();
     }
 
     private void initButtons() {
@@ -353,7 +362,7 @@ public ViewPager getViewPager(){
         contacts.setOnClickListener(this);
         myInfo = (RelativeLayout) findViewById(R.id.myInfo);
         myInfo.setOnClickListener(this);
-        myInfo_selectes=(View)findViewById(R.id.myInfo_select);
+        myInfo_selectes = (View) findViewById(R.id.myInfo_select);
         //dialer = (RelativeLayout) findViewById(R.id.dialer);
         //dialer.setOnClickListener(this);
         chat = (RelativeLayout) findViewById(R.id.chat);
@@ -382,6 +391,7 @@ public ViewPager getViewPager(){
         findViewById(R.id.fragmentContainer).setPadding(0, 0, 0, 0);
     }
 
+
     public void showStatusBar() {
         if (isTablet()) {
             return;
@@ -403,8 +413,8 @@ public ViewPager getViewPager(){
 
     private void changeCurrentFragment(FragmentsAvailable newFragmentType, Bundle extras, boolean withoutAnimation) {
 
-    if (newFragmentType == currentFragment && newFragmentType != FragmentsAvailable.CHAT&& newFragmentType!= FragmentsAvailable.CONTACT_DETAIL) {
-        return;
+        if (newFragmentType == currentFragment && newFragmentType != FragmentsAvailable.CHAT && newFragmentType != FragmentsAvailable.CONTACT_DETAIL) {
+            return;
         }
         nextFragment = newFragmentType;
 
@@ -416,7 +426,7 @@ public ViewPager getViewPager(){
         }
 
         newFragment = null;
-        Intent intent= new Intent();
+        Intent intent = new Intent();
         switch (newFragmentType) {
             case HISTORY_LIST:
                 newFragment = new HistoryListFragment();
@@ -445,7 +455,7 @@ public ViewPager getViewPager(){
                 intent.putExtras(extras);
                 intent.setClass(this, ContactEditorFragment.class);
                 startActivity(intent);
-              //  newFragment = new ContactEditorFragment();
+                //  newFragment = new ContactEditorFragment();
                 break;
             case DIALER:
                 newFragment = new DialerFragment();
@@ -455,9 +465,9 @@ public ViewPager getViewPager(){
                 dialerFragment = newFragment;
                 break;
             case SETTINGS:
-               startActivity(new Intent().setClass(this,MySetting.class));
+                startActivity(new Intent().setClass(this, MySetting.class));
 
-               // newFragment = new SettingsFragment();
+                // newFragment = new SettingsFragment();
                 break;
             case ACCOUNT_SETTINGS:
 
@@ -475,10 +485,10 @@ public ViewPager getViewPager(){
                 break;
             case CHAT:
                 intent.putExtras(extras);
-                intent.setClass(this,ChatActivity.class);
+                intent.setClass(this, ChatActivity.class);
                 startActivity(intent);
-               // newFragment = new ChatFragment();
-                newFragment=null;
+                // newFragment = new ChatFragment();
+                newFragment = null;
                 break;
             default:
                 break;
@@ -505,7 +515,7 @@ public ViewPager getViewPager(){
 
     private void changeFragment(Fragment newFragment, FragmentsAvailable newFragmentType, boolean withoutAnimation) {
         FragmentTransaction transaction = getFragmentManager().beginTransaction();
-
+/*
         if (!withoutAnimation && !isAnimationDisabled && currentFragment.shouldAnimate()) {
             if (newFragmentType.isRightOf(currentFragment)) {
                 transaction.setCustomAnimations(R.anim.slide_in_right_to_left,
@@ -518,7 +528,7 @@ public ViewPager getViewPager(){
                         R.anim.slide_in_right_to_left,
                         R.anim.slide_out_right_to_left);
             }
-        }
+        }*/
 
         if (newFragmentType != FragmentsAvailable.DIALER
                 || newFragmentType != FragmentsAvailable.CONTACTS_LIST
@@ -559,14 +569,14 @@ public ViewPager getViewPager(){
             } else {
                 ll.setVisibility(View.INVISIBLE);
             }
-
+/*
             if (!withoutAnimation && !isAnimationDisabled && currentFragment.shouldAnimate()) {
                 if (newFragmentType.isRightOf(currentFragment)) {
                     transaction.setCustomAnimations(R.anim.slide_in_right_to_left, R.anim.slide_out_right_to_left, R.anim.slide_in_left_to_right, R.anim.slide_out_left_to_right);
                 } else {
                     transaction.setCustomAnimations(R.anim.slide_in_left_to_right, R.anim.slide_out_left_to_right, R.anim.slide_in_right_to_left, R.anim.slide_out_right_to_left);
                 }
-            }
+            }*/
             transaction.replace(R.id.fragmentContainer, newFragment);
         }
         transaction.commitAllowingStateLoss();
@@ -580,7 +590,7 @@ public ViewPager getViewPager(){
                 || newFragmentType == FragmentsAvailable.HISTORY_LIST) {
             try {
                 getFragmentManager().popBackStackImmediate(null, POP_BACK_STACK_INCLUSIVE);
-            } catch (java.lang.IllegalStateException e) {
+            } catch (IllegalStateException e) {
 
             }
         }
@@ -767,6 +777,47 @@ public ViewPager getViewPager(){
         }
     }
 
+    public ChatFragment floatViewDisplayChat(String sipUri) {
+        ChatFragment floatChat = null;
+        if (getResources().getBoolean(R.bool.disable_chat)) {
+            return null;
+        }
+        LinphoneAddress lAddress;
+        try {
+            lAddress = LinphoneManager.getLc().interpretUrl(sipUri);
+        } catch (LinphoneCoreException e) {
+            //TODO display error message
+            Log.e("Cannot display chat", e);
+            return null;
+        }
+        Contact contact = ContactsManager.getInstance().findContactWithAddress(getContentResolver(), lAddress);
+        String displayName = contact != null ? contact.getName() : null;
+
+        String pictureUri = null;
+        String thumbnailUri = null;
+        if (contact != null && contact.getPhotoUri() != null) {
+            pictureUri = contact.getPhotoUri().toString();
+            thumbnailUri = contact.getThumbnailUri().toString();
+        }
+
+        Bundle extras = new Bundle();
+        extras.putString("SipUri", sipUri);
+        if (lAddress.getDisplayName() != null) {
+            extras.putString("DisplayName", displayName);
+            extras.putString("PictureUri", pictureUri);
+            extras.putString("ThumbnailUri", thumbnailUri);
+        }
+        floatChat = new ChatFragment();
+        floatChat.setArguments(extras);
+        if (messageListFragment != null && messageListFragment.isVisible()) {
+            ((ChatListFragment) messageListFragment).refresh();
+        }
+        LinphoneService.instance().resetMessageNotifCount();
+        LinphoneService.instance().removeMessageNotification();
+        displayMissedChats(getUnreadMessageCount());
+        return floatChat;
+    }
+
     @Override
     public void onClick(View v) {
         int id = v.getId();
@@ -777,16 +828,14 @@ public ViewPager getViewPager(){
             history_selected.setVisibility(View.VISIBLE);
             LinphoneManager.getLc().resetMissedCallsCount();
             displayMissedCalls(0);
-        }
-        else if(id==R.id.myInfo){
+        } else if (id == R.id.myInfo) {
 
             viewPager.setCurrentItem(2, true);
             myInfo_selectes.setVisibility(View.VISIBLE);
-        }
-        else if (id == R.id.contacts) {
+        } else if (id == R.id.contacts) {
             if (newFragment != null) {
                 getFragmentManager().beginTransaction().remove(newFragment).commit();
-                currentFragment=null;
+                currentFragment = null;
             }
             viewPager.setCurrentItem(0, true);
             //changeCurrentFragment(FragmentsAvailable.CONTACTS_LIST, null);
@@ -797,7 +846,7 @@ public ViewPager getViewPager(){
         } else if (id == R.id.chat) {
             if (newFragment != null) {
                 getFragmentManager().beginTransaction().remove(newFragment).commit();
-                currentFragment=null;
+                currentFragment = null;
             }
             viewPager.setCurrentItem(1, true);
             //changeCurrentFragment(FragmentsAvailable.CHAT_LIST, null);
@@ -806,10 +855,10 @@ public ViewPager getViewPager(){
             hideTopBar();
             displayDialer();
         } else if (id == R.id.add) {
-           if(viewPager.getCurrentItem()==0)
-            addContact(null, null);
-           else if(viewPager.getCurrentItem() ==1)
-            displayChat(null);
+            if (viewPager.getCurrentItem() == 0)
+                addContact(null, null);
+            else if (viewPager.getCurrentItem() == 1)
+                displayChat(null);
 
         }
     }
@@ -854,8 +903,8 @@ public ViewPager getViewPager(){
                 break;
             case SETTINGS:
             case ACCOUNT_SETTINGS:
-             //   hideTabBar(true);
-               // mTopBar.setVisibility(View.VISIBLE);
+                //   hideTabBar(true);
+                // mTopBar.setVisibility(View.VISIBLE);
                 break;
             case myInfo:
                 myInfo_selectes.setVisibility(View.VISIBLE);
@@ -1068,7 +1117,7 @@ public ViewPager getViewPager(){
 
         try {
             startActivity(Intent.createChooser(i, "Send mail..."));
-        } catch (android.content.ActivityNotFoundException ex) {
+        } catch (ActivityNotFoundException ex) {
             Log.e(ex);
         }
     }
@@ -1084,6 +1133,46 @@ public ViewPager getViewPager(){
     }
 
     private int mAlwaysChangingPhoneAngle = -1;
+
+    @Override
+    public void onStart() {
+        super.onStart();
+
+        // ATTENTION: This was auto-generated to implement the App Indexing API.
+        // See https://g.co/AppIndexing/AndroidStudio for more information.
+        client.connect();
+        Action viewAction = Action.newAction(
+                Action.TYPE_VIEW, // TODO: choose an action type.
+                "Linphone Page", // TODO: Define a title for the content shown.
+                // TODO: If you have web page content that matches this app activity's content,
+                // make sure this auto-generated web page URL is correct.
+                // Otherwise, set the URL to null.
+                Uri.parse("http://host/path"),
+                // TODO: Make sure this auto-generated app URL is correct.
+                Uri.parse("android-app://org.linphone/http/host/path")
+        );
+        AppIndex.AppIndexApi.start(client, viewAction);
+    }
+
+    @Override
+    public void onStop() {
+        super.onStop();
+
+        // ATTENTION: This was auto-generated to implement the App Indexing API.
+        // See https://g.co/AppIndexing/AndroidStudio for more information.
+        Action viewAction = Action.newAction(
+                Action.TYPE_VIEW, // TODO: choose an action type.
+                "Linphone Page", // TODO: Define a title for the content shown.
+                // TODO: If you have web page content that matches this app activity's content,
+                // make sure this auto-generated web page URL is correct.
+                // Otherwise, set the URL to null.
+                Uri.parse("http://host/path"),
+                // TODO: Make sure this auto-generated app URL is correct.
+                Uri.parse("android-app://org.linphone/http/host/path")
+        );
+        AppIndex.AppIndexApi.end(client, viewAction);
+        client.disconnect();
+    }
 
 
     private class LocalOrientationEventListener extends OrientationEventListener {
@@ -1137,7 +1226,7 @@ public ViewPager getViewPager(){
 
         if (LinphoneManager.isInstanciated() && LinphoneManager.getLc().getCallsNb() > 0) {
             LinphoneCall call = LinphoneManager.getLc().getCalls()[0];
-            if (call.getState() == LinphoneCall.State.IncomingReceived) {
+            if (call.getState() == State.IncomingReceived) {
                 startActivity(new Intent(LinphoneActivity.this, CallIncomingActivity.class));
             } else if (call.getCurrentParamsCopy().getVideoEnabled()) {
                 startVideoActivity(call);
@@ -1179,6 +1268,7 @@ public ViewPager getViewPager(){
 
     public void quit() {
         finish();
+        stopService(new Intent(ACTION_MAIN).setClass(this, FloatViewService.class));
         stopService(new Intent(ACTION_MAIN).setClass(this, LinphoneService.class));
     }
 
@@ -1214,8 +1304,7 @@ public ViewPager getViewPager(){
         getIntent().putExtra("PreviousActivity", 0);
         super.onPause();
     }
-   //
-
+    //
 
 
     @Override
@@ -1252,6 +1341,7 @@ public ViewPager getViewPager(){
             }
         }
     }
+
     @Override
     protected void onDestroy() {
         if (mOrientationHelper != null) {
@@ -1318,7 +1408,7 @@ public ViewPager getViewPager(){
                 if (calls.length > 0) {
                     LinphoneCall call = calls[0];
 
-                    if (call != null && call.getState() != LinphoneCall.State.IncomingReceived) {
+                    if (call != null && call.getState() != State.IncomingReceived) {
                         if (call.getCurrentParamsCopy().getVideoEnabled()) {
                             //startVideoActivity(call);
                         } else {
@@ -1329,8 +1419,8 @@ public ViewPager getViewPager(){
                 }
 
                 // If a call is ringing, start incomingcallactivity
-                Collection<LinphoneCall.State> incoming = new ArrayList<LinphoneCall.State>();
-                incoming.add(LinphoneCall.State.IncomingReceived);
+                Collection<State> incoming = new ArrayList<State>();
+                incoming.add(State.IncomingReceived);
                 if (LinphoneUtils.getCallsInState(LinphoneManager.getLc(), incoming).size() > 0) {
                     if (CallActivity.isInstanciated()) {
                         CallActivity.instance().startIncomingCallActivity();
@@ -1421,7 +1511,7 @@ public ViewPager getViewPager(){
         });
     }
 
-    private int getStatusIconResource(LinphoneCore.RegistrationState state) {
+    private int getStatusIconResource(RegistrationState state) {
         try {
             if (state == RegistrationState.RegistrationOk) {
                 return R.drawable.led_connected;
@@ -1458,8 +1548,7 @@ public ViewPager getViewPager(){
                     openOrCloseSideMenu(false);
                 }
             });
-        }
-        else {
+        } else {
             address.setText(proxy.getAddress().asStringUriOnly());
             displayName.setText(LinphoneUtils.getAddressDisplayName(proxy.getAddress()));
             status.setImageResource(getStatusIconResource(proxy.getState()));
@@ -1496,7 +1585,6 @@ public ViewPager getViewPager(){
     private void initAccounts() {
         accountsList = (ListView) findViewById(R.id.accounts_list);
         defaultAccount = (RelativeLayout) findViewById(R.id.default_account);
-
         refreshAccounts();
     }*/
 

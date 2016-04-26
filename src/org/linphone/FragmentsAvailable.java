@@ -33,7 +33,8 @@ public enum FragmentsAvailable {
 	SETTINGS,
 	CHAT_LIST,
 	CHAT,
-	myInfo;
+	myInfo,
+	register;
 
 	public boolean shouldAnimate() {
 		return true;

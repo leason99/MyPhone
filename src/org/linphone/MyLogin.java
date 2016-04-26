@@ -4,6 +4,7 @@ package org.linphone;
 
 import android.app.AlertDialog;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.os.Bundle;
 
 
@@ -54,6 +55,10 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import message_float_view.FloatViewService;
+
+import static android.content.Intent.ACTION_MAIN;
 
 /**
  * @author Sylvain Berfini
@@ -121,7 +126,10 @@ public class MyLogin extends Activity implements OnClickListener {
             exit.setPositiveButton("yes", new DialogInterface.OnClickListener() {
                 @Override
                 public void onClick(DialogInterface dialog, int which) {
-                    System.exit(0);
+                    LinphoneActivity.instance().quit();
+                   // FloatViewService.instance().onFinishFloatingView();
+                    MyLogin.this.finish();
+                    System.exit(1);
                 }
             });
             exit.setNegativeButton("NO", new DialogInterface.OnClickListener() {

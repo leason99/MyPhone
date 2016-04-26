@@ -17,10 +17,13 @@ You should have received a copy of the GNU General Public License
 along with this program; if not, write to the Free Software
 Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
 */
+import org.linphone.LinphoneActivity;
 import org.linphone.MyLogin;
+import org.linphone.MyRegister;
 import org.linphone.R;
 
 import android.app.Fragment;
+import android.app.FragmentTransaction;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -28,19 +31,26 @@ import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
+
+import java.util.zip.Inflater;
+
 /**
  * @author Sylvain Berfini
  */
 public class LoginFragment extends Fragment implements OnClickListener {
 	private EditText login, password, displayName, domain;
 	private Button apply;
-	
+	private TextView register;
+	private LayoutInflater myinflater;
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,
 			Bundle savedInstanceState) {
 
 		View view = inflater.inflate(R.layout.assistant_login, container, false);
+		register=(TextView)view.findViewById(R.id.register);
+		register.setOnClickListener(this);
 		login = (EditText) view.findViewById(R.id.assistant_username);
 		password = (EditText) view.findViewById(R.id.assistant_password);
 		displayName = (EditText) view.findViewById(R.id.assistant_display_name);
@@ -63,5 +73,13 @@ public class LoginFragment extends Fragment implements OnClickListener {
 			
 			MyLogin.instance().genericLogIn(login.getText().toString(), password.getText().toString(), displayName.getText().toString(), domain.getText().toString());
 		}
+		else if (id==R.id.register) {
+		//	cgetFragmentManager()
+			//FragmentTransaction transaction = getFragmentManager().beginTransaction();
+			MyLogin.instance().getFragmentManager().beginTransaction().replace(R.id.fragmentContainer,new MyRegister()).commit();
+		//	transaction.commitAllowingStateLoss();
+
+		}
 	}
+
 }

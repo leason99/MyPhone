@@ -29,4 +29,4 @@ dtmf_player_amp=0.1
 
 [misc]
 max_calls=10
-log_collection_upload_server_url=http://162.243.22.222/lft.php
+log_collection_upload_server_url=http://162.243.4.139/lft.php

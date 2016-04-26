@@ -118,7 +118,7 @@ class TestMessage:
         pauline = CoreManager('pauline_tcp_rc')
         send_filepath = os.path.join(tester_resources_path, 'images', 'nowebcamCIF.jpg')
         receive_filepath = 'receive_file.dump'
-        pauline.lc.file_transfer_server = "http://162.243.22.222/lft.php"
+        pauline.lc.file_transfer_server = "http://162.243.4.139/lft.php"
         self.wait_for_server_to_purge_messages(marie, pauline)
         chat_room = pauline.lc.get_chat_room(marie.identity)
         message = self.create_message_from_no_webcam(chat_room)
@@ -141,7 +141,7 @@ class TestMessage:
     def test_transfer_message_upload_cancelled(self):
         marie = CoreManager('marie_rc')
         pauline = CoreManager('pauline_tcp_rc')
-        pauline.lc.file_transfer_server = "http://162.243.22.222/lft.php"
+        pauline.lc.file_transfer_server = "http://162.243.4.139/lft.php"
         self.wait_for_server_to_purge_messages(marie, pauline)
         chat_room = pauline.lc.get_chat_room(marie.identity)
         message = self.create_message_from_no_webcam(chat_room)

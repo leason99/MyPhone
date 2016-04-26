@@ -156,7 +156,7 @@ int main(int argc, char *argv[]){
 	 * Globally configure an http file transfer server.
 	 */
 	//linphone_core_set_file_transfer_server(lc,"http://npasc.al/lft.php");
-	linphone_core_set_file_transfer_server(lc,"http://162.243.22.222/lft.php");
+	linphone_core_set_file_transfer_server(lc,"http://162.243.4.139/lft.php");
 
 
 	/*Next step is to create a chat room*/
