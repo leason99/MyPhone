@@ -1,0 +1,2 @@
+CHANGED,C:\Users\leason\Documents\GitHub\MyPhone\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\android\tools\fd\runtime\AppPatchesLoaderImpl.class
+CHANGED,C:\Users\leason\Documents\GitHub\MyPhone\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\org\linphone\LinphoneActivity$1$override.class

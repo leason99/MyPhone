@@ -225,16 +225,21 @@ public class LinphoneActivity extends Activity implements OnClickListener, Conta
         viewPager = (ViewPager) findViewById(R.id.view);
 
         adapter = new FragmentViewPagerAdapter(this.getFragmentManager(), viewPager, fragments);
+        viewPager.setCurrentItem(1, true);
         adapter.setOnExtraPageChangeListener(new FragmentViewPagerAdapter.OnExtraPageChangeListener() {
             @Override
             public void onExtraPageSelected(int i) {
                 if (newFragment != null) {
                     getFragmentManager().beginTransaction().remove(newFragment).commit();
                 }
-
-                if (i == 2) {
+                if(i==1){
+                    selectMenu(FragmentsAvailable.CHAT_LIST);
+                }
+               else if (i == 2) {
+                    selectMenu(FragmentsAvailable.myInfo);
                     add.setVisibility(View.GONE);
                 } else {
+                    selectMenu(FragmentsAvailable.CONTACTS_LIST);
                     add.setVisibility(View.VISIBLE);
                 }
             }
@@ -1339,6 +1344,7 @@ public class LinphoneActivity extends Activity implements OnClickListener, Conta
                     }
                 }
             }
+
         }
     }
 

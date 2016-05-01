@@ -92,7 +92,8 @@
                         android:layout_alignParentBottom="true"
                         android:layout_alignParentLeft="true"
                         android:layout_alignParentStart="true"
-                        android:background="#90ee81" />
+                        android:background="#90ee81"
+                        android:visibility="gone" />
 
                 </RelativeLayout>
 
@@ -107,22 +108,28 @@
                         android:layout_height="50dp"
                         android:background="@drawable/icon_61592"
                         android:layout_alignBottom="@+id/chat_select"
-                        android:layout_centerHorizontal="true" />
+                        android:layout_centerHorizontal="true"
+                        android:id="@+id/imageView" />
 
                     <android.support.v4.view.ViewPager
                         android:id="@+id/chat_select"
                         android:layout_width="wrap_content"
                         android:layout_height="5dp"
                         android:layout_alignParentBottom="true"
-                        android:background="#b5fcb0" />
+                        android:background="#b5fcb0"
+                        android:visibility="gone" />
 
                     <TextView
                         android:id="@+id/missed_chats"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_above="@+id/chat_select"
-                        android:layout_centerHorizontal="true"
-                        android:text="New Text" />
+                        android:text="New Text"
+                        android:background="@drawable/chat_list_indicator"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_toRightOf="@+id/imageView"
+                        android:layout_toEndOf="@+id/imageView" />
 
                     <TextView
                         android:id="@+id/missed_calls"
@@ -151,7 +158,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="5dp"
                         android:layout_alignParentBottom="true"
-                        android:background="#b5fcb0" />
+                        android:background="#b5fcb0"
+                        android:visibility="gone" />
 
 
 

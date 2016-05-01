@@ -58,7 +58,7 @@ public class MyInfo extends Fragment{
     @Override
     public void onResume(){
         super.onResume();
-        LinphoneActivity.instance().selectMenu(FragmentsAvailable.myInfo);
+     //   LinphoneActivity.instance().selectMenu(FragmentsAvailable.myInfo);
         refreshAccounts();
     }
     public void initSideMenu() {

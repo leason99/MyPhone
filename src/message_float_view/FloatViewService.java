@@ -1,56 +1,35 @@
 package message_float_view;
 
-import android.app.Dialog;
-import android.app.DialogFragment;
 import android.app.Fragment;
 import android.app.Service;
 import android.content.Intent;
-import android.os.Bundle;
 import android.os.IBinder;
 import android.support.annotation.Nullable;
 import android.util.DisplayMetrics;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.view.WindowManager;
-import android.widget.Button;
-import android.widget.ImageView;
 import android.widget.PopupWindow;
+import android.widget.TextView;
 
-import org.linphone.ChatFragment;
 import org.linphone.LinphoneActivity;
+import org.linphone.LinphoneManager;
 import org.linphone.R;
+import org.linphone.core.LinphoneAddress;
+import org.linphone.core.LinphoneChatRoom;
+import org.linphone.core.LinphoneCoreException;
+import org.linphone.core.LinphoneCoreFactory;
+import org.linphone.mediastream.Log;
 
-import java.util.ServiceConfigurationError;
+import java.util.ArrayList;
 
 import jp.co.recruit_lifestyle.android.floatingview.FloatingViewListener;
 import jp.co.recruit_lifestyle.android.floatingview.FloatingViewManager;
-
+import jp.co.recruit_lifestyle.android.floatingview.*;
 /**
  * Created by leason on 2016/4/22.
  */
 public class FloatViewService extends Service implements FloatingViewListener {
-    //   FloatingViewManager mfloatingViewManager;
-    //  PopupWindow popupWindow;
-
-    /*
-    @Override
-      public  int onStartCommand(Intent intent, int flags,int startID){
-
-        final ImageView iconView= new ImageView(this);
-
-      iconView.setImageResource(R.drawable.chat_start_body_over);
-       // icon.setOnClickListener();
-        final DisplayMetrics metrics= new DisplayMetrics();
-        mfloatingViewManager =new FloatingViewManager(this,this);
-        mfloatingViewManager.setFixedTrashIconImage(R.drawable.clean_field_default);
-      mfloatingViewManager.setActionTrashIconImage(R.drawable.delete);
-        final FloatingViewManager.Options options =new FloatingViewManager.Options();
-        options.shape= FloatingViewManager.SHAPE_CIRCLE;
-        options.overMargin=(int) (16*metrics.density);
-        mfloatingViewManager.addViewToWindow(iconView,options);
-        return 1;
-      }*/
     static FloatViewService instance;
 
     public static boolean isReady() {
@@ -69,51 +48,92 @@ public class FloatViewService extends Service implements FloatingViewListener {
     FloatingViewManager mFloatingViewManager;
     PopupWindow pwindo;
     String sipUri;
-
+    TextView unreadMessages;
+    View iconView;
+    static ArrayList<String> showing_sip;
     @Override
     public int onStartCommand(final Intent intent, int flags, int startId) {
-
         final LayoutInflater inflater = LayoutInflater.from(this);
-
-
-        final ImageView iconView = new ImageView(this);
         sipUri = intent.getExtras().getString("sipUri");
-        iconView.setImageResource(R.mipmap.ic_launcher);
-        //final View test = floatview.findViewById(R.id.test);
-        iconView.setOnClickListener(
-                new View.OnClickListener() {
-                    //    iconView.setOnClickListener(
-                    //    new Button.OnClickListener() {
-                    @Override
-                    public void onClick(View v) {
+     //   final ImageView iconView = new ImageView(this);
+       if( showing_sip==null) {
+           showing_sip = new ArrayList<String>();
+       }
+        if (showing_sip.contains(sipUri)) {
+            showing_sip.add(sipUri);
 
-                        LayoutInflater layoutInflater = (LayoutInflater) getApplication().getSystemService(LAYOUT_INFLATER_SERVICE);
+            iconView = inflater.inflate(R.layout.flaot_chat_icon, null);
+            unreadMessages = (TextView) iconView.findViewById(R.id.unreadMessages);
 
-                        ChatFragment fragment = LinphoneActivity.instance().floatViewDisplayChat(sipUri);
-                        View popupView = layoutInflater.inflate(R.layout.chat, null);
+            //   iconView.setImageResource(R.mipmap.ic_launcher);
+            //final View test = floatview.findViewById(R.id.test);
+            iconView.setOnClickListener(
+                    new View.OnClickListener() {
+                        //    iconView.setOnClickListener(
+                        //    new Button.OnClickListener() {
+                        @Override
+                        public void onClick(View v) {
 
-                        //pwindo = new PopupWindow(fragment.chatroomview);
-                        pwindo = new PopupWindow(popupView);
-                        //beginTransaction().add(R.id.flaotchatroom,fragment).commit();
-                        pwindo.setWidth(600);
-                        pwindo.setHeight(600);
-                        pwindo.showAsDropDown(iconView, 100, -100);
-                        pwindo.update();
-                        pwindo.isShowing();
+
+                            //LayoutInflater layoutInflater = (LayoutInflater) getApplication().getSystemService(LAYOUT_INFLATER_SERVICE);
+                            LayoutInflater layoutInflater = LayoutInflater.from(getApplicationContext());
+                            Fragment fragment = LinphoneActivity.instance().floatViewDisplayChat(sipUri);
+                            View chatroom = layoutInflater.inflate(R.layout.chat, null);
+
+                            // View popupView = layoutInflater.inflate(R.layout.flaot_chat_room, null);
+                            // popupView.setMinimumHeight(500);
+                            //popupView.setMinimumWidth(500);
+                            // popupView.add
+                            //pwindo = new PopupWindow(fragment.chatroomview);
+                            //   pwindo = new PopupWindow(popupView,800,600);
+                            // pwindo = new PopupWindow(popupView);
+                            chatroom.setMinimumHeight(500);
+                            chatroom.setMinimumWidth(500);
+                            pwindo = new PopupWindow(chatroom);
+
+                            //beginTransaction().add(R.id.flaotchatroom,fragment).commit();
+                            pwindo.setWidth(ViewGroup.LayoutParams.WRAP_CONTENT);
+                            pwindo.setHeight(ViewGroup.LayoutParams.WRAP_CONTENT);
+                            pwindo.showAsDropDown(iconView, 10, -10);
+                            pwindo.update();
+                            pwindo.isShowing();
+
+                            pwindo.update();
+                        }
                     }
-                }
-        );
+            );
 
-        final DisplayMetrics metrics = new DisplayMetrics();
-        mFloatingViewManager = new FloatingViewManager(this, this);
-        mFloatingViewManager.setFixedTrashIconImage(R.drawable.clean_field_default);
-        mFloatingViewManager.setActionTrashIconImage(R.drawable.delete);
-        final FloatingViewManager.Options options = new FloatingViewManager.Options();
-        options.shape = FloatingViewManager.SHAPE_CIRCLE;
-        options.overMargin = (int) (16 * metrics.density);
-        //   WindowManager winma= (WindowManager) getSystemService(WINDOW_SERVICE);
-        //  winma.addView(floatview);
-        mFloatingViewManager.addViewToWindow(iconView, options);
+            final DisplayMetrics metrics = new DisplayMetrics();
+            mFloatingViewManager = new FloatingViewManager(this, this);
+            mFloatingViewManager.setFixedTrashIconImage(R.drawable.clean_field_default);
+            mFloatingViewManager.setActionTrashIconImage(R.drawable.delete);
+            final FloatingViewManager.Options options = new FloatingViewManager.Options();
+            options.shape = FloatingViewManager.SHAPE_CIRCLE;
+            options.overMargin = (int) (16 * metrics.density);
+            //   WindowManager winma= (WindowManager) getSystemService(WINDOW_SERVICE);
+            //  winma.addView(floatview);
+            mFloatingViewManager.addViewToWindow(iconView, options);
+        }
+       new FloatingView(getApplication());
+        //unreadmessage
+        LinphoneAddress address;
+        int unreadMessagesCount = 0;
+        try {
+            address = LinphoneCoreFactory.instance().createLinphoneAddress(sipUri);
+            LinphoneChatRoom chatRoom = LinphoneManager.getLc().getChatRoom(address);
+            unreadMessagesCount   = chatRoom.getUnreadMessagesCount();
+        } catch (LinphoneCoreException e) {
+            Log.e("Chat view cannot parse address",e);
+        }
+        if (unreadMessagesCount > 0) {
+            unreadMessages.setVisibility(View.VISIBLE);
+            unreadMessages.setText(String.valueOf(unreadMessagesCount));
+            if(unreadMessagesCount > 99){
+                unreadMessages.setTextSize(12);
+            }
+        } else {
+            unreadMessages.setVisibility(View.GONE);
+        }
         return 1;
     }
 
@@ -126,6 +146,8 @@ public class FloatViewService extends Service implements FloatingViewListener {
 
     @Override
     public void onFinishFloatingView() {
+
+        new FloatingView(());
         stopSelf();
     }
 }

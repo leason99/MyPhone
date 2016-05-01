@@ -587,7 +587,7 @@ public class ChatFragment extends Fragment implements OnClickListener, LinphoneC
 		}
 
 		if (LinphoneActivity.isInstanciated()) {
-			LinphoneActivity.instance().selectMenu(FragmentsAvailable.CHAT);
+			//LinphoneActivity.instance().selectMenu(FragmentsAvailable.CHAT);
 			LinphoneActivity.instance().updateChatFragment(this);
 		}
 

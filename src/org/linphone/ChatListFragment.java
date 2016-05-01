@@ -241,7 +241,7 @@ public class ChatListFragment extends Fragment implements OnClickListener, OnIte
 		}
 		
 		if (LinphoneActivity.isInstanciated()) {
-			LinphoneActivity.instance().selectMenu(FragmentsAvailable.CHAT_LIST);
+		//	LinphoneActivity.instance().selectMenu(FragmentsAvailable.CHAT_LIST);
 			LinphoneActivity.instance().updateChatListFragment(this);
 			LinphoneActivity.instance().hideTabBar(false);
 		}
