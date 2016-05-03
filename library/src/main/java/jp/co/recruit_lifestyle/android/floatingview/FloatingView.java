@@ -1,4 +1,4 @@
-﻿/**
+/**
  * Copyright 2015 RECRUIT LIFESTYLE CO., LTD.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -46,7 +46,7 @@ import java.lang.ref.WeakReference;
  * http://stackoverflow.com/questions/18503050/how-to-create-draggabble-system-alert-in-android
  * FIXME:Nexus5＋YouTubeアプリの場合にナビゲーションバーよりも前面に出てきてしまう
  */
-public class FloatingView extends FrameLayout implements ViewTreeObserver.OnPreDrawListener {
+class FloatingView extends FrameLayout implements ViewTreeObserver.OnPreDrawListener {
 
     /**
      * 移動に最低必要なしきい値(dp)

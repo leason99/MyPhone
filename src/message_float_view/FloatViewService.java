@@ -13,19 +13,12 @@ import android.widget.PopupWindow;
 import android.widget.TextView;
 
 import org.linphone.LinphoneActivity;
-import org.linphone.LinphoneManager;
 import org.linphone.R;
-import org.linphone.core.LinphoneAddress;
-import org.linphone.core.LinphoneChatRoom;
-import org.linphone.core.LinphoneCoreException;
-import org.linphone.core.LinphoneCoreFactory;
-import org.linphone.mediastream.Log;
 
 import java.util.ArrayList;
 
 import jp.co.recruit_lifestyle.android.floatingview.FloatingViewListener;
 import jp.co.recruit_lifestyle.android.floatingview.FloatingViewManager;
-import jp.co.recruit_lifestyle.android.floatingview.*;
 /**
  * Created by leason on 2016/4/22.
  */
@@ -56,10 +49,12 @@ public class FloatViewService extends Service implements FloatingViewListener {
         final LayoutInflater inflater = LayoutInflater.from(this);
         sipUri = intent.getExtras().getString("sipUri");
      //   final ImageView iconView = new ImageView(this);
-       if( showing_sip==null) {
+      if( showing_sip==null) {
            showing_sip = new ArrayList<String>();
        }
-        if (showing_sip.contains(sipUri)) {
+        //if (showing_sip.contains(sipUri))
+        if(true){
+
             showing_sip.add(sipUri);
 
             iconView = inflater.inflate(R.layout.flaot_chat_icon, null);
@@ -114,7 +109,7 @@ public class FloatViewService extends Service implements FloatingViewListener {
             //  winma.addView(floatview);
             mFloatingViewManager.addViewToWindow(iconView, options);
         }
-       new FloatingView(getApplication());
+     /*  new FloatingView(getApplication());
         //unreadmessage
         LinphoneAddress address;
         int unreadMessagesCount = 0;
@@ -133,7 +128,7 @@ public class FloatViewService extends Service implements FloatingViewListener {
             }
         } else {
             unreadMessages.setVisibility(View.GONE);
-        }
+        }*/
         return 1;
     }
 
@@ -147,7 +142,7 @@ public class FloatViewService extends Service implements FloatingViewListener {
     @Override
     public void onFinishFloatingView() {
 
-        new FloatingView(());
+      /*  new FloatingView(());*/
         stopSelf();
     }
 }

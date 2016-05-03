@@ -200,12 +200,12 @@
         "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\drawable\\numpad_star_digit.xml"
     },
     {
-        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\debug\\drawable\\call.xml",
-        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\drawable\\call.xml"
-    },
-    {
         "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
         "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\drawable\\abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\debug\\drawable\\call.xml",
+        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\drawable\\call.xml"
     },
     {
         "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",

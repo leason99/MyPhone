@@ -1,3 +1,75 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
 
+    <item
+        jar="C:\Users\leason\Documents\GitHub\MyPhone\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="4de88167d743b0c771d7a6e5f3c7c0e4ebdd76ca">
+        <dex dex="C:\Users\leason\Documents\GitHub\MyPhone\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_655d149c7bf0df04ef1a00c2f404a5e5c5e18ca4\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\leason\Documents\GitHub\MyPhone\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\libs\internal_impl-22.2.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="C:\Users\leason\Documents\GitHub\MyPhone\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-22.2.0_8a62cab5b8927337495e6eacad6a13a29fb381f2\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\leason\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.0\support-annotations-22.2.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="C:\Users\leason\Documents\GitHub\MyPhone\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-22.2.0_d84f4544b556ac71a3997100e59a031d928819ff\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\leason\Documents\GitHub\MyPhone\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="C:\Users\leason\Documents\GitHub\MyPhone\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-22.2.0_b3603017f33ad5314765c62da6e5d79ec180f541\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\leason\Documents\GitHub\MyPhone\libs\android-support-v4.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="33b27a8d2a5b87e6eb6c60e87a5374ffbfeacc3a">
+        <dex dex="C:\Users\leason\Documents\GitHub\MyPhone\build\intermediates\transforms\dex\debug\folders\1000\2\android-support-v4_e8ffd0fbb2fa4e8210da3b0508bceecaa6cf947d\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\leason\Documents\GitHub\MyPhone\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="45181aefcbc176df2df92e88ba98b26172b95955">
+        <dex dex="C:\Users\leason\Documents\GitHub\MyPhone\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_328800b1dd7b769f046cea59a42b1056a84754e4\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\leason\Documents\GitHub\MyPhone\libs\gcm.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="a6d7bce795a14c7f86111756c4ceb44b79de14aa">
+        <dex dex="C:\Users\leason\Documents\GitHub\MyPhone\build\intermediates\transforms\dex\debug\folders\1000\2\gcm_227efa1794bbdf24702523128f3efd5ae6567b4d\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\leason\Documents\GitHub\MyPhone\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="d0dda274b703dd9c5bb056867649d22b4171ae7d">
+        <dex dex="C:\Users\leason\Documents\GitHub\MyPhone\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-8.1.0_254d656299b4e4b84535d90df99aafa2095f9af8\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\leason\Documents\GitHub\MyPhone\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="C:\Users\leason\Documents\GitHub\MyPhone\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-22.2.0_78fc73967cf4aff7a4befcfb5d36aa6f07e6db88\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\leason\Documents\GitHub\MyPhone\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.1.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="4477ea44f5ec5ad064022a22691732d7638ff197">
+        <dex dex="C:\Users\leason\Documents\GitHub\MyPhone\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-appindexing-8.1.0_c896ded9bdf7ee4b6de7c4f31d9b4c29b19a2296\classes.dex" />
+    </item>
+
+</items>

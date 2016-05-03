@@ -13,7 +13,7 @@ ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:2:1-307:
 		ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:4:5-35
 uses-sdk
 ADDED from C:\Users\leason\Documents\GitHub\MyPhone\AndroidManifest.xml:7:5-9:41
-MERGED from [com.github.recruit-lifestyle:FloatingView:1.7] C:\Users\leason\Documents\GitHub\MyPhone\build\intermediates\exploded-aar\com.github.recruit-lifestyle\FloatingView\1.7\AndroidManifest.xml:8:5-10:41
+MERGED from [MyPhone:library:unspecified] C:\Users\leason\Documents\GitHub\MyPhone\build\intermediates\exploded-aar\MyPhone\library\unspecified\AndroidManifest.xml:8:5-10:41
 MERGED from [com.android.support:appcompat-v7:22.2.0] C:\Users\leason\Documents\GitHub\MyPhone\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:support-v4:22.2.0] C:\Users\leason\Documents\GitHub\MyPhone\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:20:5-43
 MERGED from [com.google.android.gms:play-services-appindexing:8.1.0] C:\Users\leason\Documents\GitHub\MyPhone\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.1.0\AndroidManifest.xml:18:5-42
