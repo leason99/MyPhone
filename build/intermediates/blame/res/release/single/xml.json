@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\release\\xml\\contacts.xml",
+        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\xml\\contacts.xml"
+    },
+    {
+        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\release\\xml\\authenticator.xml",
+        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\xml\\authenticator.xml"
+    },
+    {
+        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\release\\xml\\preferences.xml",
+        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\xml\\preferences.xml"
+    },
+    {
+        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\release\\xml\\syncadapter.xml",
+        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\xml\\syncadapter.xml"
+    },
+    {
+        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\release\\xml\\account_preferences.xml",
+        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\xml\\account_preferences.xml"
+    }
+]

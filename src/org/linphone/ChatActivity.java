@@ -203,7 +203,8 @@ public class ChatActivity extends Activity implements View.OnClickListener, Linp
             back.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    getFragmentManager().popBackStackImmediate();
+                   // getFragmentManager().popBackStackImmediate();
+                ChatActivity.this.finish();
                 }
             });
         }

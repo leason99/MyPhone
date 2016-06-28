@@ -17,19 +17,10 @@ You should have received a copy of the GNU General Public License
 along with this program; if not, write to the Free Software
 Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
 */
-import org.linphone.compatibility.Compatibility;
-import org.linphone.compatibility.CompatibilityScaleGestureDetector;
-import org.linphone.compatibility.CompatibilityScaleGestureListener;
-import org.linphone.core.LinphoneCall;
-import org.linphone.core.LinphoneCore;
-import org.linphone.mediastream.Log;
-import org.linphone.mediastream.video.AndroidVideoWindowImpl;
-import org.linphone.mediastream.video.capture.hwconf.AndroidCameraConfiguration;
-
 import android.app.Activity;
+import android.app.Fragment;
 import android.opengl.GLSurfaceView;
 import android.os.Bundle;
-import android.app.Fragment;
 import android.view.GestureDetector;
 import android.view.GestureDetector.OnDoubleTapListener;
 import android.view.GestureDetector.OnGestureListener;
@@ -40,6 +31,15 @@ import android.view.SurfaceView;
 import android.view.View;
 import android.view.View.OnTouchListener;
 import android.view.ViewGroup;
+
+import org.linphone.compatibility.Compatibility;
+import org.linphone.compatibility.CompatibilityScaleGestureDetector;
+import org.linphone.compatibility.CompatibilityScaleGestureListener;
+import org.linphone.core.LinphoneCall;
+import org.linphone.core.LinphoneCore;
+import org.linphone.mediastream.Log;
+import org.linphone.mediastream.video.AndroidVideoWindowImpl;
+import org.linphone.mediastream.video.capture.hwconf.AndroidCameraConfiguration;
 
 /**
  * @author Sylvain Berfini
@@ -53,7 +53,10 @@ public class CallVideoFragment extends Fragment implements OnGestureListener, On
 	private float mZoomCenterX, mZoomCenterY;
 	private CompatibilityScaleGestureDetector mScaleDetector;
 	private CallActivity inCallActivity;
-	
+	static  View mview;
+	static View viewinstance(){
+		return mview;
+	};
 	@SuppressWarnings("deprecation") // Warning useless because value is ignored and automatically set by new APIs.
 	@Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, 
@@ -103,7 +106,7 @@ public class CallVideoFragment extends Fragment implements OnGestureListener, On
 				return true;
 			}
 		});
-		
+		mview=view;
 		return view;
     }
 

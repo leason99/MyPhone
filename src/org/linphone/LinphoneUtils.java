@@ -18,8 +18,33 @@ Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
 */
 package org.linphone;
 
-import static android.view.View.GONE;
-import static android.view.View.VISIBLE;
+import android.app.Activity;
+import android.content.Context;
+import android.content.Intent;
+import android.content.res.Resources;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
+import android.net.Uri;
+import android.os.Build;
+import android.provider.MediaStore;
+import android.telephony.TelephonyManager;
+import android.util.TypedValue;
+import android.view.KeyEvent;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.ImageView;
+
+import org.linphone.core.LinphoneAddress;
+import org.linphone.core.LinphoneCall;
+import org.linphone.core.LinphoneCall.State;
+import org.linphone.core.LinphoneCore;
+import org.linphone.core.LinphoneCoreException;
+import org.linphone.core.LinphoneCoreFactory;
+import org.linphone.core.LinphoneProxyConfig;
+import org.linphone.mediastream.Log;
+import org.linphone.mediastream.video.capture.hwconf.Hacks;
 
 import java.io.BufferedOutputStream;
 import java.io.BufferedReader;
@@ -38,35 +63,8 @@ import java.util.List;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipOutputStream;
 
-import org.linphone.core.LinphoneAddress;
-import org.linphone.core.LinphoneCall;
-import org.linphone.core.LinphoneCall.State;
-import org.linphone.core.LinphoneCore;
-import org.linphone.core.LinphoneCoreException;
-import org.linphone.core.LinphoneCoreFactory;
-import org.linphone.core.LinphoneProxyConfig;
-import org.linphone.mediastream.Log;
-import org.linphone.mediastream.Version;
-import org.linphone.mediastream.video.capture.hwconf.Hacks;
-
-import android.app.Activity;
-import android.content.ContentResolver;
-import android.content.Context;
-import android.content.Intent;
-import android.content.res.Resources;
-import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
-import android.net.ConnectivityManager;
-import android.net.NetworkInfo;
-import android.net.Uri;
-import android.os.Build;
-import android.provider.MediaStore;
-import android.telephony.TelephonyManager;
-import android.util.TypedValue;
-import android.view.KeyEvent;
-import android.view.View;
-import android.view.View.OnClickListener;
-import android.widget.ImageView;
+import static android.view.View.GONE;
+import static android.view.View.VISIBLE;
 
 /**
  * Helpers.
@@ -132,6 +130,7 @@ public final class LinphoneUtils {
 	
 	public static boolean onKeyBackGoHome(Activity activity, int keyCode, KeyEvent event) {
 		if (!(keyCode == KeyEvent.KEYCODE_BACK && event.getRepeatCount() == 0)) {
+
 			return false; // continue
 		}
 

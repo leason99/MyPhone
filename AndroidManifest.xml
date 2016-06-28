@@ -110,7 +110,8 @@
             android:name=".LinphoneActivity"
             android:launchMode="singleTask"
             android:screenOrientation="behind"
-            android:theme="@style/NoTitle">
+            android:theme="@style/NoTitle"
+            android:windowSoftInputMode="adjustPan">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
@@ -215,7 +216,7 @@
                 android:resource="@xml/authenticator" />
         </service>
         <service
-            android:name="message_float_view.FloatViewService"
+            android:name="messagefloatview.FloatViewService"
             android:exported="false"/>
         <receiver android:name=".NetworkManager">
             <intent-filter>

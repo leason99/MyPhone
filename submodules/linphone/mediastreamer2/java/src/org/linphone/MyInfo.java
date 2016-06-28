@@ -1,12 +1,8 @@
 package org.linphone;
 
 import android.app.Fragment;
-import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.support.v4.widget.DrawerLayout;
-import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -21,6 +17,8 @@ import android.widget.RelativeLayout;
 import android.widget.Switch;
 import android.widget.TextView;
 
+import org.linphone.core.LinphoneCore;
+import org.linphone.core.LinphoneCoreListenerBase;
 import org.linphone.core.LinphoneProxyConfig;
 
 import java.util.ArrayList;
@@ -40,6 +38,8 @@ public class MyInfo extends Fragment{
     ListView accountsList;
     RelativeLayout  defaultAccount ,quitLayout;
     LayoutInflater mInflate;
+    ImageView status;
+    private LinphoneCoreListenerBase mListener;
     static MyInfo  instance;
     public static  MyInfo instance() {
         if (instance != null)
@@ -53,7 +53,35 @@ public class MyInfo extends Fragment{
 
          view = inflater.inflate(R.layout.my_info, container, false);
         initSideMenu();
-        return view;
+        status =(ImageView) defaultAccount.findViewById(R.id.main_account_status);
+        mListener = new LinphoneCoreListenerBase() {
+            @Override
+            public void registrationState(final LinphoneCore lc, final LinphoneProxyConfig proxy, final LinphoneCore.RegistrationState state, String smessage) {
+                if ( !LinphoneService.isReady()) {
+                    return;
+                }
+
+                if (lc.getProxyConfigList() == null) {
+                    status.setImageResource(R.drawable.led_disconnected);
+                } else {
+                    status.setVisibility(View.VISIBLE);
+                }
+
+                if (lc.getDefaultProxyConfig() != null && lc.getDefaultProxyConfig().equals(proxy)) {
+                    status.setImageResource(LinphoneActivity.instance().getStatusIconResource(state));
+
+                } else if (lc.getDefaultProxyConfig() == null) {
+                    status.setImageResource(LinphoneActivity.instance().getStatusIconResource(state));
+
+                }
+
+            }
+        };
+        LinphoneCore lc = LinphoneManager.getLcIfManagerNotDestroyedOrNull();
+        if (lc != null) {
+            lc.addListener(mListener);
+        }
+            return view;
     }
     @Override
     public void onResume(){
@@ -123,11 +151,12 @@ public class MyInfo extends Fragment{
         TextView address = (TextView) defaultAccount.findViewById(R.id.main_account_address);
         TextView displayName = (TextView) defaultAccount.findViewById(R.id.main_account_display_name);
         LinphoneProxyConfig proxy = LinphoneManager.getLc().getDefaultProxyConfig();
+
         if (proxy == null) {
             displayName.setText(getString(R.string.no_account));
             status.setVisibility(View.GONE);
             address.setText("");
-       //     statusFragment.resetAccountStatus();
+            //statusFragment.resetAccountStatus();
 
             defaultAccount.setOnClickListener(new View.OnClickListener() {
                 @Override
@@ -140,7 +169,7 @@ public class MyInfo extends Fragment{
         else {
             address.setText(proxy.getAddress().asStringUriOnly());
             displayName.setText(LinphoneUtils.getAddressDisplayName(proxy.getAddress()));
-       //     status.setImageResource(getStatusIconResource(proxy.getState()));
+         //   status.setImageResource(LinphoneActivity.instance().getStatusIconResource(proxy.getState()));
             status.setVisibility(View.VISIBLE);
 
             defaultAccount.setOnClickListener(new View.OnClickListener() {
@@ -230,7 +259,7 @@ public class MyInfo extends Fragment{
                     break;
                 }
             }
-       //     status.setImageResource(getStatusIconResource(lpc.getState()));
+           status.setImageResource(LinphoneActivity.instance().getStatusIconResource(lpc.getState()));
             return view;
         }
     }

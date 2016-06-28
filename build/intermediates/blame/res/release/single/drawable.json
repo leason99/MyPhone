@@ -1,0 +1,286 @@
+[
+    {
+        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\release\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\release\\drawable\\micro.xml",
+        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\drawable\\micro.xml"
+    },
+    {
+        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\release\\drawable\\abc_textfield_search_material.xml",
+        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\release\\drawable\\speaker.xml",
+        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\drawable\\speaker.xml"
+    },
+    {
+        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\release\\drawable\\edit_list_button.xml",
+        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\drawable\\edit_list_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\release\\drawable\\numpad_two.xml",
+        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\drawable\\numpad_two.xml"
+    },
+    {
+        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\release\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ratingbar_small_material.xml",
+        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\release\\drawable\\contacts_sip.xml",
+        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\drawable\\contacts_sip.xml"
+    },
+    {
+        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_check_material.xml",
+        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\release\\drawable\\abc_text_cursor_material.xml",
+        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\release\\drawable\\abc_seekbar_thumb_material.xml",
+        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\release\\drawable\\numpad_seven.xml",
+        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\drawable\\numpad_seven.xml"
+    },
+    {
+        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\release\\drawable\\chat_send_message.xml",
+        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\drawable\\chat_send_message.xml"
+    },
+    {
+        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\release\\drawable\\call.xml",
+        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\drawable\\call.xml"
+    },
+    {
+        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\release\\drawable\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\release\\drawable\\checkbox.xml",
+        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\drawable\\checkbox.xml"
+    },
+    {
+        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\release\\drawable\\assistant_button.xml",
+        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\drawable\\assistant_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\release\\drawable\\abc_tab_indicator_material.xml",
+        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\release\\drawable\\hangup.xml",
+        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\drawable\\hangup.xml"
+    },
+    {
+        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\release\\drawable\\abc_dialog_material_background_dark.xml",
+        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_dialog_material_background_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\release\\drawable\\numpad_eight.xml",
+        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\drawable\\numpad_eight.xml"
+    },
+    {
+        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\release\\drawable\\list_selector.xml",
+        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\drawable\\list_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_borderless_material.xml",
+        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ratingbar_full_material.xml",
+        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_ratingbar_full_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\release\\drawable\\contacts_all.xml",
+        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\drawable\\contacts_all.xml"
+    },
+    {
+        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\release\\drawable\\numpad_zero.xml",
+        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\drawable\\numpad_zero.xml"
+    },
+    {
+        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\release\\drawable\\toolbar_button.xml",
+        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\drawable\\toolbar_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_radio_material.xml",
+        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\release\\drawable\\backspace_disabled.xml",
+        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\drawable\\backspace_disabled.xml"
+    },
+    {
+        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\release\\drawable\\numpad_four.xml",
+        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\drawable\\numpad_four.xml"
+    },
+    {
+        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\release\\drawable\\backspace.xml",
+        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\drawable\\backspace.xml"
+    },
+    {
+        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\release\\drawable\\switch_camera.xml",
+        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\drawable\\switch_camera.xml"
+    },
+    {
+        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\release\\drawable\\list_delete.xml",
+        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\drawable\\list_delete.xml"
+    },
+    {
+        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\release\\drawable\\menu_disabled.xml",
+        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\drawable\\menu_disabled.xml"
+    },
+    {
+        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\release\\drawable\\abc_seekbar_track_material.xml",
+        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\release\\drawable\\quit.xml",
+        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\drawable\\quit.xml"
+    },
+    {
+        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\release\\drawable\\numpad_nine.xml",
+        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\drawable\\numpad_nine.xml"
+    },
+    {
+        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\release\\drawable\\abc_switch_thumb_material.xml",
+        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\release\\drawable\\numpad_three.xml",
+        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\drawable\\numpad_three.xml"
+    },
+    {
+        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\release\\drawable\\numpad_star_digit.xml",
+        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\drawable\\numpad_star_digit.xml"
+    },
+    {
+        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\release\\drawable\\menu_burger.xml",
+        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\drawable\\menu_burger.xml"
+    },
+    {
+        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\release\\drawable\\chat.xml",
+        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\drawable\\chat.xml"
+    },
+    {
+        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\release\\drawable\\footer_button.xml",
+        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\drawable\\footer_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\release\\drawable\\list_detail.xml",
+        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\drawable\\list_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\release\\drawable\\abc_dialog_material_background_light.xml",
+        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_dialog_material_background_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\release\\drawable\\contact_add_button.xml",
+        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\drawable\\contact_add_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\release\\drawable\\numpad_sharp.xml",
+        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\drawable\\numpad_sharp.xml"
+    },
+    {
+        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\release\\drawable\\abc_item_background_holo_light.xml",
+        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\release\\drawable\\numpad_six.xml",
+        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\drawable\\numpad_six.xml"
+    },
+    {
+        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\release\\drawable\\numpad_five.xml",
+        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\drawable\\numpad_five.xml"
+    },
+    {
+        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\release\\drawable\\button_background.xml",
+        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\drawable\\button_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ratingbar_indicator_material.xml",
+        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\release\\drawable\\numpad_one.xml",
+        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\drawable\\numpad_one.xml"
+    },
+    {
+        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\release\\drawable\\dialer.xml",
+        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\drawable\\dialer.xml"
+    },
+    {
+        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\release\\drawable\\history_all.xml",
+        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\drawable\\history_all.xml"
+    },
+    {
+        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\release\\drawable\\numpad_star.xml",
+        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\drawable\\numpad_star.xml"
+    },
+    {
+        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\release\\drawable\\chat_send_file.xml",
+        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\drawable\\chat_send_file.xml"
+    },
+    {
+        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\release\\drawable\\edit_list_disabled.xml",
+        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\drawable\\edit_list_disabled.xml"
+    },
+    {
+        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\release\\drawable\\status_level.xml",
+        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\drawable\\status_level.xml"
+    },
+    {
+        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\release\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\release\\drawable\\pause.xml",
+        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\drawable\\pause.xml"
+    },
+    {
+        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\release\\drawable\\history_missed.xml",
+        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\drawable\\history_missed.xml"
+    },
+    {
+        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\release\\drawable\\contact_add_disabled.xml",
+        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\drawable\\contact_add_disabled.xml"
+    },
+    {
+        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\release\\drawable\\abc_cab_background_top_material.xml",
+        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_cab_background_top_material.xml"
+    }
+]

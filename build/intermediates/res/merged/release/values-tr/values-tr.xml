@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="AddCallButtonText">Arama ekle</string>
+    <string name="CancelButtonText">İptal</string>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Ana ekrana git"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s, %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Yukarı git"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Diğer seçenekler"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Tamamlandı"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Tümünü göster"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Bir uygulama seçin"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"KAPAT"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"AÇ"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Ara…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Sorguyu temizle"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Arama sorgusu"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Ara"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Sorguyu gönder"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Sesli arama"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Şununla paylaş"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"%s ile paylaş"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Daralt"</string>
+    <string name="about_logs_not_found">Kayıtlar bulunamadı.</string>
+    <string name="about_report_issue">Sorun bildirimi</string>
+    <string name="accept">Kabul et</string>
+    <string name="add_to_contacts">Bağlantı ekle</string>
+    <string name="addressHint">Numara veya adres</string>
+    <string name="addressbook_label">Linphone</string>
+    <string name="app_name">Linphone</string>
+    <string name="bluetooth_button_txt">Bluetooth</string>
+    <string name="button_about">Hakkında</string>
+    <string name="button_add_call">Arama ekle</string>
+    <string name="button_add_contact">Yeni bağlantı</string>
+    <string name="button_bluetooth">Bluetooth</string>
+    <string name="button_cancel">İptal</string>
+    <string name="button_chat">Sohbet</string>
+    <string name="button_delete_all">Sil</string>
+    <string name="button_history">Geçmiş</string>
+    <string name="button_settings">Ayarlar</string>
+    <string name="button_setup_cancel">İptal</string>
+    <string name="button_speaker">Hoparlör</string>
+    <string name="button_transfer">Aktarma</string>
+    <string name="button_video">Görüntü</string>
+    <string name="call">Çağrı</string>
+    <string name="call_stats_audio">Ses</string>
+    <string name="call_stats_codec">Çözücü:</string>
+    <string name="call_stats_video">Görüntü</string>
+    <string name="call_stats_video_resolution">Görüntü boyutu:</string>
+    <string name="call_update_no">Reddet</string>
+    <string name="call_update_yes">Kabul et</string>
+    <string name="chat">Sohbet</string>
+    <string name="click_to_show_first_login_view">Başla</string>
+    <string name="close_button_text">Kapalı</string>
+    <string msgid="6428604800157361567" name="common_android_wear_notification_needs_update_text">"<ns1:g id="APP_NAME">%1$s</ns1:g>, Android Wear uygulamasında güncelleme yapılmasını gerektiriyor."</string>
+    <string msgid="2453027084525739603" name="common_android_wear_update_text">"<ns1:g id="APP_NAME">%1$s</ns1:g>, Android Wear uygulaması güncellenene kadar çalışmayacak."</string>
+    <string msgid="1366439133145190222" name="common_android_wear_update_title">"Android Wear\'ı Güncelle"</string>
+    <string msgid="6534628256897874213" name="common_google_play_services_api_unavailable_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> şu anda kullanılamayan bir veya daha fazla Google Play hizmetini gerektiriyor. Lütfen yardım için geliştiriciyle iletişime geçin."</string>
+    <string msgid="4181637455539816337" name="common_google_play_services_enable_button">"Google Play hizmetlerini etkinleştir"</string>
+    <string msgid="4896236883690196080" name="common_google_play_services_enable_text">"Google Play hizmetlerini etkinleştirmezseniz <ns1:g id="APP_NAME">%1$s</ns1:g> çalışmayacak."</string>
+    <string msgid="529078775174559253" name="common_google_play_services_enable_title">"Google Play hizmetlerini etkinleştir"</string>
+    <string msgid="2443362625939284971" name="common_google_play_services_error_notification_requested_by_msg">"İstekte bulunan: <ns1:g id="APP_NAME">%1$s</ns1:g>"</string>
+    <string msgid="8515591849428043265" name="common_google_play_services_install_button">"Google Play hizmetlerini edin"</string>
+    <string msgid="8836325110837822534" name="common_google_play_services_install_text_phone">"<ns1:g id="APP_NAME">%1$s</ns1:g>, şu anda telefonunuzda bulunmayan Google Play hizmetleri olmadan çalışmayacak."</string>
+    <string msgid="542176290824754127" name="common_google_play_services_install_text_tablet">"<ns1:g id="APP_NAME">%1$s</ns1:g>, şu anda tabletinizde bulunmayan Google Play hizmetleri olmadan çalışmayacak."</string>
+    <string msgid="26645092511305524" name="common_google_play_services_install_title">"Google Play hizmetlerini edinin"</string>
+    <string msgid="4983316348021735578" name="common_google_play_services_invalid_account_text">"Belirtilen hesap bu cihazda mevcut değil. Lütfen farklı bir hesap seçin."</string>
+    <string msgid="1066672360770936753" name="common_google_play_services_invalid_account_title">"Geçersiz Hesap"</string>
+    <string msgid="2583358409598976717" name="common_google_play_services_needs_enabling_title">"Bir uygulama, Google Play Hizmetleri\'nin etkin olmasını gerektiriyor."</string>
+    <string msgid="9038847255613537209" name="common_google_play_services_network_error_text">"Google Play hizmetlerine bağlanmak için bir veri bağlantısı gerekiyor."</string>
+    <string msgid="3827284619958211114" name="common_google_play_services_network_error_title">"Ağ Hatası"</string>
+    <string msgid="1388129345631079938" name="common_google_play_services_notification_needs_update_title">"Bir uygulama, Google Play Hizmetleri için bir güncelleme gerektiriyor."</string>
+    <string msgid="1852570676146674985" name="common_google_play_services_notification_ticker">"Google Play Hizmetleri hatası"</string>
+    <string msgid="5194079840165204725" name="common_google_play_services_sign_in_failed_text">"Belirtilen hesapta oturum açılırken hata oluştu. Lütfen farklı bir hesap seçin."</string>
+    <string msgid="8164948898147532159" name="common_google_play_services_sign_in_failed_title">"Oturum açılamadı"</string>
+    <string msgid="4762332809710093730" name="common_google_play_services_unknown_issue">"Google Play hizmetleriyle ilgili bilinmeyen sorun."</string>
+    <string msgid="7682982632307307938" name="common_google_play_services_unsupported_text">"<ns1:g id="APP_NAME">%1$s</ns1:g>, cihazınız tarafından desteklenmeyen Google Play hizmetlerine ihtiyaç duyuyor. Yardım için üreticiyle görüşün."</string>
+    <string msgid="6334768798839376943" name="common_google_play_services_unsupported_title">"Google Play hizmetleri"</string>
+    <string msgid="8932944190611227642" name="common_google_play_services_update_button">"Güncelle"</string>
+    <string msgid="5709479369299147668" name="common_google_play_services_update_text">"Google Play hizmetlerini güncellemezseniz <ns1:g id="APP_NAME">%1$s</ns1:g> çalışmayacak."</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">"Google Play hizmetlerini güncelle"</string>
+    <string msgid="2201289642219771610" name="common_google_play_services_updating_text">"<ns1:g id="APP_NAME">%1$s</ns1:g>, şu anda güncellenmekte olan Google Play hizmetleri olmadan çalışmayacak."</string>
+    <string msgid="815008177440683245" name="common_google_play_services_updating_title">"Google Play hizmetleri güncelleniyor"</string>
+    <string msgid="411506735369601515" name="common_open_on_phone">"Telefonda aç"</string>
+    <string name="communication_encrypted">Şifreli</string>
+    <string name="conf_admin_choice_enter">Çoklu görüşme giriş</string>
+    <string name="conf_admin_choice_leave">Çoklu görüşmeden geçici olarak ayrıl</string>
+    <string name="conf_admin_choice_terminate">Çoklu görüşmeyi sonlandır</string>
+    <string name="conf_conference">Çoklu görüşme</string>
+    <string name="conf_show_details_text">Ayrıntıları göster</string>
+    <string name="conf_simple_merge_bt_txt">Birleştirme</string>
+    <string name="conf_simple_transfer_bt_txt">Aktarma</string>
+    <string name="conf_simple_video_bt_txt">görüntü</string>
+    <string name="conference">Çoklu görüşme</string>
+    <string name="cont">Sürdürmek</string>
+    <string name="content_description_add">Düğme ekle</string>
+    <string name="content_description_add_call">Arama ekle</string>
+    <string name="content_description_add_contact">Bağlantılara ekle</string>
+    <string name="content_description_all_calls">Tüm çağrılar</string>
+    <string name="content_description_all_contacts">Tüm bağlantılar</string>
+    <string name="content_description_backspace">Geri alma</string>
+    <string name="content_description_call">Çağrı</string>
+    <string name="content_description_call_direction">Çağrı yönlendirme</string>
+    <string name="content_description_call_quality">Çağrı kalitesi</string>
+    <string name="content_description_cancel">İptal</string>
+    <string name="content_description_cancel_button">İptal düğmesi</string>
+    <string name="content_description_chat">Sohbet</string>
+    <string name="content_description_chat_button">Sohbet düğmesi</string>
+    <string name="content_description_conference">Çoklu görüşme</string>
+    <string name="content_description_contacts">Bağlantılar düğmesi</string>
+    <string name="content_description_delete">Düğmeyi sil</string>
+    <string name="content_description_detail">Ayrıntı</string>
+    <string name="content_description_dialer">Telefon numarası çevirici</string>
+    <string name="content_description_encryption">Şifreleme</string>
+    <string name="content_description_hang_up">Telefonu kapat</string>
+    <string name="content_description_history">Geçmiş düğmesi</string>
+    <string name="content_description_led"/>
+    <string name="content_description_linphone_contacts">Linphone bağlantıları</string>
+    <string name="content_description_mark"/>
+    <string name="content_description_missed_calls">Yanıtsız çağrılar</string>
+    <string name="content_description_new_contact">Yeni bağlantı</string>
+    <string name="content_description_new_discussion">Yeni tartışma</string>
+    <string name="content_description_numpad">Sayısal tuş takımı</string>
+    <string name="content_description_pause">Duraklat</string>
+    <string name="content_description_search">Arama</string>
+    <string name="content_description_send_message">İleti gönder</string>
+    <string name="content_description_settings">Ayarlar düğmesi</string>
+    <string name="content_description_setup_ok">Tamam</string>
+    <string name="couldnt_accept_call">Çağrı kabul edilirken bir hata oluştu</string>
+    <string name="decline">Reddet</string>
+    <string name="delete">Sil</string>
+    <string name="delete_contact">Sil</string>
+    <string name="dialer_null_on_new_intent">Uygulama hazır değil</string>
+    <string name="dismiss">Reddet</string>
+    <string name="draft">Taslak</string>
+    <string name="ec_calibrating">Ayarlama...</string>
+    <string name="error">Hata</string>
+    <string name="error_adding_new_call">Yeni çağrı ekleme hatası</string>
+    <string name="failed">başarısız</string>
+    <string name="filter_contacts">Bağlantı süzgeci</string>
+    <string name="first_launch_ok">Kayıt başarılı</string>
+    <string name="first_login_connect">Bağlamak</string>
+    <string name="first_login_password">Parola</string>
+    <string name="first_login_username">Kullanıcı adı</string>
+    <string name="hangup">Telefonu kapat</string>
+    <string name="in_conf_leave">Dışarı çık</string>
+    <string name="incall_notif_active">Sesli arama sürüyor</string>
+    <string name="incoming">Gelen çağrı</string>
+    <string name="menu_about">Hakkında</string>
+    <string name="menu_clear_history">Temizle</string>
+    <string name="menu_exit">Çıkış</string>
+    <string name="menu_settings">Ayarlar</string>
+    <string name="menu_videocall_change_resolution_title">Çözünürlüğü değiştir</string>
+    <string name="menu_videocall_change_resolution_when_high_resolution">Düşük Çözünürlük</string>
+    <string name="menu_videocall_change_resolution_when_low_resolution">Yüksek Çözünürlüğü Dene</string>
+    <string name="menu_videocall_switch_camera_title">Ön/Arka Kamera</string>
+    <string name="menu_videocall_terminate_call_title">Çağrıyı sonlandır</string>
+    <string name="menu_videocall_toggle_camera_disable">Kamera devre dışı</string>
+    <string name="menu_videocall_toggle_camera_enable">Kamera etkin</string>
+    <string name="mutemic_button_txt">Sessiz</string>
+    <string name="never_remind">Beni asla anımsama</string>
+    <string name="no">Hayır</string>
+    <string name="no_echo">Eko yok</string>
+    <string name="not_ready_to_make_new_call">Yeni arama için hazır değil</string>
+    <string name="notification_title">Linphone</string>
+    <string name="pref_add_account">Hesap ekle</string>
+    <string name="pref_advanced">Gelişmiş</string>
+    <string name="pref_audio">Ses</string>
+    <string name="pref_codecs">Çözücüler</string>
+    <string name="pref_communication_expire_title">İletişim zaman aşımına uğradı</string>
+    <string name="pref_debug">Hata ayıklama</string>
+    <string name="pref_default_account">Öntanımlıyı kullan</string>
+    <string name="pref_delete_account">Bu hesabı sil</string>
+    <string name="pref_disable_account">Etkin değil</string>
+    <string name="pref_domain">Alan adı*</string>
+    <string name="pref_ice_enable">İCE Etkin</string>
+    <string name="pref_incoming_expire_title">Gelen çağrı zaman aşımına uğradı</string>
+    <string name="pref_media_encryption">Ortam şifreleme</string>
+    <string name="pref_network_title">Ağ</string>
+    <string name="pref_passwd">Parola*</string>
+    <string name="pref_preferences">Yeğlenenler</string>
+    <string name="pref_preferred_video_size">Yeğlenen görüntü boyutu</string>
+    <string name="pref_prefix">Önek</string>
+    <string name="pref_proxy">Vekil</string>
+    <string name="pref_sipaccount">SİP Hesabı</string>
+    <string name="pref_sipaccounts">SİP Hesabı</string>
+    <string name="pref_transport_tcp">TCP</string>
+    <string name="pref_transport_tls">TLS</string>
+    <string name="pref_transport_udp">UDP</string>
+    <string name="pref_transport_use_random_ports">Rastgele bağlanma noktası kullan</string>
+    <string name="pref_tunnel_host">Makine Adı</string>
+    <string name="pref_tunnel_mode">Kip</string>
+    <string name="pref_tunnel_port">Bağlanma Noktası</string>
+    <string name="pref_user_name_title">Kullanıcı adı</string>
+    <string name="pref_username">Kullanıcı adı*</string>
+    <string name="pref_video">Görüntü</string>
+    <string name="pref_video_automatically_share_my_video_title">Kameramı paylaş</string>
+    <string name="pref_video_codecs_title">Çözücüler</string>
+    <string name="pref_video_enable_title">Görüntü etkin</string>
+    <string name="pref_video_port_title">Görüntü bağlantı noktası veya bağlantı noktası aralığı</string>
+    <string name="pref_video_settings_title">Görüntü ayarları</string>
+    <string name="pref_video_use_front_camera_title">Ön kamerayı kullan</string>
+    <string name="pref_wifi_only">Sadece wifi kullan</string>
+    <string name="service_name">Linphone Hizmeti</string>
+    <string name="setup_apply">Uygulamak</string>
+    <string name="setup_create_account">linphone.org\'da bir hesap oluşturun</string>
+    <string name="setup_domain_hint">alan adı</string>
+    <string name="setup_email_hint">eposta</string>
+    <string name="setup_general_account_hint">SİP hesabınızın kullanıcı adını,parolasını ve alan adını girin</string>
+    <string name="setup_linphone_account_hint">linphone.org kullanıcı adını ve parolasını girin</string>
+    <string name="setup_login_generic">Zaten bir SİP hesabım var</string>
+    <string name="setup_login_linphone">Zaten bir linphone.org hesabım var</string>
+    <string name="setup_password_confirm_hint">parolayı onayla</string>
+    <string name="setup_password_hint">parola</string>
+    <string name="setup_title">Hesap Ayar Yardımcısı</string>
+    <string name="setup_username_hint">kullanıcı adı</string>
+    <string name="setup_welcome">Bu yardımcı, aramalarınız için bir SİP hesabı kullanmanıza yardım edecek.</string>
+    <string name="show_send_dtmfs_button">Tuş takımı</string>
+    <string name="speaker_button_txt">Hoparlör</string>
+    <string name="state_incoming_received">gelen</string>
+    <string name="state_paused">Duraklatıldı</string>
+    <string name="state_streams_running"/>
+    <string name="status_active_call">Etkin</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="status_connected">Kayıtlı</string>
+    <string name="status_error">Kayıt başarısız</string>
+    <string name="status_in_progress">Kayıt sürüyor</string>
+    <string name="status_not_connected">Kayıtlı değil</string>
+    <string name="tab_contact">Bağlantı</string>
+    <string name="tab_dialer">Telefon numarası çevirici</string>
+    <string name="tab_history">Geçmiş</string>
+    <string name="today_date_format">SS:dd</string>
+    <string name="transfer_started">Aktarma başlatıldı</string>
+    <string name="transfer_to_new_call">Yeni arama</string>
+    <string name="tunnel_host"/>
+    <string name="unknown_incoming_call_name">Bilinmeyen</string>
+    <string name="wait_dialog_text">Başlatılıyor</string>
+    <string name="waiting_for_startup">Başlatılıyor...</string>
+    <string name="wizard_email_incorrect">E-posta adresiniz geçersizdir.</string>
+    <string name="wizard_failed">Bir hata oluştu,daha sonra tekrar deneyin.</string>
+    <string name="wizard_password_incorrect">Parolanız geçersiz (en az 6 karakter).</string>
+    <string name="wizard_passwords_unmatched">Girdiğiniz parolalar farklı.</string>
+    <string name="wizard_username_incorrect">Kullanıcı adınız geçersizdir.</string>
+    <string name="wizard_username_unavailable">Bu kullanıcı adı zaten kullanılıyor.</string>
+    <string name="wrong_domain">Yanlış alan adı</string>
+    <string name="wrong_passwd">yanlış parola</string>
+    <string name="wrong_settings">Yanlış ayarlar</string>
+    <string name="wrong_username">yanlış kullanıcı adı</string>
+    <string name="yes">Evet</string>
+    <string name="zrtp_accept">Kabul et</string>
+</resources>

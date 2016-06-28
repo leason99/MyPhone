@@ -141,7 +141,7 @@ public class FloatingViewManager implements ScreenChangedListener, View.OnTouchL
      * Windowに貼り付けられたFloatingViewのリスト
      * TODO:第2弾のFloatingViewの複数表示で意味を発揮する予定
      */
-    private final ArrayList<FloatingView> mFloatingViewList;
+    public final ArrayList<FloatingView> mFloatingViewList;
 
     /**
      * コンストラクタ
@@ -396,11 +396,11 @@ public class FloatingViewManager implements ScreenChangedListener, View.OnTouchL
      * @param overMargin マージン
      */
     @Deprecated
-    public void addViewToWindow(View view, float shape, int overMargin) {
+    public void addViewToWindow(View view, float shape, int overMargin,String sipUri) {
         final Options options = new Options();
         options.shape = shape;
         options.overMargin = overMargin;
-        addViewToWindow(view, options);
+        addViewToWindow(view, options,sipUri);
     }
 
     /**
@@ -409,10 +409,10 @@ public class FloatingViewManager implements ScreenChangedListener, View.OnTouchL
      * @param view    フローティングさせるView
      * @param options Options
      */
-    public void addViewToWindow(View view, Options options) {
+    public void addViewToWindow(View view, Options options,String sipUri) {
         final boolean isFirstAttach = mFloatingViewList.isEmpty();
         // FloatingView
-        final FloatingView floatingView = new FloatingView(mContext);
+        final FloatingView floatingView = new FloatingView(mContext,sipUri);
         floatingView.setInitCoords(options.floatingViewX, options.floatingViewY);
         floatingView.setOnTouchListener(this);
         floatingView.setShape(options.shape);

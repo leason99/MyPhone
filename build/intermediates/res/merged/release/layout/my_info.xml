@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <RelativeLayout
+        android:id="@+id/side_menu_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="left">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <include layout="@layout/side_menu_main_account"/>
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent">
+        <Switch
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/switch1"
+
+            android:checked="true"
+            android:textOn="上線"
+            android:textOff="下線"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="logout"
+            android:id="@+id/logout"
+            />
+
+
+    ></RelativeLayout>
+
+
+            <ListView
+                android:id="@+id/accounts_list"
+                android:background="@color/colorB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:choiceMode="singleChoice"
+                android:cacheColorHint="@color/transparent"
+                android:divider="@android:color/transparent"
+                android:dividerHeight="0dp"/>
+
+            <ListView
+                android:id="@+id/item_list"
+                android:background="@color/colorH"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:choiceMode="singleChoice"
+                android:divider="@color/colorE"
+                android:listSelector="@color/colorH"
+                android:dividerHeight="1dp"/>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/side_menu_quit"
+            android:background="@color/colorA"
+            android:gravity="bottom"
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <ImageView
+                android:id="@+id/quit_button"
+                android:src="@drawable/quit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true" />
+
+            <TextView
+                android:id="@+id/quit"
+                android:text="@string/quit"
+                style="@style/font14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/quit_button"
+                android:gravity="center_vertical"
+                android:layout_centerInParent="true"/>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+</LinearLayout>

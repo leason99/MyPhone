@@ -46,8 +46,8 @@ import java.lang.ref.WeakReference;
  * http://stackoverflow.com/questions/18503050/how-to-create-draggabble-system-alert-in-android
  * FIXME:Nexus5＋YouTubeアプリの場合にナビゲーションバーよりも前面に出てきてしまう
  */
-class FloatingView extends FrameLayout implements ViewTreeObserver.OnPreDrawListener {
-
+public class FloatingView extends FrameLayout implements ViewTreeObserver.OnPreDrawListener {
+    public  String sipUri=null;
     /**
      * 移動に最低必要なしきい値(dp)
      */
@@ -231,8 +231,9 @@ class FloatingView extends FrameLayout implements ViewTreeObserver.OnPreDrawList
      *
      * @param context {@link android.content.Context}
      */
-    FloatingView(final Context context) {
+    FloatingView(final Context context,String sipadress) {
         super(context);
+        sipUri=sipadress;
         mWindowManager = (WindowManager) context.getSystemService(Context.WINDOW_SERVICE);
         mParams = new WindowManager.LayoutParams();
         mMetrics = new DisplayMetrics();

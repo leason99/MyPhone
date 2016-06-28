@@ -18,23 +18,21 @@ Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
  */
 package org.linphone;
 
-import static android.content.Intent.ACTION_MAIN;
-
-import org.linphone.assistant.RemoteProvisioningActivity;
-import org.linphone.tutorials.TutorialLauncherActivity;
-
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
 import android.content.pm.PackageManager;
-import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
-import android.provider.Settings;
 
-import message_float_view.FloatViewService;
+import org.linphone.assistant.RemoteProvisioningActivity;
+import org.linphone.tutorials.TutorialLauncherActivity;
+
+import messagefloatview.FloatViewService;
+
+import static android.content.Intent.ACTION_MAIN;
 
 /**
  * Launch Linphone main activity when Service is ready.
@@ -60,6 +58,7 @@ public class LinphoneLauncherActivity extends Activity {
             setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
         }
         setContentView(R.layout.my_phone_launcher);
+        //android6.0權限
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
             char permissions [][]= new char[][]{android.Manifest.permission.READ_CONTACTS.toCharArray()
                     , android.Manifest.permission.CAMERA.toCharArray()

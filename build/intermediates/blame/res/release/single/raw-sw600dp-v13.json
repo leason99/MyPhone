@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\release\\raw-sw600dp-v13\\linphonerc_default",
+        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\raw-sw600dp\\linphonerc_default"
+    },
+    {
+        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\release\\raw-sw600dp-v13\\linphonerc_factory",
+        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\raw-sw600dp\\linphonerc_factory"
+    }
+]

@@ -17,37 +17,22 @@ You should have received a copy of the GNU General Public License
 along with this program; if not, write to the Free Software
 Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
 */
-import java.util.Arrays;
-import java.util.List;
-
-import org.linphone.core.LinphoneAddress;
-import org.linphone.core.LinphoneCall;
-import org.linphone.core.LinphoneCall.State;
-import org.linphone.core.LinphoneCallParams;
-import org.linphone.core.LinphoneCore;
-import org.linphone.core.LinphoneCoreException;
-import org.linphone.core.LinphoneCoreFactory;
-import org.linphone.core.LinphoneCoreListenerBase;
-import org.linphone.core.LinphonePlayer;
-import org.linphone.mediastream.Log;
-import org.linphone.mediastream.video.capture.hwconf.AndroidCameraConfiguration;
-import org.linphone.ui.Numpad;
-import org.w3c.dom.Text;
-
 import android.app.Activity;
 import android.app.Dialog;
+import android.app.Fragment;
 import android.app.FragmentTransaction;
+import android.content.Context;
 import android.content.Intent;
 import android.content.res.Configuration;
 import android.content.res.Resources;
 import android.graphics.drawable.ColorDrawable;
 import android.graphics.drawable.Drawable;
-import android.net.Uri;
+import android.os.AsyncTask;
+import android.os.Build;
 import android.os.Bundle;
 import android.os.CountDownTimer;
 import android.os.Handler;
 import android.os.SystemClock;
-import android.app.Fragment;
 import android.support.v4.widget.DrawerLayout;
 import android.view.Gravity;
 import android.view.KeyEvent;
@@ -69,6 +54,23 @@ import android.widget.ProgressBar;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import org.linphone.core.LinphoneAddress;
+import org.linphone.core.LinphoneCall;
+import org.linphone.core.LinphoneCall.State;
+import org.linphone.core.LinphoneCallParams;
+import org.linphone.core.LinphoneCore;
+import org.linphone.core.LinphoneCoreException;
+import org.linphone.core.LinphoneCoreListenerBase;
+import org.linphone.core.LinphonePlayer;
+import org.linphone.mediastream.Log;
+import org.linphone.mediastream.video.capture.hwconf.AndroidCameraConfiguration;
+import org.linphone.ui.Numpad;
+
+import java.util.Arrays;
+import java.util.List;
+
+import messagefloatview.FloatViewService;
 
 /**
  * @author Sylvain Berfini
@@ -648,20 +650,28 @@ public class CallActivity extends Activity implements OnClickListener {
 	private void enabledTransferButton(boolean enabled){
 		if(enabled) {
 			transfer.setEnabled(true);
-			transfer.setImageAlpha(250);
+			if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN) {
+				transfer.setImageAlpha(250);
+			}
 		} else {
 			transfer.setEnabled(false);
-			transfer.setImageAlpha(50);
+			if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN) {
+				transfer.setImageAlpha(50);
+			}
 		}
 	}
 
 	private void enabledConferenceButton(boolean enabled){
 		if (enabled) {
 			conference.setEnabled(true);
-			conference.setImageAlpha(250);
+			if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN) {
+				conference.setImageAlpha(250);
+			}
 		} else {
 			conference.setEnabled(false);
-			conference.setImageAlpha(50);
+			if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN) {
+				conference.setImageAlpha(50);
+			}
 		}
 	}
 
@@ -1443,8 +1453,16 @@ public class CallActivity extends Activity implements OnClickListener {
 
 	@Override
 	public boolean onKeyDown(int keyCode, KeyEvent event) {
-		if (LinphoneUtils.onKeyVolumeAdjust(keyCode)) return true;
-		if (LinphoneUtils.onKeyBackGoHome(this, keyCode, event)) return true;
+		if(keyCode==KeyEvent.KEYCODE_BACK){
+			showfloatvideo(LinphoneService.instance());
+
+			return true;
+		}
+		if (LinphoneUtils.onKeyVolumeAdjust(keyCode))
+			return true;
+		if (LinphoneUtils.onKeyBackGoHome(this, keyCode, event))
+			return true;
+
 		return super.onKeyDown(keyCode, event);
 	}
 
@@ -1684,4 +1702,34 @@ public class CallActivity extends Activity implements OnClickListener {
 		}
 		conferenceList.setVisibility(View.VISIBLE);
 	}
+	private boolean showfloatvideo(final Context context) {
+		final String sipUri="video";
+		new AsyncTask<Void, Integer, Void>() {
+			@Override
+			protected Void doInBackground(Void... params) {
+				if (!FloatViewService.isReady())
+				{
+					Intent intent = new Intent(context, FloatViewService.class);
+					context.startService(intent);
+				}
+				while(!FloatViewService.isReady());
+				return null;
+			}
+
+			@Override
+			protected void onPostExecute(Void aVoid) {
+				super.onPostExecute(aVoid);
+				for (int i = 0; i < FloatViewService.instance().mFloatingViewManager.mFloatingViewList.size(); i++) {
+					if (FloatViewService.instance().mFloatingViewManager.mFloatingViewList.get(i).sipUri.equals( sipUri)) {
+						return ;
+					}
+				}
+
+				FloatViewService.instance().addfloatvideo(sipUri,CallVideoFragment.mview);
+			//	instance().moveTaskToBack(true);
+			}
+		}.execute();
+		return true;
+	}
+
 }

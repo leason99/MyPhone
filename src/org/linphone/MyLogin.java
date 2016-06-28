@@ -2,20 +2,30 @@ package org.linphone;
 
 /*import android.support.v7.app.AppCompatActivity;*/
 
+import android.app.Activity;
 import android.app.AlertDialog;
+import android.app.Dialog;
+import android.app.Fragment;
+import android.app.FragmentTransaction;
+import android.content.Context;
 import android.content.DialogInterface;
-import android.content.Intent;
+import android.content.pm.ActivityInfo;
+import android.graphics.drawable.ColorDrawable;
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
+import android.text.TextUtils;
+import android.view.KeyEvent;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.view.Window;
+import android.view.WindowManager;
+import android.view.inputmethod.InputMethodManager;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.TextView;
+import android.widget.Toast;
 
-
-import org.linphone.LinphoneActivity;
-import org.linphone.LinphoneManager;
-import org.linphone.LinphonePreferences;
 import org.linphone.LinphonePreferences.AccountBuilder;
-import org.linphone.LinphoneUtils;
-import org.linphone.R;
-import org.linphone.StatusFragment;
-import org.linphone.assistant.AssistantActivity;
 import org.linphone.assistant.AssistantFragmentsEnum;
 import org.linphone.assistant.CreateAccountActivationFragment;
 import org.linphone.assistant.CreateAccountFragment;
@@ -33,32 +43,6 @@ import org.linphone.core.LinphoneCoreException;
 import org.linphone.core.LinphoneCoreFactory;
 import org.linphone.core.LinphoneCoreListenerBase;
 import org.linphone.core.LinphoneProxyConfig;
-
-import android.app.Activity;
-import android.app.Dialog;
-import android.app.Fragment;
-import android.app.FragmentTransaction;
-import android.content.Context;
-import android.content.pm.ActivityInfo;
-import android.graphics.drawable.ColorDrawable;
-import android.graphics.drawable.Drawable;
-import android.os.Bundle;
-import android.text.TextUtils;
-import android.view.KeyEvent;
-import android.view.View;
-import android.view.View.OnClickListener;
-import android.view.Window;
-import android.view.WindowManager;
-import android.view.inputmethod.InputMethodManager;
-import android.widget.Button;
-import android.widget.EditText;
-import android.widget.ImageView;
-import android.widget.TextView;
-import android.widget.Toast;
-
-import message_float_view.FloatViewService;
-
-import static android.content.Intent.ACTION_MAIN;
 
 /**
  * @author Sylvain Berfini

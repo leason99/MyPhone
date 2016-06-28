@@ -16,36 +16,6 @@ package org.linphone;
  Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
  */
 
-import static android.app.FragmentManager.*;
-import static android.content.Intent.ACTION_MAIN;
-
-import java.text.SimpleDateFormat;
-import java.util.ArrayList;
-import java.util.Calendar;
-import java.util.Collection;
-import java.util.List;
-
-import org.linphone.LinphoneManager.AddressType;
-import org.linphone.core.CallDirection;
-import org.linphone.core.LinphoneAddress;
-import org.linphone.core.LinphoneAuthInfo;
-import org.linphone.core.LinphoneCall;
-import org.linphone.core.LinphoneCall.State;
-import org.linphone.core.LinphoneCallLog;
-import org.linphone.core.LinphoneCallLog.CallStatus;
-import org.linphone.core.LinphoneChatMessage;
-import org.linphone.core.LinphoneChatRoom;
-import org.linphone.core.LinphoneCore;
-import org.linphone.core.LinphoneCore.RegistrationState;
-import org.linphone.core.LinphoneCoreException;
-import org.linphone.core.LinphoneCoreFactory;
-import org.linphone.core.LinphoneCoreListenerBase;
-import org.linphone.core.LinphoneProxyConfig;
-import org.linphone.core.Reason;
-import org.linphone.mediastream.Log;
-import org.linphone.assistant.RemoteProvisioningLoginActivity;
-import org.linphone.ui.AddressText;
-
 import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.app.Dialog;
@@ -60,12 +30,8 @@ import android.graphics.Bitmap;
 import android.graphics.drawable.ColorDrawable;
 import android.graphics.drawable.Drawable;
 import android.net.Uri;
-import android.os.Build;
 import android.os.Bundle;
-//import android.support.v4.view.PagerAdapter;
-import android.provider.Settings;
 import android.support.v4.view.ViewPager;
-//import android.support.v4.app.FragmentManager;
 import android.support.v4.widget.DrawerLayout;
 import android.view.Gravity;
 import android.view.KeyEvent;
@@ -92,8 +58,41 @@ import com.google.android.gms.appindexing.Action;
 import com.google.android.gms.appindexing.AppIndex;
 import com.google.android.gms.common.api.GoogleApiClient;
 
-import message_float_view.FloatViewService;
+import org.linphone.LinphoneManager.AddressType;
+import org.linphone.assistant.RemoteProvisioningLoginActivity;
+import org.linphone.core.CallDirection;
+import org.linphone.core.LinphoneAddress;
+import org.linphone.core.LinphoneAuthInfo;
+import org.linphone.core.LinphoneCall;
+import org.linphone.core.LinphoneCall.State;
+import org.linphone.core.LinphoneCallLog;
+import org.linphone.core.LinphoneCallLog.CallStatus;
+import org.linphone.core.LinphoneChatMessage;
+import org.linphone.core.LinphoneChatRoom;
+import org.linphone.core.LinphoneCore;
+import org.linphone.core.LinphoneCore.RegistrationState;
+import org.linphone.core.LinphoneCoreException;
+import org.linphone.core.LinphoneCoreFactory;
+import org.linphone.core.LinphoneCoreListenerBase;
+import org.linphone.core.LinphoneProxyConfig;
+import org.linphone.core.Reason;
+import org.linphone.mediastream.Log;
+import org.linphone.ui.AddressText;
+
+import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.Calendar;
+import java.util.Collection;
+import java.util.List;
+
+import messagefloatview.FloatViewService;
 import myphone.FragmentViewPagerAdapter;
+
+import static android.app.FragmentManager.POP_BACK_STACK_INCLUSIVE;
+import static android.content.Intent.ACTION_MAIN;
+
+//import android.support.v4.view.PagerAdapter;
+//import android.support.v4.app.FragmentManager;
 
 /**
  * @author Sylvain Berfini
@@ -1517,7 +1516,7 @@ public class LinphoneActivity extends Activity implements OnClickListener, Conta
         });
     }
 
-    private int getStatusIconResource(RegistrationState state) {
+    public int getStatusIconResource(RegistrationState state) {
         try {
             if (state == RegistrationState.RegistrationOk) {
                 return R.drawable.led_connected;
