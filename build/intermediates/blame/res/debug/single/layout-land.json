@@ -1,30 +1,30 @@
 [
     {
-        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\debug\\layout-land\\main.xml",
-        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\layout-land\\main.xml"
+        "merged": "/Users/leason/Documents/MyPhone/build/intermediates/res/merged/debug/layout-land/assistant_linphone_login.xml",
+        "source": "/Users/leason/Documents/MyPhone/res/layout-land/assistant_linphone_login.xml"
     },
     {
-        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\debug\\layout-land\\video.xml",
-        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\layout-land\\video.xml"
+        "merged": "/Users/leason/Documents/MyPhone/build/intermediates/res/merged/debug/layout-land/video.xml",
+        "source": "/Users/leason/Documents/MyPhone/res/layout-land/video.xml"
     },
     {
-        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\debug\\layout-land\\call.xml",
-        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\layout-land\\call.xml"
+        "merged": "/Users/leason/Documents/MyPhone/build/intermediates/res/merged/debug/layout-land/call.xml",
+        "source": "/Users/leason/Documents/MyPhone/res/layout-land/call.xml"
     },
     {
-        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\debug\\layout-land\\call_outgoing.xml",
-        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\layout-land\\call_outgoing.xml"
+        "merged": "/Users/leason/Documents/MyPhone/build/intermediates/res/merged/debug/layout-land/chatlist_cell.xml",
+        "source": "/Users/leason/Documents/MyPhone/res/layout-land/chatlist_cell.xml"
     },
     {
-        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\debug\\layout-land\\assistant_linphone_login.xml",
-        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\layout-land\\assistant_linphone_login.xml"
+        "merged": "/Users/leason/Documents/MyPhone/build/intermediates/res/merged/debug/layout-land/main.xml",
+        "source": "/Users/leason/Documents/MyPhone/res/layout-land/main.xml"
     },
     {
-        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\debug\\layout-land\\chatlist_cell.xml",
-        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\layout-land\\chatlist_cell.xml"
+        "merged": "/Users/leason/Documents/MyPhone/build/intermediates/res/merged/debug/layout-land/call_incoming.xml",
+        "source": "/Users/leason/Documents/MyPhone/res/layout-land/call_incoming.xml"
     },
     {
-        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\debug\\layout-land\\call_incoming.xml",
-        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\layout-land\\call_incoming.xml"
+        "merged": "/Users/leason/Documents/MyPhone/build/intermediates/res/merged/debug/layout-land/call_outgoing.xml",
+        "source": "/Users/leason/Documents/MyPhone/res/layout-land/call_outgoing.xml"
     }
 ]

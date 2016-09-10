@@ -10,9 +10,9 @@
 	<string name="app_name">Linphone</string>
 	<string name="service_name">Linphone Service</string>
 	<string name="addressbook_label">Linphone</string>
-	<string name="sync_account_type">org.linphone</string>
+	<string name="sync_account_type">leason.myphone</string>
 	<string name="sync_account_name">linphone contacts</string>
-	<string name="sync_mimetype">vnd.android.cursor.item/org.linphone.profile</string>
+	<string name="sync_mimetype">vnd.android.cursor.item/leaosn.myphone.profile</string>
 	<string name="notification_title">Linphone</string>
 	<string name="wait_dialog_text">Starting up</string>
 	<string name="notification_registered">Registered to %s </string>

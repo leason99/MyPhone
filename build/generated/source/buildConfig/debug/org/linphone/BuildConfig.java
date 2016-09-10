@@ -5,7 +5,7 @@ package org.linphone;
 
 public final class BuildConfig {
   public static final boolean DEBUG = Boolean.parseBoolean("true");
-  public static final String APPLICATION_ID = "org.linphone";
+  public static final String APPLICATION_ID = "leason.myphone";
   public static final String BUILD_TYPE = "debug";
   public static final String FLAVOR = "";
   public static final int VERSION_CODE = 2599;

@@ -1,410 +1,410 @@
 [
     {
-        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\debug\\layout\\history_detail.xml",
-        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\layout\\history_detail.xml"
+        "merged": "/Users/leason/Documents/MyPhone/build/intermediates/res/merged/debug/layout/notification_template_part_time.xml",
+        "source": "/Users/leason/Documents/MyPhone/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/notification_template_part_time.xml"
     },
     {
-        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
-        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+        "merged": "/Users/leason/Documents/MyPhone/build/intermediates/res/merged/debug/layout/abc_action_bar_view_list_nav_layout.xml",
+        "source": "/Users/leason/Documents/MyPhone/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_action_bar_view_list_nav_layout.xml"
     },
     {
-        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\debug\\layout\\assistant_account_creation_activation.xml",
-        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\layout\\assistant_account_creation_activation.xml"
+        "merged": "/Users/leason/Documents/MyPhone/build/intermediates/res/merged/debug/layout/support_simple_spinner_dropdown_item.xml",
+        "source": "/Users/leason/Documents/MyPhone/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/support_simple_spinner_dropdown_item.xml"
     },
     {
-        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\debug\\layout\\side_menu_main_account.xml",
-        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\layout\\side_menu_main_account.xml"
+        "merged": "/Users/leason/Documents/MyPhone/build/intermediates/res/merged/debug/layout/abc_screen_content_include.xml",
+        "source": "/Users/leason/Documents/MyPhone/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_screen_content_include.xml"
     },
     {
-        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
-        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\layout\\main.xml"
+        "merged": "/Users/leason/Documents/MyPhone/build/intermediates/res/merged/debug/layout/assistant_remote_provisioning_login.xml",
+        "source": "/Users/leason/Documents/MyPhone/res/layout/assistant_remote_provisioning_login.xml"
     },
     {
-        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\debug\\layout\\assistant_welcome.xml",
-        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\layout\\assistant_welcome.xml"
+        "merged": "/Users/leason/Documents/MyPhone/build/intermediates/res/merged/debug/layout/notification_template_lines.xml",
+        "source": "/Users/leason/Documents/MyPhone/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/notification_template_lines.xml"
     },
     {
-        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
-        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\select_dialog_item_material.xml"
+        "merged": "/Users/leason/Documents/MyPhone/build/intermediates/res/merged/debug/layout/assistant_welcome.xml",
+        "source": "/Users/leason/Documents/MyPhone/res/layout/assistant_welcome.xml"
     },
     {
-        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\debug\\layout\\incall_stats.xml",
-        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\layout\\incall_stats.xml"
+        "merged": "/Users/leason/Documents/MyPhone/build/intermediates/res/merged/debug/layout/preference_list_content.xml",
+        "source": "/Users/leason/Documents/MyPhone/res/layout/preference_list_content.xml"
     },
     {
-        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\debug\\layout\\video.xml",
-        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\layout\\video.xml"
+        "merged": "/Users/leason/Documents/MyPhone/build/intermediates/res/merged/debug/layout/chatlist.xml",
+        "source": "/Users/leason/Documents/MyPhone/res/layout/chatlist.xml"
     },
     {
-        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\debug\\layout\\preference_list_content.xml",
-        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\layout\\preference_list_content.xml"
+        "merged": "/Users/leason/Documents/MyPhone/build/intermediates/res/merged/debug/layout/assistant_account_creation_activation.xml",
+        "source": "/Users/leason/Documents/MyPhone/res/layout/assistant_account_creation_activation.xml"
     },
     {
-        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\debug\\layout\\numpad.xml",
-        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\layout\\numpad.xml"
+        "merged": "/Users/leason/Documents/MyPhone/build/intermediates/res/merged/debug/layout/abc_list_menu_item_checkbox.xml",
+        "source": "/Users/leason/Documents/MyPhone/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_list_menu_item_checkbox.xml"
     },
     {
-        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\debug\\layout\\tutorials.xml",
-        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\layout\\tutorials.xml"
+        "merged": "/Users/leason/Documents/MyPhone/build/intermediates/res/merged/debug/layout/audio.xml",
+        "source": "/Users/leason/Documents/MyPhone/res/layout/audio.xml"
     },
     {
-        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\debug\\layout\\history.xml",
-        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\layout\\history.xml"
+        "merged": "/Users/leason/Documents/MyPhone/build/intermediates/res/merged/debug/layout/about.xml",
+        "source": "/Users/leason/Documents/MyPhone/res/layout/about.xml"
     },
     {
-        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\debug\\layout\\call.xml",
-        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\layout\\call.xml"
+        "merged": "/Users/leason/Documents/MyPhone/build/intermediates/res/merged/debug/layout/incall_stats.xml",
+        "source": "/Users/leason/Documents/MyPhone/res/layout/incall_stats.xml"
     },
     {
-        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
-        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_action_mode_close_item_material.xml"
+        "merged": "/Users/leason/Documents/MyPhone/build/intermediates/res/merged/debug/layout/zrtp_dialog.xml",
+        "source": "/Users/leason/Documents/MyPhone/res/layout/zrtp_dialog.xml"
     },
     {
-        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
-        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_screen_content_include.xml"
+        "merged": "/Users/leason/Documents/MyPhone/build/intermediates/res/merged/debug/layout/assistant_remote_provisioning.xml",
+        "source": "/Users/leason/Documents/MyPhone/res/layout/assistant_remote_provisioning.xml"
     },
     {
-        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\debug\\layout\\abc_simple_dropdown_hint.xml",
-        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_simple_dropdown_hint.xml"
+        "merged": "/Users/leason/Documents/MyPhone/build/intermediates/res/merged/debug/layout/hello_world.xml",
+        "source": "/Users/leason/Documents/MyPhone/res/layout/hello_world.xml"
     },
     {
-        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\debug\\layout\\dialer.xml",
-        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\layout\\dialer.xml"
+        "merged": "/Users/leason/Documents/MyPhone/build/intermediates/res/merged/debug/layout/abc_screen_toolbar.xml",
+        "source": "/Users/leason/Documents/MyPhone/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_screen_toolbar.xml"
     },
     {
-        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
-        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_alert_dialog_material.xml"
+        "merged": "/Users/leason/Documents/MyPhone/build/intermediates/res/merged/debug/layout/assistant_login.xml",
+        "source": "/Users/leason/Documents/MyPhone/res/layout/assistant_login.xml"
     },
     {
-        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\debug\\layout\\contact_edit_row.xml",
-        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\layout\\contact_edit_row.xml"
+        "merged": "/Users/leason/Documents/MyPhone/build/intermediates/res/merged/debug/layout/side_menu_item_cell.xml",
+        "source": "/Users/leason/Documents/MyPhone/res/layout/side_menu_item_cell.xml"
     },
     {
-        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
-        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_action_menu_item_layout.xml"
+        "merged": "/Users/leason/Documents/MyPhone/build/intermediates/res/merged/debug/layout/conference_paused_row.xml",
+        "source": "/Users/leason/Documents/MyPhone/res/layout/conference_paused_row.xml"
     },
     {
-        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
-        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_action_bar_title_item.xml"
+        "merged": "/Users/leason/Documents/MyPhone/build/intermediates/res/merged/debug/layout/abc_dialog_title_material.xml",
+        "source": "/Users/leason/Documents/MyPhone/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_dialog_title_material.xml"
     },
     {
-        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\debug\\layout\\hidden.xml",
-        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\layout\\hidden.xml"
+        "merged": "/Users/leason/Documents/MyPhone/build/intermediates/res/merged/debug/layout/flaot_chat_room.xml",
+        "source": "/Users/leason/Documents/MyPhone/res/layout/flaot_chat_room.xml"
     },
     {
-        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
-        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\notification_template_part_chronometer.xml"
+        "merged": "/Users/leason/Documents/MyPhone/build/intermediates/res/merged/debug/layout/notification_template_big_media_narrow.xml",
+        "source": "/Users/leason/Documents/MyPhone/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/notification_template_big_media_narrow.xml"
     },
     {
-        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\debug\\layout\\conference_header.xml",
-        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\layout\\conference_header.xml"
+        "merged": "/Users/leason/Documents/MyPhone/build/intermediates/res/merged/debug/layout/toast.xml",
+        "source": "/Users/leason/Documents/MyPhone/res/layout/toast.xml"
     },
     {
-        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
-        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\notification_template_part_time.xml"
+        "merged": "/Users/leason/Documents/MyPhone/build/intermediates/res/merged/debug/layout/my_phone_launcher.xml",
+        "source": "/Users/leason/Documents/MyPhone/res/layout/my_phone_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\debug\\layout\\dialog.xml",
-        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\layout\\dialog.xml"
+        "merged": "/Users/leason/Documents/MyPhone/build/intermediates/res/merged/debug/layout/my_login.xml",
+        "source": "/Users/leason/Documents/MyPhone/res/layout/my_login.xml"
     },
     {
-        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\debug\\layout\\contact_edit.xml",
-        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\layout\\contact_edit.xml"
+        "merged": "/Users/leason/Documents/MyPhone/build/intermediates/res/merged/debug/layout/abc_action_menu_layout.xml",
+        "source": "/Users/leason/Documents/MyPhone/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_action_menu_layout.xml"
     },
     {
-        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\debug\\layout\\search_contact_cell.xml",
-        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\layout\\search_contact_cell.xml"
+        "merged": "/Users/leason/Documents/MyPhone/build/intermediates/res/merged/debug/layout/select_dialog_item_material.xml",
+        "source": "/Users/leason/Documents/MyPhone/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/select_dialog_item_material.xml"
     },
     {
-        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
-        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+        "merged": "/Users/leason/Documents/MyPhone/build/intermediates/res/merged/debug/layout/preference_led.xml",
+        "source": "/Users/leason/Documents/MyPhone/res/layout/preference_led.xml"
     },
     {
-        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\debug\\layout\\settings.xml",
-        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\layout\\settings.xml"
+        "merged": "/Users/leason/Documents/MyPhone/build/intermediates/res/merged/debug/layout/side_menu_account_cell.xml",
+        "source": "/Users/leason/Documents/MyPhone/res/layout/side_menu_account_cell.xml"
     },
     {
-        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\debug\\layout\\activity_my_count_preferences_fragment.xml",
-        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\layout\\activity_my_count_preferences_fragment.xml"
+        "merged": "/Users/leason/Documents/MyPhone/build/intermediates/res/merged/debug/layout/call_incoming.xml",
+        "source": "/Users/leason/Documents/MyPhone/res/layout/call_incoming.xml"
     },
     {
-        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
-        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\select_dialog_singlechoice_material.xml"
+        "merged": "/Users/leason/Documents/MyPhone/build/intermediates/res/merged/debug/layout/notification_template_media.xml",
+        "source": "/Users/leason/Documents/MyPhone/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/notification_template_media.xml"
     },
     {
-        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
-        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_dialog_title_material.xml"
+        "merged": "/Users/leason/Documents/MyPhone/build/intermediates/res/merged/debug/layout/history_cell.xml",
+        "source": "/Users/leason/Documents/MyPhone/res/layout/history_cell.xml"
     },
     {
-        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\debug\\layout\\side_menu_item_cell.xml",
-        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\layout\\side_menu_item_cell.xml"
+        "merged": "/Users/leason/Documents/MyPhone/build/intermediates/res/merged/debug/layout/tutorials.xml",
+        "source": "/Users/leason/Documents/MyPhone/res/layout/tutorials.xml"
     },
     {
-        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media.xml",
-        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\notification_template_big_media.xml"
+        "merged": "/Users/leason/Documents/MyPhone/build/intermediates/res/merged/debug/layout/history.xml",
+        "source": "/Users/leason/Documents/MyPhone/res/layout/history.xml"
     },
     {
-        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
-        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+        "merged": "/Users/leason/Documents/MyPhone/build/intermediates/res/merged/debug/layout/launch_screen.xml",
+        "source": "/Users/leason/Documents/MyPhone/res/layout/launch_screen.xml"
     },
     {
-        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
-        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+        "merged": "/Users/leason/Documents/MyPhone/build/intermediates/res/merged/debug/layout/numpad.xml",
+        "source": "/Users/leason/Documents/MyPhone/res/layout/numpad.xml"
     },
     {
-        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\debug\\layout\\flaot_chat_room.xml",
-        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\layout\\flaot_chat_room.xml"
+        "merged": "/Users/leason/Documents/MyPhone/build/intermediates/res/merged/debug/layout/flaot_chat_icon.xml",
+        "source": "/Users/leason/Documents/MyPhone/res/layout/flaot_chat_icon.xml"
     },
     {
-        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
-        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_select_dialog_material.xml"
+        "merged": "/Users/leason/Documents/MyPhone/build/intermediates/res/merged/debug/layout/contacts_list.xml",
+        "source": "/Users/leason/Documents/MyPhone/res/layout/contacts_list.xml"
     },
     {
-        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\debug\\layout\\assistant_ec_calibration.xml",
-        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\layout\\assistant_ec_calibration.xml"
+        "merged": "/Users/leason/Documents/MyPhone/build/intermediates/res/merged/debug/layout/search_contact_cell.xml",
+        "source": "/Users/leason/Documents/MyPhone/res/layout/search_contact_cell.xml"
     },
     {
-        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\debug\\layout\\assistant_login.xml",
-        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\layout\\assistant_login.xml"
+        "merged": "/Users/leason/Documents/MyPhone/build/intermediates/res/merged/debug/layout/contact.xml",
+        "source": "/Users/leason/Documents/MyPhone/res/layout/contact.xml"
     },
     {
-        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\debug\\layout\\contact.xml",
-        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\layout\\contact.xml"
+        "merged": "/Users/leason/Documents/MyPhone/build/intermediates/res/merged/debug/layout/my_setting.xml",
+        "source": "/Users/leason/Documents/MyPhone/res/layout/my_setting.xml"
     },
     {
-        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\debug\\layout\\chatlist.xml",
-        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\layout\\chatlist.xml"
+        "merged": "/Users/leason/Documents/MyPhone/build/intermediates/res/merged/debug/layout/abc_select_dialog_material.xml",
+        "source": "/Users/leason/Documents/MyPhone/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_select_dialog_material.xml"
     },
     {
-        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
-        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\notification_template_media.xml"
+        "merged": "/Users/leason/Documents/MyPhone/build/intermediates/res/merged/debug/layout/assistant.xml",
+        "source": "/Users/leason/Documents/MyPhone/res/layout/assistant.xml"
     },
     {
-        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
-        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_list_menu_item_radio.xml"
+        "merged": "/Users/leason/Documents/MyPhone/build/intermediates/res/merged/debug/layout/notification_media_cancel_action.xml",
+        "source": "/Users/leason/Documents/MyPhone/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/notification_media_cancel_action.xml"
     },
     {
-        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
-        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_screen_toolbar.xml"
+        "merged": "/Users/leason/Documents/MyPhone/build/intermediates/res/merged/debug/layout/abc_list_menu_item_radio.xml",
+        "source": "/Users/leason/Documents/MyPhone/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_list_menu_item_radio.xml"
     },
     {
-        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\debug\\layout\\chatlist_cell.xml",
-        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\layout\\chatlist_cell.xml"
+        "merged": "/Users/leason/Documents/MyPhone/build/intermediates/res/merged/debug/layout/call_inactive_row.xml",
+        "source": "/Users/leason/Documents/MyPhone/res/layout/call_inactive_row.xml"
     },
     {
-        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\debug\\layout\\assistant.xml",
-        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\layout\\assistant.xml"
+        "merged": "/Users/leason/Documents/MyPhone/build/intermediates/res/merged/debug/layout/edit_list.xml",
+        "source": "/Users/leason/Documents/MyPhone/res/layout/edit_list.xml"
     },
     {
-        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
-        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_screen_simple.xml"
+        "merged": "/Users/leason/Documents/MyPhone/build/intermediates/res/merged/debug/layout/call_outgoing.xml",
+        "source": "/Users/leason/Documents/MyPhone/res/layout/call_outgoing.xml"
     },
     {
-        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\debug\\layout\\chat_bubble_incoming.xml",
-        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\layout\\chat_bubble_incoming.xml"
+        "merged": "/Users/leason/Documents/MyPhone/build/intermediates/res/merged/debug/layout/abc_alert_dialog_button_bar_material.xml",
+        "source": "/Users/leason/Documents/MyPhone/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_alert_dialog_button_bar_material.xml"
     },
     {
-        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\debug\\layout\\flaot_chat_icon.xml",
-        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\layout\\flaot_chat_icon.xml"
+        "merged": "/Users/leason/Documents/MyPhone/build/intermediates/res/merged/debug/layout/activity_my_count_preferences_fragment.xml",
+        "source": "/Users/leason/Documents/MyPhone/res/layout/activity_my_count_preferences_fragment.xml"
     },
     {
-        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\debug\\layout\\edit_list.xml",
-        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\layout\\edit_list.xml"
+        "merged": "/Users/leason/Documents/MyPhone/build/intermediates/res/merged/debug/layout/chat_bubble_incoming.xml",
+        "source": "/Users/leason/Documents/MyPhone/res/layout/chat_bubble_incoming.xml"
     },
     {
-        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\debug\\layout\\status.xml",
-        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\layout\\status.xml"
+        "merged": "/Users/leason/Documents/MyPhone/build/intermediates/res/merged/debug/layout/my_register.xml",
+        "source": "/Users/leason/Documents/MyPhone/res/layout/my_register.xml"
     },
     {
-        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\debug\\layout\\my_register.xml",
-        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\layout\\my_register.xml"
+        "merged": "/Users/leason/Documents/MyPhone/build/intermediates/res/merged/debug/layout/my_phone_main.xml",
+        "source": "/Users/leason/Documents/MyPhone/res/layout/my_phone_main.xml"
     },
     {
-        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\debug\\layout\\my_setting.xml",
-        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\layout\\my_setting.xml"
+        "merged": "/Users/leason/Documents/MyPhone/build/intermediates/res/merged/debug/layout/notification_template_big_media.xml",
+        "source": "/Users/leason/Documents/MyPhone/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/notification_template_big_media.xml"
     },
     {
-        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
-        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\select_dialog_multichoice_material.xml"
+        "merged": "/Users/leason/Documents/MyPhone/build/intermediates/res/merged/debug/layout/abc_expanded_menu_layout.xml",
+        "source": "/Users/leason/Documents/MyPhone/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_expanded_menu_layout.xml"
     },
     {
-        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\debug\\layout\\contact_cell.xml",
-        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\layout\\contact_cell.xml"
+        "merged": "/Users/leason/Documents/MyPhone/build/intermediates/res/merged/debug/layout/abc_popup_menu_item_layout.xml",
+        "source": "/Users/leason/Documents/MyPhone/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_popup_menu_item_layout.xml"
     },
     {
-        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\debug\\layout\\call_inactive_row.xml",
-        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\layout\\call_inactive_row.xml"
+        "merged": "/Users/leason/Documents/MyPhone/build/intermediates/res/merged/debug/layout/hidden.xml",
+        "source": "/Users/leason/Documents/MyPhone/res/layout/hidden.xml"
     },
     {
-        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\debug\\layout\\assistant_account_creation.xml",
-        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\layout\\assistant_account_creation.xml"
+        "merged": "/Users/leason/Documents/MyPhone/build/intermediates/res/merged/debug/layout/select_dialog_singlechoice_material.xml",
+        "source": "/Users/leason/Documents/MyPhone/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/select_dialog_singlechoice_material.xml"
     },
     {
-        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\debug\\layout\\conf_call_control_row.xml",
-        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\layout\\conf_call_control_row.xml"
+        "merged": "/Users/leason/Documents/MyPhone/build/intermediates/res/merged/debug/layout/side_menu_main_account.xml",
+        "source": "/Users/leason/Documents/MyPhone/res/layout/side_menu_main_account.xml"
     },
     {
-        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\debug\\layout\\toast.xml",
-        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\layout\\toast.xml"
+        "merged": "/Users/leason/Documents/MyPhone/build/intermediates/res/merged/debug/layout/input_dialog.xml",
+        "source": "/Users/leason/Documents/MyPhone/res/layout/input_dialog.xml"
     },
     {
-        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\debug\\layout\\contact_control_row.xml",
-        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\layout\\contact_control_row.xml"
+        "merged": "/Users/leason/Documents/MyPhone/build/intermediates/res/merged/debug/layout/assistant_account_creation.xml",
+        "source": "/Users/leason/Documents/MyPhone/res/layout/assistant_account_creation.xml"
     },
     {
-        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\debug\\layout\\chat_bubble_outgoing.xml",
-        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\layout\\chat_bubble_outgoing.xml"
+        "merged": "/Users/leason/Documents/MyPhone/build/intermediates/res/merged/debug/layout/abc_search_view.xml",
+        "source": "/Users/leason/Documents/MyPhone/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_search_view.xml"
     },
     {
-        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
-        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+        "merged": "/Users/leason/Documents/MyPhone/build/intermediates/res/merged/debug/layout/video.xml",
+        "source": "/Users/leason/Documents/MyPhone/res/layout/video.xml"
     },
     {
-        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\debug\\layout\\assistant_linphone_login.xml",
-        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\layout\\assistant_linphone_login.xml"
+        "merged": "/Users/leason/Documents/MyPhone/build/intermediates/res/merged/debug/layout/contact_cell.xml",
+        "source": "/Users/leason/Documents/MyPhone/res/layout/contact_cell.xml"
     },
     {
-        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\debug\\layout\\call_outgoing.xml",
-        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\layout\\call_outgoing.xml"
+        "merged": "/Users/leason/Documents/MyPhone/build/intermediates/res/merged/debug/layout/abc_action_mode_close_item_material.xml",
+        "source": "/Users/leason/Documents/MyPhone/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_action_mode_close_item_material.xml"
     },
     {
-        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
-        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_action_menu_layout.xml"
+        "merged": "/Users/leason/Documents/MyPhone/build/intermediates/res/merged/debug/layout/conf_call_control_row.xml",
+        "source": "/Users/leason/Documents/MyPhone/res/layout/conf_call_control_row.xml"
     },
     {
-        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\debug\\layout\\remote_provisioning.xml",
-        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\layout\\remote_provisioning.xml"
+        "merged": "/Users/leason/Documents/MyPhone/build/intermediates/res/merged/debug/layout/select_dialog_multichoice_material.xml",
+        "source": "/Users/leason/Documents/MyPhone/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/select_dialog_multichoice_material.xml"
     },
     {
-        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow.xml",
-        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\notification_template_big_media_narrow.xml"
+        "merged": "/Users/leason/Documents/MyPhone/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view_list_item.xml",
+        "source": "/Users/leason/Documents/MyPhone/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_activity_chooser_view_list_item.xml"
     },
     {
-        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\debug\\layout\\about.xml",
-        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\layout\\about.xml"
+        "merged": "/Users/leason/Documents/MyPhone/build/intermediates/res/merged/debug/layout/history_detail.xml",
+        "source": "/Users/leason/Documents/MyPhone/res/layout/history_detail.xml"
     },
     {
-        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\debug\\layout\\my_phone_main.xml",
-        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\layout\\my_phone_main.xml"
+        "merged": "/Users/leason/Documents/MyPhone/build/intermediates/res/merged/debug/layout/abc_list_menu_item_icon.xml",
+        "source": "/Users/leason/Documents/MyPhone/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_list_menu_item_icon.xml"
     },
     {
-        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\debug\\layout\\contacts_list.xml",
-        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\layout\\contacts_list.xml"
+        "merged": "/Users/leason/Documents/MyPhone/build/intermediates/res/merged/debug/layout/contact_edit_row.xml",
+        "source": "/Users/leason/Documents/MyPhone/res/layout/contact_edit_row.xml"
     },
     {
-        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\debug\\layout\\call_incoming.xml",
-        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\layout\\call_incoming.xml"
+        "merged": "/Users/leason/Documents/MyPhone/build/intermediates/res/merged/debug/layout/chat.xml",
+        "source": "/Users/leason/Documents/MyPhone/res/layout/chat.xml"
     },
     {
-        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\debug\\layout\\zrtp_dialog.xml",
-        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\layout\\zrtp_dialog.xml"
+        "merged": "/Users/leason/Documents/MyPhone/build/intermediates/res/merged/debug/layout/abc_screen_simple.xml",
+        "source": "/Users/leason/Documents/MyPhone/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_screen_simple.xml"
     },
     {
-        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\debug\\layout\\hello_world.xml",
-        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\layout\\hello_world.xml"
+        "merged": "/Users/leason/Documents/MyPhone/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view.xml",
+        "source": "/Users/leason/Documents/MyPhone/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_activity_chooser_view.xml"
     },
     {
-        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\debug\\layout\\launch_screen.xml",
-        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\layout\\launch_screen.xml"
+        "merged": "/Users/leason/Documents/MyPhone/build/intermediates/res/merged/debug/layout/chat_bubble_outgoing.xml",
+        "source": "/Users/leason/Documents/MyPhone/res/layout/chat_bubble_outgoing.xml"
     },
     {
-        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\debug\\layout\\audio.xml",
-        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\layout\\audio.xml"
+        "merged": "/Users/leason/Documents/MyPhone/build/intermediates/res/merged/debug/layout/contact_control_row.xml",
+        "source": "/Users/leason/Documents/MyPhone/res/layout/contact_control_row.xml"
     },
     {
-        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\debug\\layout\\chat.xml",
-        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\layout\\chat.xml"
+        "merged": "/Users/leason/Documents/MyPhone/build/intermediates/res/merged/debug/layout/notification_template_part_chronometer.xml",
+        "source": "/Users/leason/Documents/MyPhone/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/notification_template_part_chronometer.xml"
     },
     {
-        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\debug\\layout\\history_cell.xml",
-        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\layout\\history_cell.xml"
+        "merged": "/Users/leason/Documents/MyPhone/build/intermediates/res/merged/debug/layout/contact_edit.xml",
+        "source": "/Users/leason/Documents/MyPhone/res/layout/contact_edit.xml"
     },
     {
-        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\debug\\layout\\assistant_remote_provisioning_login.xml",
-        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\layout\\assistant_remote_provisioning_login.xml"
+        "merged": "/Users/leason/Documents/MyPhone/build/intermediates/res/merged/debug/layout/abc_list_menu_item_layout.xml",
+        "source": "/Users/leason/Documents/MyPhone/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_list_menu_item_layout.xml"
     },
     {
-        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
-        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_search_view.xml"
+        "merged": "/Users/leason/Documents/MyPhone/build/intermediates/res/merged/debug/layout/conference_header.xml",
+        "source": "/Users/leason/Documents/MyPhone/res/layout/conference_header.xml"
     },
     {
-        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\debug\\layout\\my_phone_launcher.xml",
-        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\layout\\my_phone_launcher.xml"
+        "merged": "/Users/leason/Documents/MyPhone/build/intermediates/res/merged/debug/layout/notification_media_action.xml",
+        "source": "/Users/leason/Documents/MyPhone/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/notification_media_action.xml"
     },
     {
-        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\debug\\layout\\assistant_topbar.xml",
-        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\layout\\assistant_topbar.xml"
+        "merged": "/Users/leason/Documents/MyPhone/build/intermediates/res/merged/debug/layout/settings.xml",
+        "source": "/Users/leason/Documents/MyPhone/res/layout/settings.xml"
     },
     {
-        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
-        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_activity_chooser_view.xml"
+        "merged": "/Users/leason/Documents/MyPhone/build/intermediates/res/merged/debug/layout/assistant_linphone_login.xml",
+        "source": "/Users/leason/Documents/MyPhone/res/layout/assistant_linphone_login.xml"
     },
     {
-        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
-        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_list_menu_item_icon.xml"
+        "merged": "/Users/leason/Documents/MyPhone/build/intermediates/res/merged/debug/layout/assistant_ec_calibration.xml",
+        "source": "/Users/leason/Documents/MyPhone/res/layout/assistant_ec_calibration.xml"
     },
     {
-        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines.xml",
-        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\notification_template_lines.xml"
+        "merged": "/Users/leason/Documents/MyPhone/build/intermediates/res/merged/debug/layout/abc_alert_dialog_material.xml",
+        "source": "/Users/leason/Documents/MyPhone/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_alert_dialog_material.xml"
     },
     {
-        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\debug\\layout\\preference_led.xml",
-        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\layout\\preference_led.xml"
+        "merged": "/Users/leason/Documents/MyPhone/build/intermediates/res/merged/debug/layout/abc_action_menu_item_layout.xml",
+        "source": "/Users/leason/Documents/MyPhone/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_action_menu_item_layout.xml"
     },
     {
-        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
-        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_action_mode_bar.xml"
+        "merged": "/Users/leason/Documents/MyPhone/build/intermediates/res/merged/debug/layout/abc_action_mode_bar.xml",
+        "source": "/Users/leason/Documents/MyPhone/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_action_mode_bar.xml"
     },
     {
-        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
-        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_list_menu_item_layout.xml"
+        "merged": "/Users/leason/Documents/MyPhone/build/intermediates/res/merged/debug/layout/remote_provisioning.xml",
+        "source": "/Users/leason/Documents/MyPhone/res/layout/remote_provisioning.xml"
     },
     {
-        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\debug\\layout\\assistant_remote_provisioning.xml",
-        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\layout\\assistant_remote_provisioning.xml"
+        "merged": "/Users/leason/Documents/MyPhone/build/intermediates/res/merged/debug/layout/abc_action_bar_title_item.xml",
+        "source": "/Users/leason/Documents/MyPhone/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_action_bar_title_item.xml"
     },
     {
-        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\debug\\layout\\side_menu_account_cell.xml",
-        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\layout\\side_menu_account_cell.xml"
+        "merged": "/Users/leason/Documents/MyPhone/build/intermediates/res/merged/debug/layout/main.xml",
+        "source": "/Users/leason/Documents/MyPhone/res/layout/main.xml"
     },
     {
-        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
-        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_list_menu_item_checkbox.xml"
+        "merged": "/Users/leason/Documents/MyPhone/build/intermediates/res/merged/debug/layout/my_info.xml",
+        "source": "/Users/leason/Documents/MyPhone/res/layout/my_info.xml"
     },
     {
-        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
-        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_popup_menu_item_layout.xml"
+        "merged": "/Users/leason/Documents/MyPhone/build/intermediates/res/merged/debug/layout/chatlist_cell.xml",
+        "source": "/Users/leason/Documents/MyPhone/res/layout/chatlist_cell.xml"
     },
     {
-        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\debug\\layout\\my_info.xml",
-        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\layout\\my_info.xml"
+        "merged": "/Users/leason/Documents/MyPhone/build/intermediates/res/merged/debug/layout/assistant_topbar.xml",
+        "source": "/Users/leason/Documents/MyPhone/res/layout/assistant_topbar.xml"
     },
     {
-        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\debug\\layout\\conference_paused_row.xml",
-        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\layout\\conference_paused_row.xml"
+        "merged": "/Users/leason/Documents/MyPhone/build/intermediates/res/merged/debug/layout/abc_screen_simple_overlay_action_mode.xml",
+        "source": "/Users/leason/Documents/MyPhone/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_screen_simple_overlay_action_mode.xml"
     },
     {
-        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_action.xml",
-        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\notification_media_action.xml"
+        "merged": "/Users/leason/Documents/MyPhone/build/intermediates/res/merged/debug/layout/status.xml",
+        "source": "/Users/leason/Documents/MyPhone/res/layout/status.xml"
     },
     {
-        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\debug\\layout\\input_dialog.xml",
-        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\layout\\input_dialog.xml"
+        "merged": "/Users/leason/Documents/MyPhone/build/intermediates/res/merged/debug/layout/abc_search_dropdown_item_icons_2line.xml",
+        "source": "/Users/leason/Documents/MyPhone/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_search_dropdown_item_icons_2line.xml"
     },
     {
-        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
-        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_action_bar_up_container.xml"
+        "merged": "/Users/leason/Documents/MyPhone/build/intermediates/res/merged/debug/layout/dialog.xml",
+        "source": "/Users/leason/Documents/MyPhone/res/layout/dialog.xml"
     },
     {
-        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_cancel_action.xml",
-        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\notification_media_cancel_action.xml"
+        "merged": "/Users/leason/Documents/MyPhone/build/intermediates/res/merged/debug/layout/dialer.xml",
+        "source": "/Users/leason/Documents/MyPhone/res/layout/dialer.xml"
     },
     {
-        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
-        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_expanded_menu_layout.xml"
+        "merged": "/Users/leason/Documents/MyPhone/build/intermediates/res/merged/debug/layout/call.xml",
+        "source": "/Users/leason/Documents/MyPhone/res/layout/call.xml"
     },
     {
-        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\debug\\layout\\my_login.xml",
-        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\layout\\my_login.xml"
+        "merged": "/Users/leason/Documents/MyPhone/build/intermediates/res/merged/debug/layout/abc_action_bar_up_container.xml",
+        "source": "/Users/leason/Documents/MyPhone/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_action_bar_up_container.xml"
     }
 ]

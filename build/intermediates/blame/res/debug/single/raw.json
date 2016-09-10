@@ -1,34 +1,34 @@
 [
     {
-        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\debug\\raw\\linphonerc_factory",
-        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\raw\\linphonerc_factory"
+        "merged": "/Users/leason/Documents/MyPhone/build/intermediates/res/merged/debug/raw/ringback.wav",
+        "source": "/Users/leason/Documents/MyPhone/res/raw/ringback.wav"
     },
     {
-        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\debug\\raw\\rootca.pem",
-        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\raw\\rootca.pem"
+        "merged": "/Users/leason/Documents/MyPhone/build/intermediates/res/merged/debug/raw/oldphone_mono.wav",
+        "source": "/Users/leason/Documents/MyPhone/res/raw/oldphone_mono.wav"
     },
     {
-        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\debug\\raw\\oldphone_mono.wav",
-        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\raw\\oldphone_mono.wav"
+        "merged": "/Users/leason/Documents/MyPhone/build/intermediates/res/merged/debug/raw/incoming_chat.wav",
+        "source": "/Users/leason/Documents/MyPhone/res/raw/incoming_chat.wav"
     },
     {
-        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\debug\\raw\\lpconfig.xsd",
-        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\raw\\lpconfig.xsd"
+        "merged": "/Users/leason/Documents/MyPhone/build/intermediates/res/merged/debug/raw/linphonerc_factory",
+        "source": "/Users/leason/Documents/MyPhone/res/raw/linphonerc_factory"
     },
     {
-        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\debug\\raw\\ringback.wav",
-        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\raw\\ringback.wav"
+        "merged": "/Users/leason/Documents/MyPhone/build/intermediates/res/merged/debug/raw/rootca.pem",
+        "source": "/Users/leason/Documents/MyPhone/res/raw/rootca.pem"
     },
     {
-        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\debug\\raw\\linphonerc_default",
-        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\raw\\linphonerc_default"
+        "merged": "/Users/leason/Documents/MyPhone/build/intermediates/res/merged/debug/raw/linphonerc_default",
+        "source": "/Users/leason/Documents/MyPhone/res/raw/linphonerc_default"
     },
     {
-        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\debug\\raw\\toy_mono.wav",
-        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\raw\\toy_mono.wav"
+        "merged": "/Users/leason/Documents/MyPhone/build/intermediates/res/merged/debug/raw/toy_mono.wav",
+        "source": "/Users/leason/Documents/MyPhone/res/raw/toy_mono.wav"
     },
     {
-        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\debug\\raw\\incoming_chat.wav",
-        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\raw\\incoming_chat.wav"
+        "merged": "/Users/leason/Documents/MyPhone/build/intermediates/res/merged/debug/raw/lpconfig.xsd",
+        "source": "/Users/leason/Documents/MyPhone/res/raw/lpconfig.xsd"
     }
 ]

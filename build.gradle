@@ -3,7 +3,7 @@ buildscript {
         mavenCentral()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:2.0.0'
+        classpath 'com.android.tools.build:gradle:2.1.3'
         classpath 'com.github.dcendents:android-maven-gradle-plugin:1.3'
 
     }
@@ -23,6 +23,7 @@ android {
 
     defaultConfig {
         //minSdkVersion 15
+        applicationId 'leason.myphone'
         targetSdkVersion 21    }
     lintOptions {
         disable 'MissingTranslation'

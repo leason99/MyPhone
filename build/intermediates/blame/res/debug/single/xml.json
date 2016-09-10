@@ -1,22 +1,22 @@
 [
     {
-        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\debug\\xml\\account_preferences.xml",
-        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\xml\\account_preferences.xml"
+        "merged": "/Users/leason/Documents/MyPhone/build/intermediates/res/merged/debug/xml/contacts.xml",
+        "source": "/Users/leason/Documents/MyPhone/res/xml/contacts.xml"
     },
     {
-        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\debug\\xml\\authenticator.xml",
-        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\xml\\authenticator.xml"
+        "merged": "/Users/leason/Documents/MyPhone/build/intermediates/res/merged/debug/xml/account_preferences.xml",
+        "source": "/Users/leason/Documents/MyPhone/res/xml/account_preferences.xml"
     },
     {
-        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\debug\\xml\\contacts.xml",
-        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\xml\\contacts.xml"
+        "merged": "/Users/leason/Documents/MyPhone/build/intermediates/res/merged/debug/xml/authenticator.xml",
+        "source": "/Users/leason/Documents/MyPhone/res/xml/authenticator.xml"
     },
     {
-        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\debug\\xml\\preferences.xml",
-        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\xml\\preferences.xml"
+        "merged": "/Users/leason/Documents/MyPhone/build/intermediates/res/merged/debug/xml/preferences.xml",
+        "source": "/Users/leason/Documents/MyPhone/res/xml/preferences.xml"
     },
     {
-        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\debug\\xml\\syncadapter.xml",
-        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\xml\\syncadapter.xml"
+        "merged": "/Users/leason/Documents/MyPhone/build/intermediates/res/merged/debug/xml/syncadapter.xml",
+        "source": "/Users/leason/Documents/MyPhone/res/xml/syncadapter.xml"
     }
 ]

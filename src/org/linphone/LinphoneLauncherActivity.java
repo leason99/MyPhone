@@ -34,7 +34,7 @@ import messagefloatview.FloatViewService;
 
 import static android.content.Intent.ACTION_MAIN;
 
-/**
+/*
  * Launch Linphone main activity when Service is ready.
  *
  * @author Guillaume Beraudo

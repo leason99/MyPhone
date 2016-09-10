@@ -482,7 +482,7 @@ public class ContactsManager {
 				+ ContactsContract.RawContacts.ACCOUNT_TYPE + "=? ";
 
 		Cursor c = contentResolver.query(ContactsContract.RawContacts.CONTENT_URI, projection,
-				selection, new String[]{contactID, "org.linphone"}, null);
+				selection, new String[]{contactID, "leason.myphone"}, null);
 		if (c != null) {
 			if (c.moveToFirst()) {
 				result = c.getString(c.getColumnIndex(ContactsContract.RawContacts._ID));

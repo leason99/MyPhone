@@ -11,6 +11,6 @@ public final class Manifest {
     public static final class permission {
         /**  Permissions for Push Notification 
          */
-        public static final String C2D_MESSAGE="org.linphone.permission.C2D_MESSAGE";
+        public static final String C2D_MESSAGE="leason.myphone.permission.C2D_MESSAGE";
     }
 }

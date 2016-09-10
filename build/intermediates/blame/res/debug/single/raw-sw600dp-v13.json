@@ -1,10 +1,10 @@
 [
     {
-        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\debug\\raw-sw600dp-v13\\linphonerc_factory",
-        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\raw-sw600dp\\linphonerc_factory"
+        "merged": "/Users/leason/Documents/MyPhone/build/intermediates/res/merged/debug/raw-sw600dp-v13/linphonerc_factory",
+        "source": "/Users/leason/Documents/MyPhone/res/raw-sw600dp/linphonerc_factory"
     },
     {
-        "merged": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\build\\intermediates\\res\\merged\\debug\\raw-sw600dp-v13\\linphonerc_default",
-        "source": "C:\\Users\\leason\\Documents\\GitHub\\MyPhone\\res\\raw-sw600dp\\linphonerc_default"
+        "merged": "/Users/leason/Documents/MyPhone/build/intermediates/res/merged/debug/raw-sw600dp-v13/linphonerc_default",
+        "source": "/Users/leason/Documents/MyPhone/res/raw-sw600dp/linphonerc_default"
     }
 ]

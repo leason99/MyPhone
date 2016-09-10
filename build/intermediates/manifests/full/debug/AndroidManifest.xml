@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="org.linphone"
+    package="leason.myphone"
     android:installLocation="auto"
     android:versionCode="2599" >
 
@@ -10,10 +10,10 @@
 
     <!-- Permissions for Push Notification -->
     <permission
-        android:name="org.linphone.permission.C2D_MESSAGE"
+        android:name="leason.myphone.permission.C2D_MESSAGE"
         android:protectionLevel="signature" />
     <!-- Change package ! -->
-    <uses-permission android:name="org.linphone.permission.C2D_MESSAGE" />
+    <uses-permission android:name="leason.myphone.permission.C2D_MESSAGE" />
     <!-- Change package ! -->
     <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
     <uses-permission android:name="android.permission.INTERNET" />
@@ -247,7 +247,7 @@
                 <action android:name="com.google.android.c2dm.intent.RECEIVE" />
                 <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
 
-                <category android:name="org.linphone" />
+                <category android:name="leason.myphone" />
                 <!-- Change package ! -->
             </intent-filter>
         </receiver>
